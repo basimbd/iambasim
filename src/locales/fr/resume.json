@@ -1,0 +1,55 @@
+{
+    "title": "Expérience",
+    "profExperience": "Expérience Professionnelle",
+    "jobs": [
+        {
+            "title": "Ingénieur Logiciel Associé",
+            "company": "Dynamic Solution Innovators (DSi)",
+            "company_site": "https://www.dsinnovators.com",
+            "location": "Dhaka, Bangladesh",
+            "period": "Jul 2021 - Jul 2024",
+            "introduction": "J'ai travaillé sur le projet HEMS, un système national de gestion des examens.",
+            "descriptions": [
+                "J'ai contribué à la conception initiale de la base de données afin de répondre aux exigences du client.",
+                "J'ai implémenté le module de traitement des résultats, qui collecte et analyse les notes d'environ <strong>30,000 étudiants</strong> par an et prépare les relevés de notes.",
+                "J'ai intégré deux passerelles de paiement qui gèrent un volume de transactions total d'environ <strong>4 million BDT</strong> par an."
+            ],
+            "techStack": ["Java", "SpringBoot", "PostgreSQL", "Redis"]
+        },
+        {
+            "title": "Ingénieur Logiciel (Externe)",
+            "company": "Synopsys Inc.",
+            "company_site": "https://www.synopsys.com",
+            "location": "Remote",
+            "period": "Aug 2023 - Jul 2024",
+            "introduction": "J'ai collaboré à distance avec Synopsys Inc. en tant qu'employé offshore de DSi. J'ai travaillé sur le projet Synopsys-Detect (désormais renommé BlackDuck-Detect), un outil d'analyse de composition logicielle qui inspecte un dépôt pour détecter les vulnérabilités de composants, de sécurité et de licences issues des dépendances du projet.",
+            "descriptions": [
+                "J'ai intégré Detect dans la chaîne CI/CD GitHub Actions, en utilisant Java, Groovy et des scripts Gradle.",
+                "J'ai également migré les données analytiques du projet de Google Universal Analytics vers le nouveau protocole Google Analytics 4 (GA4) et mis à jour le module de code pour prendre en charge cette nouvelle version."
+            ],
+            "techStack": ["Java", "Gradle", "Jenkins", "GitHub Actions", "Google Analytics"]
+        }
+    ],
+    "educationTitle": "Éducation",
+    "educations": [
+        {
+            "degree": "Maîtrise ès Sciences en Informatique",
+            "institution": "Université York",
+            "institute_site": "https://www.yorku.ca",
+            "period": "2024 - Présent",
+            "total_grade": "9.00",
+            "acquired_grade": "8.84",
+            "location": "Toronto, Canada"
+        },
+        {
+            "degree": "Baccalauréat ès Sciences en Informatique et Génie",
+            "institution": "Shahjalal University of Science & Technology",
+            "institute_site": "https://www.sust.edu",
+            "period": "2017 - 2021",
+            "total_grade": "4.00",
+            "acquired_grade": "3.73",
+            "location": "Sylhet, Bangladesh"
+        }
+    ],
+    "downloadButton": "CV complet"
+}

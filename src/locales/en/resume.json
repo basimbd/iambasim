@@ -1,0 +1,55 @@
+{
+    "title": "Experience",
+    "profExperience": "Professional Experience",
+    "jobs": [
+        {
+            "title": "Associate Software Engineer",
+            "company": "Dynamic Solution Innovators (DSi)",
+            "company_site": "https://www.dsinnovators.com",
+            "location": "Dhaka, Bangladesh",
+            "period": "Jul 2021 - Jul 2024",
+            "introduction": "Here I worked on the HEMS project which is a nation-wide examination management system.",
+            "descriptions": [
+                "Contributed to the initial database design of the application to reflect the client's requirements.",
+                "Implemented the result-processing module that collects, analyzes marks of around <strong>30,000 students</strong> per year, and prepares grades.",
+                "Integrated 2 payment gateways that manage a total transaction amount of around <strong>4 million BDT</strong> per year."
+            ],
+            "techStack": ["Java", "SpringBoot", "PostgreSQL", "Redis"]
+        },
+        {
+            "title": "Software Engineer (External)",
+            "company": "Synopsys Inc.",
+            "company_site": "https://www.synopsys.com",
+            "location": "Remote",
+            "period": "Aug 2023 - Jul 2024",
+            "introduction": "Remotely worked with Synopsys Inc. as an offshore employee from DSi. Worked on Synopsys-Detect project (now renamed to BlackDuck-Detect) which is a software compositional analysis tool. It scans a software repository to find component, security, and license vulnerabilities resulting from project dependencies.",
+            "descriptions": [
+                "Worked on integrating the Detect project with GitHub Actions CI/CD pipeline.",
+                "Migrated project analytics data from Google Universal Analytics to the newer Google Analytics 4 (GA4) protocol. Also, updated the code module for the new protocol."
+            ],
+            "techStack": ["Java", "Gradle", "Jenkins", "GitHub Actions", "Google Analytics"]
+        }
+    ],
+    "educationTitle": "Education",
+    "educations": [
+        {
+            "degree": "Master of Science in Computer Science",
+            "institution": "York University",
+            "institute_site": "https://www.yorku.ca",
+            "period": "2024 - Present",
+            "total_grade": "9.00",
+            "acquired_grade": "8.84",
+            "location": "Toronto, Canada"
+        },
+        {
+            "degree": "Bachelor of Science in Computer Science & Engineering",
+            "institution": "Shahjalal University of Science & Technology",
+            "institute_site": "https://www.sust.edu",
+            "period": "2017 - 2021",
+            "total_grade": "4.00",
+            "acquired_grade": "3.73",
+            "location": "Sylhet, Bangladesh"
+        }
+    ],
+    "downloadButton": "Full Resume"
+}

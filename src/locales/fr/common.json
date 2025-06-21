@@ -1,0 +1,72 @@
+{
+    "nav": {
+        "about": "À Propos",
+        "experience": "Expérience",
+        "skills": "Compétences",
+        "projects": "Projets",
+        "contact": "Contact"
+    },
+    "hero": {
+        "title": "Bonjour, je suis <1>Md Basim Uddin Ahmed</1>",
+        "tagline": "Ingénieur Logiciel & Chercheur en IA",
+        "catchphrase": "Je conçois des produits numériques exceptionnels qui génèrent des solutions fiables et innovantes, fort de 3 ans d'expérience en développement et de 2 ans en recherche en IA/SE.",
+        "contact": "Contactez-moi"
+    },
+    "about": {
+        "title": "À Propos",
+        "paragraph1": "Je suis ingénieur logiciel et chercheur en IA appliquée, spécialisé dans les outils fondés sur les grands modèles de langage pour l'analyse de la sécurité des logiciels. Mon expertise conjugue le développement d'applications web modernes et l'expérimentation pratique des modèles de langage les plus avancés.",
+        "paragraph2": "Actuellement, j'achève mon master à l'Université York, où mon mémoire porte sur la détection de vulnérabilités assistée par des grands modèles de langage. Auparavant, j'ai travaillé pendant trois ans comme ingénieur logiciel chez Dynamic Solution Innovators Ltd. et Synopsys Inc., contribuant au développement de systèmes Java et Spring de grande envergure et de haute qualité.",
+        "paragraph3": "Quand je ne travaille pas, j'aime voyager, faire de la musique et tester de nouvelles technologies."
+    },
+    "skills": {
+        "title": "Compétences & Technologies",
+        "languages": {
+            "title": "Langages",
+            "values": [
+                "Java",
+                "Python",
+                "JavaScript"
+            ]
+        },
+        "frameworks": {
+            "title": "Cadres",
+            "values": [
+                "PyTorch",
+                "SpringBoot",
+                "Node.js"
+            ]
+        },
+        "tools": {
+            "title": "Outils",
+            "values": [
+                "Git",
+                "Docker",
+                "Jenkins"
+            ]
+        }
+    },
+    "contact": {
+        "title": "Entrer en Contact",
+        "description": "Vous avez un projet en tête ou vous voulez simplement vous connecter? N'hésitez pas à me contacter en utilisant le formulaire ou par l'un des canaux ci-dessous.",
+        "email": "Email",
+        "social": "Réseaux Sociaux",
+        "location": "Emplacement",
+        "form": {
+            "name": "Nom",
+            "email": "Email",
+            "message": "Message",
+            "send": "Envoyer Message",
+            "sending": "Envoi en cours..."
+        },
+        "successMessage": "Votre message a été envoyé! Je vous répondrai bientôt.",
+        "errorMessage": "Désolé, il y a eu une erreur lors de l'envoi de votre message. Veuillez réessayer."
+    },
+    "footer": {
+        "rights": "Tous droits réservés."
+    },
+    "notFound": {
+        "title": "Page Non Trouvée",
+        "message": "La page que vous cherchez n'existe pas.",
+        "backToHomeButton": "Rentrer à la maison"
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "nav": {
+        "about": "About",
+        "experience": "Experience",
+        "skills": "Skills",
+        "projects": "Projects",
+        "contact": "Contact"
+    },
+    "hero": {
+        "title": "Hi, I'm <1>Md Basim Uddin Ahmed</1>",
+        "tagline": "Software Engineer & AI Researcher",
+        "catchphrase": "I build exceptional digital products that drive reliable, innovative solutions, powered by 3 years of development and 2 years of AI/SE research experience.",
+        "contact": "Contact Me"
+    },
+    "about": {
+        "title": "About Me",
+        "paragraph1": "I'm a software engineer and applied-AI researcher focused on large-language-model tooling for software-security analysis. My expertise blends modern web app development skills with hands-on experimentation in state-of-the-art LLMs.",
+        "paragraph2": "Currently, I am completing my M.Sc. at York University, where my thesis investigates LLM-assisted vulnerability detection. Previously, I worked for 3 years as a software engineer at Dynamic Solution Innovators Ltd. and Synopsys Inc., contributing to large-scale and high-quality Java and Spring systems.",
+        "paragraph3": "When I'm not working, you can find me traveling, doing music, or experimenting with new technologies."
+    },
+    "skills": {
+        "title": "Skills & Technologies",
+        "languages": {
+            "title": "Languages",
+            "values": [
+                "Java",
+                "Python",
+                "JavaScript"
+            ]
+        },
+        "frameworks": {
+            "title": "Frameworks",
+            "values": [
+                "PyTorch",
+                "SpringBoot",
+                "Node.js"
+            ]
+        },
+        "tools": {
+            "title": "Tools",
+            "values": [
+                "Git",
+                "Docker",
+                "Jenkins"
+            ]
+        }
+    },
+    "contact": {
+        "title": "Get In Touch",
+        "description": "Have a project in mind or just want to connect? Feel free to reach out to me using the form or through any of the channels below.",
+        "email": "Email",
+        "social": "Social",
+        "location": "Location",
+        "form": {
+            "name": "Name",
+            "email": "Email",
+            "message": "Message",
+            "send": "Send Message",
+            "sending": "Sending..."
+        },
+        "successMessage": "Your message has been sent! I'll get back to you soon.",
+        "errorMessage": "Sorry, there was an error sending your message. Please try again."
+    },
+    "footer": {
+        "rights": "All rights reserved."
+    },
+    "notFound": {
+        "title": "Page Not Found",
+        "message": "The page you are looking for does not exist.",
+        "backToHomeButton": "Go Home"
+    }
+}

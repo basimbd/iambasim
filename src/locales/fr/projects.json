@@ -1,0 +1,15 @@
+{
+    "title": "Projets",
+    "projects": [
+        {
+            "title": "SaliencyMix",
+            "tech": [
+                "PyTorch",
+                "OpenCV"
+            ],
+            "description": "Ce projet est une reproduction des expériences de l'article SaliencyMix présenté à l'ICLR 2021.",
+            "image": "/images/projects/saliency/saliency.webp",
+            "link": "https://github.com/basimbd/SaliencyMix-replication"
+        }
+    ]
+}
