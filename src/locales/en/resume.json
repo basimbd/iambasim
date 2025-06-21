@@ -10,9 +10,10 @@
             "period": "Jul 2021 - Jul 2024",
             "introduction": "Here I worked on the HEMS project which is a nation-wide examination management system.",
             "descriptions": [
-                "Contributed to the initial database design of the application to reflect the client's requirements.",
+                "Contributed to the initial <strong>database design</strong> of the application to reflect the client's requirements.",
                 "Implemented the result-processing module that collects, analyzes marks of around <strong>30,000 students</strong> per year, and prepares grades.",
-                "Integrated 2 payment gateways that manage a total transaction amount of around <strong>4 million BDT</strong> per year."
+                "Integrated <strong>2 payment gateways</strong> that manage a total transaction amount of around <strong>4 million BDT</strong> per year.",
+                "Implemented REST APIs for mobile apps including <strong>JWT authentication</strong>."
             ],
             "techStack": ["Java", "SpringBoot", "PostgreSQL", "Redis"]
         },
@@ -24,8 +25,8 @@
             "period": "Aug 2023 - Jul 2024",
             "introduction": "Remotely worked with Synopsys Inc. as an offshore employee from DSi. Worked on Synopsys-Detect project (now renamed to BlackDuck-Detect) which is a software compositional analysis tool. It scans a software repository to find component, security, and license vulnerabilities resulting from project dependencies.",
             "descriptions": [
-                "Worked on integrating the Detect project with GitHub Actions CI/CD pipeline.",
-                "Migrated project analytics data from Google Universal Analytics to the newer Google Analytics 4 (GA4) protocol. Also, updated the code module for the new protocol."
+                "Worked on <strong>migrating the Detect project CI/CD</strong> pipeline from Jenkins to GitHub Actions.",
+                "<strong>Fixed the broken analytics dashboard</strong> by migrated project analytics data from Google Universal Analytics to Google Analytics 4 (GA4) protocol."
             ],
             "techStack": ["Java", "Gradle", "Jenkins", "GitHub Actions", "Google Analytics"]
         }
