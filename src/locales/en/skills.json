@@ -5,45 +5,45 @@
             "name": "Languages",
             "icon_path": "/icons/languages.svg",
             "skill_items": [
-                ["Java", "icons/tech/java.svg"],
-                ["Python", "icons/tech/python.svg"],
-                ["JavaScript", "icons/tech/javascript.svg"]
+                ["Java", "/icons/tech/java.svg"],
+                ["Python", "/icons/tech/python.svg"],
+                ["JavaScript", "/icons/tech/javascript.svg"]
             ]
         },
         "Frameworks": {
             "name": "Frameworks",
             "icon_path": "/icons/frameworks.svg",
             "skill_items": [
-                ["SpringBoot", "icons/tech/spring-boot.svg"],
-                ["Node.js", "icons/tech/nodejs.svg"],
-                ["PyTorch", "icons/tech/pytorch.svg"]
+                ["SpringBoot", "/icons/tech/spring-boot.svg"],
+                ["Node.js", "/icons/tech/nodejs.svg"],
+                ["PyTorch", "/icons/tech/pytorch.svg"]
             ]
         },
         "Databases": {
             "name": "Database & ORMs",
             "icon_path": "/icons/databases.svg",
             "skill_items": [
-                ["PostgreSQL", "icons/tech/postgresql.svg"],
-                ["Redis", "icons/tech/redis.svg"],
-                ["Hibernate", "icons/tech/hibernate.svg"]
+                ["PostgreSQL", "/icons/tech/postgresql.svg"],
+                ["Redis", "/icons/tech/redis.svg"],
+                ["Hibernate", "/icons/tech/hibernate.svg"]
             ]
         },
         "DevOps": {
             "name": "DevOps",
             "icon_path": "/icons/devops.svg",
             "skill_items": [
-                ["Docker", "icons/tech/docker.svg"],
-                ["GitHub Actions", "icons/tech/github-actions.svg"],
-                ["Jenkins", "icons/tech/jenkins.svg"]
+                ["Docker", "/icons/tech/docker.svg"],
+                ["GitHub Actions", "/icons/tech/github-actions.svg"],
+                ["Jenkins", "/icons/tech/jenkins.svg"]
             ]
         },
         "Tools": {
             "name": "Tools",
             "icon_path": "/icons/tools.svg",
             "skill_items": [
-                ["Bash", "icons/tech/bash.svg"],
-                ["Git", "icons/tech/git.svg"],
-                ["Google Analytics", "icons/tech/google-analytics.svg"]
+                ["Bash", "/icons/tech/bash.svg"],
+                ["Git", "/icons/tech/git.svg"],
+                ["Google Analytics", "/icons/tech/google-analytics.svg"]
             ]
         }
     }
