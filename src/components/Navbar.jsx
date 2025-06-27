@@ -1,25 +1,35 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { DarkModeToggle } from './DarkModeToggle.jsx';
 
-export default function Navbar() {
+export default function Navbar({ lang }) {
     const { t, i18n } = useTranslation();
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-    const currentLang = i18n.language || 'en';
+    const [currentLang, setCurrentLang] = useState(lang || i18n.language || 'en');
+    useEffect(() => {
+        const handleLangChanged = (lng) => setCurrentLang(lng);
+        i18n.on('languageChanged', handleLangChanged);
+        return () => {
+            i18n.off('languageChanged', handleLangChanged);
+        };
+    }, []);
 
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
     };
 
     const changeLanguage = (lng) => {
+        if (lng === currentLang) return;
+
         i18n.changeLanguage(lng);
 
-        const currentPath = window.location.pathname;
-        if (lng === 'en') {
-            window.location.href = currentPath.replace(/^\/fr/, '') || '/';
-        } else {
-            window.location.href = `/fr${currentPath === '/' ? '' : currentPath.replace(/^\/fr/, '')}`;
+        const currentPath = window.location.pathname.replace(/^\/fr/, '');
+        // Only allow local paths. Do not allow protocol-relative URLs or absolute URLs.
+        if (!currentPath.startsWith('/') && currentPath !== '') return;
+        let newPath = lng === 'fr' ? `/fr${currentPath === '/' ? '' : currentPath}` : currentPath || '/';
+        if (window.location.pathname !== newPath) {
+            window.history.replaceState({}, '', newPath);
         }
     };
 
