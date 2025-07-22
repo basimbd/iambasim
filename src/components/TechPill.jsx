@@ -16,7 +16,9 @@ const techLogoMap = {
     'MongoDB': '/icons/tech/mongodb.svg',
     'Redis': '/icons/tech/redis.svg',
     'AWS': '/icons/tech/aws.svg',
-    'Git': '/icons/tech/git.svg'
+    'Git': '/icons/tech/git.svg',
+    'Transformers': '/icons/tech/transformers.svg',
+    'HuggingFace': '/icons/tech/huggingface.svg'
 };
 
 export const TextPill = ({ tech }) => {

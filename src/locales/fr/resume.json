@@ -31,6 +31,25 @@
             "techStack": ["Java", "Gradle", "Jenkins", "GitHub Actions", "Google Analytics"]
         }
     ],
+    "researchExperience": "Expérience de Recherche",
+    "researchProjects": [
+        {
+            "title": "Banc d'essai de détection de vulnérabilités C/C++ basé sur les LLM",
+            "period": "Dec 2024 - May 2025",
+            "company": "Université York",
+            "company_site": "https://www.yorku.ca",
+            "location": "Toronto, Canada",
+            "introduction": "Dans ce projet, j'ai constitué un jeu de données de référence de vulnérabilités C/C++ appelé <span style=\"font-variant: small-caps;\">SecVulEval</span>. Les jeux de données précédents se concentraient sur des artefacts au niveau des fichiers ou des fonctions, ce qui ne permet pas une compréhension plus fine des schémas de vulnérabilité et n'intègre pas les informations contextuelles. <span style=\"font-variant: small-caps;\">SecVulEval</span> offre une granularité jusqu'au <strong>niveau de l'instruction</strong> et inclut les <strong>informations contextuelles</strong> qui influent sur la vulnérabilité.",
+            "descriptions": [
+                "J'ai collecté <strong>5,867 vulnérabilités C/C++ réelles</strong> à partir de la base de données NVD.",
+                "J'ai organisé <strong>25,440 fonctions</strong> liées aux vulnérabilités, et extrait <strong>des instructions vulnérables</strong> et <strong>des informations contextuelles</strong> affectant les vulnérabilités.",
+                "J'ai conçu et mis en œuvre un <strong>cadre de détection de vulnérabilités agentique</strong> pour évaluer divers LL sur la détection de vulnérabilités C/C++.",
+                "J'ai rendu le jeu de données <strong>publiquement disponible</strong> sur <a class=\"text-primary dark:text-dark-primary hover:underline\" href=\"https://huggingface.co/datasets/arag0rn/SecVulEval\" target=\"_blank\">HuggingFace - <span style=\"font-variant: small-caps;\">SecVulEval</span></a> pour une utilisation communautaire.",
+                "J'ai publié les détails de la construction et de l'évaluation du banc d'essai dans l'article <a href=\"https://arxiv.org/abs/2505.19828\"><strong><span style=\"font-variant: small-caps;\">SecVulEval</span>: Benchmarking LLMs for Real-World C/C++ Vulnerability Detection</strong></a>."
+            ],
+            "techStack": ["Python", "Transformers", "OpenAI SDK"]
+        }
+    ],
     "educationTitle": "Éducation",
     "educations": [
         {
