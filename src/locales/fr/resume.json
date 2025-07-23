@@ -48,6 +48,21 @@
                 "J'ai publié les détails de la construction et de l'évaluation du banc d'essai dans l'article <a href=\"https://arxiv.org/abs/2505.19828\"><strong><span style=\"font-variant: small-caps;\">SecVulEval</span>: Benchmarking LLMs for Real-World C/C++ Vulnerability Detection</strong></a>."
             ],
             "techStack": ["Python", "Transformers", "OpenAI SDK"]
+        },
+        {
+            "title": "Cadre de détection de bogues pour les outils d'analyse statique Java avec les LLM",
+            "period": "Mar 2025 - Jul 2025",
+            "company": "Université York",
+            "company_site": "https://www.yorku.ca",
+            "location": "Toronto, Canada",
+            "introduction": "Les outils d'analyse statique sont largement adoptés dans l'industrie pour détecter les bogues dans les systèmes logiciels. Cependant, il est important que les outils eux-mêmes soient fiables, c'est-à-dire qu'ils ne manquent pas de bogues ou ne produisent pas de faux positifs. Dans ce projet, j'ai créé un cadre de test métamorphique basé sur les LLM pour détecter les incohérences dans les outils d'analyse statique Java.",
+            "descriptions": [
+                "J'ai analysé 3 outils d'analyse statique Java populaires : <strong>SpotBugs, ErrorProne et PMD</strong>.",
+                "Conçu et mis en œuvre un <strong>cadre de test métamorphique basé sur les LLM</strong> pour découvrir les implémentations de règles défectueuses dans les outils d'analyse statique Java.",
+                "Évalué 5 LLM de codage largement utilisés—<strong>GPT-4o, CodeLlama-34B, Codestral-22B, DeepSeek-Coder-33B et Qwen2.5-Coder-32B.</strong>—sur leur capacité à découvrir des bogues dans les outils d'analyse statique.",
+                "Découvert un total de <strong>42 implémentations de règles défectueuses</strong> dans les 3 outils. Tous les bogues ont été signalés aux développeurs respectifs."
+            ],
+            "techStack": ["Python", "Java", "Transformers", "OpenAI SDK", "SpotBugs", "ErrorProne", "PMD"]
         }
     ],
     "educationTitle": "Éducation",

@@ -48,6 +48,21 @@
                 "Published the details of the benchmark construction and evaluation in the paper <a href=\"https://arxiv.org/abs/2505.19828\"><strong><span style=\"font-variant: small-caps;\">SecVulEval</span>: Benchmarking LLMs for Real-World C/C++ Vulnerability Detection</strong></a>."
             ],
             "techStack": ["Python", "Transformers", "OpenAI SDK"]
+        },
+        {
+            "title": "Bug Detection Framework for Java Static Analysis Tools with LLMs",
+            "period": "Mar 2025 - Jul 2025",
+            "company": "York University",
+            "company_site": "https://www.yorku.ca",
+            "location": "Toronto, Canada",
+            "introduction": "Static analysis tools are widely adopted in the industry to detect bugs in software systems. However, it is important that the tools themselves are reliable, i.e., do not miss bugs or produce false positives. In this project, I created an LLM-based metamorphic testing framework to detect inconsistencies in Java static analysis tools.",
+            "descriptions": [
+                "Analyzed 3 popular Java static analysis tools: <strong>SpotBugs, ErrorProne, and PMD</strong>.",
+                "Designed and implemented an <strong>LLM-based metamorphic testing framework</strong> to uncover faulty rule implementations in Java static analysis tools.",
+                "Evaluated 5 widely used coding LLMs—<strong>GPT-4o, CodeLlama-34B, Codestral-22B, DeepSeek-Coder-33B, and Qwen2.5-Coder-32B.</strong>—on their ability to uncover bugs in the static analysis tools.",
+                "Uncovered total <strong>42 faulty rule implementations</strong> in all 3 tools. All the bugs have been reported to the respective developers."
+            ],
+            "techStack": ["Python", "Java", "Transformers", "OpenAI SDK", "SpotBugs", "ErrorProne", "PMD"]
         }
     ],
     "educationTitle": "Education",

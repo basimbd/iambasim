@@ -17,6 +17,8 @@ const techLogoMap = {
     'Redis': '/icons/tech/redis.svg',
     'AWS': '/icons/tech/aws.svg',
     'Git': '/icons/tech/git.svg',
+    'PMD': '/icons/tech/pmd.svg',
+    'SpotBugs': '/icons/tech/spotbugs.png',
     'Transformers': '/icons/tech/transformers.svg',
     'HuggingFace': '/icons/tech/huggingface.svg'
 };
