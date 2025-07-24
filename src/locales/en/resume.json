@@ -45,7 +45,7 @@
                 "Curated <strong>25,440 functions</strong> related to the vulnerabilities, and extracted <strong>vulnerable statements</strong> and <strong>contextual information</strong> affecting the vulnerabilities.",
                 "Designed and implemented an <strong>agentic vulnerability detection framework</strong> to evaluate various LLMs on C/C++ vulnerability detection.",
                 "Made the dataset <strong>publicly available</strong> at <a class=\"text-primary dark:text-dark-primary hover:underline\" href=\"https://huggingface.co/datasets/arag0rn/SecVulEval\" target=\"_blank\">HuggingFace - <span style=\"font-variant: small-caps;\">SecVulEval</span></a> for community use.",
-                "Published the details of the benchmark construction and evaluation in the paper <a href=\"https://arxiv.org/abs/2505.19828\"><strong><span style=\"font-variant: small-caps;\">SecVulEval</span>: Benchmarking LLMs for Real-World C/C++ Vulnerability Detection</strong></a>."
+                "Published the details of the benchmark construction and evaluation in the paper <a class=\"text-primary dark:text-dark-primary hover:underline\" href=\"https://arxiv.org/abs/2505.19828\" target=\"_blank\"><strong><span style=\"font-variant: small-caps;\">SecVulEval</span>: Benchmarking LLMs for Real-World C/C++ Vulnerability Detection</strong></a>."
             ],
             "techStack": ["Python", "Transformers", "OpenAI SDK"]
         },

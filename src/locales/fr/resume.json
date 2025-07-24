@@ -45,7 +45,7 @@
                 "J'ai organisé <strong>25,440 fonctions</strong> liées aux vulnérabilités, et extrait <strong>des instructions vulnérables</strong> et <strong>des informations contextuelles</strong> affectant les vulnérabilités.",
                 "J'ai conçu et mis en œuvre un <strong>cadre de détection de vulnérabilités agentique</strong> pour évaluer divers LL sur la détection de vulnérabilités C/C++.",
                 "J'ai rendu le jeu de données <strong>publiquement disponible</strong> sur <a class=\"text-primary dark:text-dark-primary hover:underline\" href=\"https://huggingface.co/datasets/arag0rn/SecVulEval\" target=\"_blank\">HuggingFace - <span style=\"font-variant: small-caps;\">SecVulEval</span></a> pour une utilisation communautaire.",
-                "J'ai publié les détails de la construction et de l'évaluation du banc d'essai dans l'article <a href=\"https://arxiv.org/abs/2505.19828\"><strong><span style=\"font-variant: small-caps;\">SecVulEval</span>: Benchmarking LLMs for Real-World C/C++ Vulnerability Detection</strong></a>."
+                "J'ai publié les détails de la construction et de l'évaluation du banc d'essai dans l'article <a class=\"text-primary dark:text-dark-primary hover:underline\" href=\"https://arxiv.org/abs/2505.19828\" target=\"_blank\"><strong><span style=\"font-variant: small-caps;\">SecVulEval</span>: Benchmarking LLMs for Real-World C/C++ Vulnerability Detection</strong></a>."
             ],
             "techStack": ["Python", "Transformers", "OpenAI SDK"]
         },
