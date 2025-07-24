@@ -53,7 +53,7 @@ export default function Experience() {
                         <p className="mb-2 text-text-secondary dark:text-dark-text-secondary">
                             {job.introduction}
                         </p>
-                        <ul className="list-disc list-inside space-y-1">
+                        <ul className="list-disc list-outside ml-4 space-y-1">
                             {job.descriptions?.map((desc, descIndex) => (
                                 <li
                                     key={descIndex}
@@ -115,7 +115,7 @@ export default function Experience() {
                             dangerouslySetInnerHTML={{ __html: project.introduction }}
                         >
                         </p>
-                        <ul className="list-disc list-inside space-y-1">
+                        <ul className="list-disc list-outside ml-4 space-y-1">
                             {project.descriptions?.map((desc, descIndex) => (
                                 <li
                                     key={descIndex}
