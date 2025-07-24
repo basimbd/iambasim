@@ -19,8 +19,8 @@ export default function SkillGrid() {
     return (
         <section>
             <div className="max-w-6xl mx-auto px-6">
-                <h2 className="text-3xl font-semibold mb-8 text-text-primary dark:text-dark-text-primary">
-                    {t('section_title', 'Skills')}
+                <h2 className="mb-8 flex justify-center">
+                    <span className="text-4xl md:text-5xl font-semibold font-serif text-text-primary dark:text-dark-text-primary">{t('section_title', 'Skills')}</span>
                 </h2>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

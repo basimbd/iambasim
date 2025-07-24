@@ -16,13 +16,13 @@ export default function Experience() {
 
     return (
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
-            <h2 className="text-3xl font-semibold mb-6 text-text-primary dark:text-dark-text-primary">
-                {t('title')}
+            <h2 className="mb-6 flex justify-center">
+                <span className="text-4xl md:text-5xl font-semibold font-serif text-text-primary dark:text-dark-text-primary">{t('title')}</span>
             </h2>
 
             <div className="mb-12 p-4 rounded-xl shadow-xl shadow-sky-800/10 dark:shadow-sky-800/30">
                 <h3 className="text-2xl font-medium mb-4 text-text-primary dark:text-dark-text-primary">
-                    {t('profExperience')}
+                    💼{t('profExperience')}
                 </h3>
 
                 {getJobs().map((job, index) => (
@@ -84,7 +84,7 @@ export default function Experience() {
             {getResearchProjects().length > 0 && (
                 <div className="mb-12 p-4 rounded-xl shadow-xl shadow-sky-800/10 dark:shadow-sky-800/30">
                     <h3 className="text-2xl font-medium mb-4 text-text-primary dark:text-dark-text-primary">
-                        {t('researchExperience')}
+                        💡{t('researchExperience')}
                     </h3>
                 {getResearchProjects().map((project, index) => (
                     <div key={index} className="mb-8 border-l-4 border-primary dark:border-dark-primary pl-4 ml-2">

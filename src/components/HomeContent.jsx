@@ -75,8 +75,8 @@ export default function HomeContent() {
 
             <section id="about" className="py-20 bg-background-primary dark:bg-dark-background-primary">
                 <div className="max-w-6xl mx-auto px-6">
-                    <h2 className="text-3xl font-semibold mb-6 text-text-primary dark:text-dark-text-primary">
-                        {t('about.title')}
+                    <h2 className="mb-8 flex justify-center">
+                        <span className="text-4xl md:text-5xl font-semibold font-serif text-text-primary dark:text-dark-text-primary">{t('about.title')}</span>
                     </h2>
                     <div className="md:flex items-center">
                         <div className="md:w-1/3 mb-6 md:mb-0 md:pr-6">
