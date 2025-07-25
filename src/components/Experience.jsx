@@ -21,7 +21,7 @@ export default function Experience() {
             </h2>
 
             <div className="mb-12 p-4 rounded-xl shadow-xl shadow-sky-800/10 dark:shadow-sky-800/30">
-                <h3 className="text-2xl font-medium mb-4 text-text-primary dark:text-dark-text-primary">
+                <h3 className="text-2xl md:text-3xl font-medium mb-4 text-text-primary dark:text-dark-text-primary">
                     💼{t('profExperience')}
                 </h3>
 
@@ -83,7 +83,7 @@ export default function Experience() {
             </div>
             {getResearchProjects().length > 0 && (
                 <div className="mb-12 p-4 rounded-xl shadow-xl shadow-sky-800/10 dark:shadow-sky-800/30">
-                    <h3 className="text-2xl font-medium mb-4 text-text-primary dark:text-dark-text-primary">
+                    <h3 className="text-2xl md:text-3xl font-medium mb-4 text-text-primary dark:text-dark-text-primary">
                         💡{t('researchExperience')}
                     </h3>
                 {getResearchProjects().map((project, index) => (
