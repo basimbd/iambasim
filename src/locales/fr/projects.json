@@ -10,6 +10,18 @@
             "description": "Ce projet est une reproduction des expériences de l'article SaliencyMix présenté à l'ICLR 2021.",
             "image": "/images/projects/saliency/saliency.webp",
             "link": "https://github.com/basimbd/SaliencyMix-replication"
+        },
+        {
+            "title": "HF ML App Analysis",
+            "tech": [
+                "NumPy",
+                "Pandas",
+                "Matplotlib",
+                "Lizard"
+            ],
+            "description": "Projet d'analyse de données simple pour analyser la facilité et la maintenabilité des applications/modèles de classification de texte et de génération de texte dans HuggingFace.",
+            "image": "/images/projects/hf_ml_app_analysis/hf_ml_app_analysis.png",
+            "link": "https://github.com/basimbd/hf_ml_apps_analysis"
         }
     ]
 }
