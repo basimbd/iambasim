@@ -10,9 +10,9 @@
             "period": "Jul 2021 - Jul 2024",
             "introduction": "J'ai travaillé sur le projet HEMS, un système national de gestion des examens.",
             "descriptions": [
-                "J'ai contribué à la <strong>conception initiale de la base de données</strong> afin de répondre aux exigences du client.",
-                "J'ai implémenté le module de traitement des résultats, qui collecte et analyse les notes d'environ <strong>30,000 étudiants</strong> par an et prépare les relevés de notes.",
-                "J'ai intégré <strong>deux passerelles de paiement</strong> qui gèrent un volume de transactions total d'environ <strong>4 million BDT</strong> par an.",
+                "J'ai contribué à la conception initiale de la <strong>base de données</strong> de l'application.",
+                "J'ai implémenté le module qui traite les notes d'environ <strong>30,000 étudiants</strong> par an.",
+                "J'ai intégré <strong>2 passerelles de paiement</strong> gérant des transactions d'environ <strong>4 millions BDT</strong> par an.",
                 "J'ai implémenté des API REST pour applications mobiles, incluant <strong>l'authentification JWT</strong>."
             ],
             "techStack": ["Java", "SpringBoot", "PostgreSQL", "Redis"]
@@ -26,7 +26,8 @@
             "introduction": "J'ai collaboré à distance avec Synopsys Inc. en tant qu'employé offshore de DSi. J'ai travaillé sur le projet Synopsys-Detect (désormais renommé BlackDuck-Detect), un outil d'analyse de composition logicielle qui inspecte un dépôt pour détecter les vulnérabilités de composants, de sécurité et de licences issues des dépendances du projet.",
             "descriptions": [
                 "J'ai travaillé sur <strong>la migration du pipeline CI/CD du projet Detect</strong> de Jenkins vers GitHub Actions.",
-                "J'ai <strong>réparé le tableau de bord analytique défaillant</strong> en migrant les données analytiques du projet de Google Universal Analytics vers le protocole Google Analytics 4 (GA4)."
+                "<strong>J'ai trouvé et <a class=\"text-primary dark:text-dark-primary hover:underline\" href=\"https://github.com/blackducksoftware/common-gradle-plugin/pull/26\" target=\"_blank\">réparé</a> 2 bugs cachés</strong> dans le CI/CD actuel qui ont corrigé les tâches cron et le versionnement des artefacts.",
+                "<strong>J'ai réparé le tableau de bord analytique défaillant</strong> en migrant les données analytiques du projet de Google UA vers le protocole GA4."
             ],
             "techStack": ["Java", "Gradle", "Jenkins", "GitHub Actions", "Google Analytics"]
         }
@@ -39,13 +40,13 @@
             "company": "Université York",
             "company_site": "https://www.yorku.ca",
             "location": "Toronto, Canada",
-            "introduction": "Dans ce projet, j'ai constitué un jeu de données de référence de vulnérabilités C/C++ appelé <span style=\"font-variant: small-caps;\">SecVulEval</span>. Les jeux de données précédents se concentraient sur des artefacts au niveau des fichiers ou des fonctions, ce qui ne permet pas une compréhension plus fine des schémas de vulnérabilité et n'intègre pas les informations contextuelles. <span style=\"font-variant: small-caps;\">SecVulEval</span> offre une granularité jusqu'au <strong>niveau de l'instruction</strong> et inclut les <strong>informations contextuelles</strong> qui influent sur la vulnérabilité.",
+            "introduction": "Dans ce projet, j'ai construit un jeu de données de référence de vulnérabilités C/C++ appelé <span style=\"font-variant: small-caps;\">SecVulEval</span>. Il résout le manque de granularité au niveau des instructions et d'informations contextuelles dans les jeux de données précédents.",
             "descriptions": [
-                "J'ai collecté <strong>5,867 vulnérabilités C/C++ réelles</strong> à partir de la base de données NVD.",
-                "J'ai organisé <strong>25,440 fonctions</strong> liées aux vulnérabilités, et extrait <strong>des instructions vulnérables</strong> et <strong>des informations contextuelles</strong> affectant les vulnérabilités.",
+                "J'ai collecté <strong>5 867 vulnérabilités C/C++ du monde réel</strong>.",
+                "J'ai organisé <strong>25 440 fonctions</strong>, incluant les <strong>instructions vulnérables</strong> et les <strong>informations contextuelles</strong>, liées aux vulnérabilités.",
                 "J'ai conçu et mis en œuvre un <strong>cadre de détection de vulnérabilités agentique</strong> pour évaluer divers LL sur la détection de vulnérabilités C/C++.",
                 "J'ai rendu le jeu de données <strong>publiquement disponible</strong> sur <a class=\"text-primary dark:text-dark-primary hover:underline\" href=\"https://huggingface.co/datasets/arag0rn/SecVulEval\" target=\"_blank\">HuggingFace - <span style=\"font-variant: small-caps;\">SecVulEval</span></a> pour une utilisation communautaire.",
-                "J'ai publié les détails de la construction et de l'évaluation du banc d'essai dans l'article <a class=\"text-primary dark:text-dark-primary hover:underline\" href=\"https://arxiv.org/abs/2505.19828\" target=\"_blank\"><strong><span style=\"font-variant: small-caps;\">SecVulEval</span>: Benchmarking LLMs for Real-World C/C++ Vulnerability Detection</strong></a>."
+                "J'ai publié les détails de ce travail dans l'article <a class=\"text-primary dark:text-dark-primary hover:underline\" href=\"https://arxiv.org/abs/2505.19828\" target=\"_blank\"><strong><span style=\"font-variant: small-caps;\">SecVulEval</span>: Benchmarking LLMs for Real-World C/C++ Vulnerability Detection</strong></a>."
             ],
             "techStack": ["Python", "Transformers", "OpenAI SDK"]
         },

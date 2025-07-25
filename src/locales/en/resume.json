@@ -10,9 +10,9 @@
             "period": "Jul 2021 - Jul 2024",
             "introduction": "Here I worked on the HEMS project which is a nation-wide examination management system.",
             "descriptions": [
-                "Contributed to the initial <strong>database design</strong> of the application to reflect the client's requirements.",
-                "Implemented the result-processing module that collects, analyzes marks of around <strong>30,000 students</strong> per year, and prepares grades.",
-                "Integrated <strong>2 payment gateways</strong> that manage a total transaction amount of around <strong>4 million BDT</strong> per year.",
+                "Contributed to the initial <strong>database design</strong> of the application.",
+                "Implemented the module that processes the grades of around <strong>30,000 students</strong> per year.",
+                "Integrated <strong>2 payment gateways</strong> managing transactions of around <strong>4 million BDT</strong> per year.",
                 "Implemented REST APIs for mobile apps including <strong>JWT authentication</strong>."
             ],
             "techStack": ["Java", "SpringBoot", "PostgreSQL", "Redis"]
@@ -26,7 +26,8 @@
             "introduction": "Remotely worked with Synopsys Inc. as an offshore employee from DSi. Worked on Synopsys-Detect project (now renamed to BlackDuck-Detect) which is a software compositional analysis tool. It scans a software repository to find component, security, and license vulnerabilities resulting from project dependencies.",
             "descriptions": [
                 "Worked on <strong>migrating the Detect project CI/CD</strong> pipeline from Jenkins to GitHub Actions.",
-                "<strong>Fixed the broken analytics dashboard</strong> by migrated project analytics data from Google Universal Analytics to Google Analytics 4 (GA4) protocol."
+                "<strong>Found and <a class=\"text-primary dark:text-dark-primary hover:underline\" href=\"https://github.com/blackducksoftware/common-gradle-plugin/pull/26\" target=\"_blank\">fixed</a> 2 hidden bugs</strong> in the current CI/CD that fixed cron jobs and artifact versioning.",
+                "<strong>Fixed the broken analytics dashboard</strong> by migrating project analytics from Google UA to G44 protocol."
             ],
             "techStack": ["Java", "Gradle", "Jenkins", "GitHub Actions", "Google Analytics"]
         }
@@ -39,13 +40,13 @@
             "company": "York University",
             "company_site": "https://www.yorku.ca",
             "location": "Toronto, Canada",
-            "introduction": "In this project, I constructed a benchmark dataset of C/C++ vulnerabilities called <span style=\"font-variant: small-caps;\">SecVulEval</span>. Previous datasets focused on file or function level artifacts which is unable to provide more granular understanding of vulnerable patterns, and do not incorporate contextual information into account. <span style=\"font-variant: small-caps;\">SecVulEval</span> provides granularity down to <strong>statement level</strong>, and includes <strong>contextual information</strong> that affect the vulnerability.",
+            "introduction": "In this project, I constructed a benchmark dataset of C/C++ vulnerabilities called <span style=\"font-variant: small-caps;\">SecVulEval</span>. It solves the lack of statement-level granularity and contextual information in previous datasets.",
             "descriptions": [
-                "Collected <strong>5,867 real-world C/C++ vulnerabilities</strong> from NVD database.",
-                "Curated <strong>25,440 functions</strong> related to the vulnerabilities, and extracted <strong>vulnerable statements</strong> and <strong>contextual information</strong> affecting the vulnerabilities.",
+                "Collected <strong>5,867 real-world C/C++ vulnerabilities</strong>.",
+                "Curated <strong>25,440 functions</strong>, including <strong>vulnerable statements</strong> and <strong>contextual information</strong>, related to the vulnerabilities.",
                 "Designed and implemented an <strong>agentic vulnerability detection framework</strong> to evaluate various LLMs on C/C++ vulnerability detection.",
                 "Made the dataset <strong>publicly available</strong> at <a class=\"text-primary dark:text-dark-primary hover:underline\" href=\"https://huggingface.co/datasets/arag0rn/SecVulEval\" target=\"_blank\">HuggingFace - <span style=\"font-variant: small-caps;\">SecVulEval</span></a> for community use.",
-                "Published the details of the benchmark construction and evaluation in the paper <a class=\"text-primary dark:text-dark-primary hover:underline\" href=\"https://arxiv.org/abs/2505.19828\" target=\"_blank\"><strong><span style=\"font-variant: small-caps;\">SecVulEval</span>: Benchmarking LLMs for Real-World C/C++ Vulnerability Detection</strong></a>."
+                "Published the details of the work in the paper <a class=\"text-primary dark:text-dark-primary hover:underline\" href=\"https://arxiv.org/abs/2505.19828\" target=\"_blank\"><strong><span style=\"font-variant: small-caps;\">SecVulEval</span>: Benchmarking LLMs for Real-World C/C++ Vulnerability Detection</strong></a>."
             ],
             "techStack": ["Python", "Transformers", "OpenAI SDK"]
         },
