@@ -30,25 +30,27 @@ export default function Experience() {
                         <h4 className="text-xl font-medium text-text-primary dark:text-dark-text-primary">
                             {job.title}
                         </h4>
-                        <div className="flex flex-col items-start gap-2 
-                        sm:flex-row sm:justify-between sm:items-center sm:gap-0">
-                            <div>
-                                <a href={job.company_site} target="_blank" rel="noopener noreferrer"
-                                    className="text-primary dark:text-dark-primary hover:underline">
-                                    {job.company}
-                                </a>
-                                <span className="ml-2 text-xs text-text-secondary dark:text-dark-text-secondary">
-                                    <FaLocationDot className="w-3 h-3 mr-1 inline" />
-                                    <span>{job.location}</span>
+                        <div className="short-underline mb-1">
+                            <div className="flex flex-col items-start gap-2 
+                            sm:flex-row sm:justify-between sm:items-center sm:gap-0">
+                                <div>
+                                    <a href={job.company_site} target="_blank" rel="noopener noreferrer"
+                                        className="text-primary dark:text-dark-primary hover:underline">
+                                        {job.company}
+                                    </a>
+                                    <span className="ml-2 text-xs text-text-secondary dark:text-dark-text-secondary">
+                                        <FaLocationDot className="w-3 h-3 mr-1 inline" />
+                                        <span>{job.location}</span>
+                                    </span>
+                                </div>
+                                <span className="inline-flex items-center 
+                                bg-primary-light/20 dark:bg-dark-primary-light/20 shadow-md
+                                text-primary-dark dark:text-dark-primary-light text-sm 
+                                px-3 py-1 rounded-full mb-1 sm:mr-2 sm:mb-2">
+                                    <FaRegCalendar className="w-4 h-4 mr-1 inline-block" />
+                                    {job.period}
                                 </span>
                             </div>
-                            <span className="inline-flex items-center 
-                            bg-primary-light/20 dark:bg-dark-primary-light/20 shadow-md
-                            text-primary-dark dark:text-dark-primary-light text-sm 
-                            px-3 py-1 rounded-full mb-1 sm:mr-2 sm:mb-2">
-                                <FaRegCalendar className="w-4 h-4 mr-1 inline-block" />
-                                {job.period}
-                            </span>
                         </div>
                         <p className="mb-2 text-text-secondary dark:text-dark-text-secondary">
                             {job.introduction}
@@ -91,25 +93,27 @@ export default function Experience() {
                         <h4 className="text-xl font-medium text-text-primary dark:text-dark-text-primary">
                             {project.title}
                         </h4>
-                        <div className="flex flex-col items-start gap-2 
-                        sm:flex-row sm:justify-between sm:items-center sm:gap-0">
-                            <div>
-                                <a href={project.company_site} target="_blank" rel="noopener noreferrer"
-                                    className="text-primary dark:text-dark-primary hover:underline">
-                                    {project.company}
-                                </a>
-                                <span className="ml-2 text-xs text-text-secondary dark:text-dark-text-secondary">
-                                    <FaLocationDot className="w-3 h-3 mr-1 inline" />
-                                    <span>{project.location}</span>
+                        <div className="short-underline mb-1">
+                            <div className="flex flex-col items-start gap-2 
+                            sm:flex-row sm:justify-between sm:items-center sm:gap-0">
+                                <div>
+                                    <a href={project.company_site} target="_blank" rel="noopener noreferrer"
+                                        className="text-primary dark:text-dark-primary hover:underline">
+                                        {project.company}
+                                    </a>
+                                    <span className="ml-2 text-xs text-text-secondary dark:text-dark-text-secondary">
+                                        <FaLocationDot className="w-3 h-3 mr-1 inline" />
+                                        <span>{project.location}</span>
+                                    </span>
+                                </div>
+                                <span className="inline-flex items-center 
+                                bg-primary-light/20 dark:bg-dark-primary-light/20 shadow-md
+                                text-primary-dark dark:text-dark-primary-light text-sm 
+                                px-3 py-1 rounded-full mb-1 sm:mr-2 sm:mb-2">
+                                    <FaRegCalendar className="w-4 h-4 mr-1 inline-block" />
+                                    {project.period}
                                 </span>
                             </div>
-                            <span className="inline-flex items-center 
-                            bg-primary-light/20 dark:bg-dark-primary-light/20 shadow-md
-                            text-primary-dark dark:text-dark-primary-light text-sm 
-                            px-3 py-1 rounded-full mb-1 sm:mr-2 sm:mb-2">
-                                <FaRegCalendar className="w-4 h-4 mr-1 inline-block" />
-                                {project.period}
-                            </span>
                         </div>
                         <p className="mb-2 text-text-secondary dark:text-dark-text-secondary"
                             dangerouslySetInnerHTML={{ __html: project.introduction }}

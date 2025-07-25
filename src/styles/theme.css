@@ -30,6 +30,12 @@ body {
 			var(--tw-color-primary) 50%,
 			var(--tw-color-primary-light) 85%,
 			transparent);
+	
+	/* Title Short Underline*/
+	--short-underline-thickness: 0.25em;
+    --short-underline-width: 4em; /* About 4-5 letters wide */
+    --short-underline-color: var(--tw-color-accent);
+    --short-underline-gradient: linear-gradient(to right, var(--tw-color-accent) var(--short-underline-width), transparent var(--short-underline-width));
 }
 
 /* Dark theme gradients */
@@ -47,6 +53,10 @@ body {
 			var(--tw-color-dark-primary) 50%,
 			var(--tw-color-dark-primary-light) 85%,
 			transparent);
+	
+	/* Title Short Underline*/
+	--short-underline-color: var(--tw-color-dark-accent);
+    --short-underline-gradient: linear-gradient(to right, var(--tw-color-dark-accent) var(--short-underline-width), transparent var(--short-underline-width));
 }
 
 /* Utility classes for gradients */
@@ -84,4 +94,13 @@ body {
 	-webkit-background-clip: text;
 	background-clip: text;
 	color: transparent;
+}
+
+/* Title short underline classes */
+.short-underline {
+    border-bottom: var(--short-underline-thickness) solid var(--short-underline-color);
+    border-image: var(--short-underline-gradient);
+    border-image-slice: 1;
+     /*padding-bottom: 0.25em; Add a little spacing between text and line */
+     /*display: inline-block; Makes the underline only as wide as the text */
 }
