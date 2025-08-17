@@ -12,6 +12,17 @@
             "link": "https://github.com/basimbd/SaliencyMix-replication"
         },
         {
+            "title": "DeObfus Email",
+            "tech": [
+                "JavaScript",
+                "Chromium API",
+                "Firefox API"
+            ],
+            "description": "Une extension de navigateur pour convertir les adresses e-mail obfusquées telles que \"email [at] myserver {dot} com\" en \"email@myserver.com\" et copier l'e-mail converti.",
+            "image": "/images/projects/deobfus_email/deobfus_email.png",
+            "link": "https://github.com/basimbd/deobfus-email"
+        },
+        {
             "title": "HF ML App Analysis",
             "tech": [
                 "NumPy",
