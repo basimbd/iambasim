@@ -17,7 +17,7 @@ export default function ProjectGrid() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {getProjects().map((project, index) => (
-                    <div key={index} className="bg-gradient-card rounded-lg overflow-hidden shadow-lg transition-all duration-150 hover:scale-[1.03] hover:shadow-xl">
+                    <div key={index} className="bg-gradient-card rounded-lg overflow-hidden shadow-lg transition-all duration-150 hover:scale-[1.03] hover:shadow-xl dark:shadow-sky-800/30">
                         <div className="relative p-2">
                             <img
                                 src={project.image}

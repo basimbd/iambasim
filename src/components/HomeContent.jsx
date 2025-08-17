@@ -86,7 +86,7 @@ export default function HomeContent() {
                                 className="rounded-full w-48 h-48 mx-auto object-cover border-4 border-background-primary dark:border-dark-background-card shadow-lg"
                             />
                         </div>
-                        <div className="md:w-2/3 shadow-lg rounded-xl p-6 dark:bg-dark-background-card">
+                        <div className="md:w-2/3 shadow-lg dark:shadow-sky-800/30 rounded-xl p-6 dark:bg-dark-background-card">
                             <p className="mb-4 text-text-secondary dark:text-dark-text-secondary">{t('about.paragraph1')}</p>
                             <p className="mb-4 text-text-secondary dark:text-dark-text-secondary">{t('about.paragraph2')}</p>
                             <p className="text-text-secondary dark:text-dark-text-secondary">{t('about.paragraph3')}</p>

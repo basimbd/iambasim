@@ -1,6 +1,6 @@
 export default function SkillCard({ icon, title, skills }) {
     return (
-        <div className="bg-background-card dark:bg-dark-background-card rounded-lg p-6 shadow-lg">
+        <div className="bg-background-card dark:bg-dark-background-card rounded-lg p-6 shadow-lg dark:shadow-sky-800/30">
             <div className="flex items-center mb-4">
                 {icon &&
                     <div className="text-primary dark:text-dark-primary mr-3 inset-shadow-lg">
