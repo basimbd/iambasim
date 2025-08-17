@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import GitHubLink from './GitHubLink';
+import CollapsibleText from './CollapsibleText';
 
 export default function ProjectGrid() {
     const { t } = useTranslation("projects");
@@ -26,7 +27,9 @@ export default function ProjectGrid() {
                         </div>
                         <div className="p-6">
                             <h3 className="text-xl font-semibold mb-2 text-text-primary dark:text-dark-text-primary">{project.title}</h3>
-                            <p className="text-text-secondary dark:text-dark-text-secondary mb-4">{project.description}</p>
+
+                            <CollapsibleText text={project.description} lines={4} className="mb-6" />
+
                             <div className="flex flex-wrap gap-2 mb-4">
                                 {project.tech.map((tech, techIndex) => (
                                     <span

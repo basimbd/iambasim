@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 /* Add this to your global styles */
 body {
 	/* Cool, low-contrast diagonal wash */
@@ -103,4 +107,14 @@ body {
     border-image-slice: 1;
      /*padding-bottom: 0.25em; Add a little spacing between text and line */
      /*display: inline-block; Makes the underline only as wide as the text */
+}
+
+@layer utilities {
+	.clamp-collapsed {
+		display: -webkit-box;
+		-webkit-box-orient: vertical;
+		-webkit-line-clamp: var(--clamp, 5);
+		line-clamp: var(--clamp, 5);
+		overflow-y: hidden;
+	}
 }
