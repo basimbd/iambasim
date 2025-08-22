@@ -59,7 +59,7 @@ export default function CollapsibleText({ text, lines = 5, className = '' }) {
 
             {hasOverflow && (
                 <button tabIndex={0}
-                    onClick={() => setExpanded(v => !v)}
+                    onClick={(e) => {e.stopPropagation(); setExpanded(v => !v) }}
                     className="cursor-pointer text-sm text-primary dark:text-dark-primary
                     hover:underline mb-2"
                 >{expanded ? '…See Less' : 'See More…'}</button>
