@@ -3,13 +3,7 @@ import { createPortal } from "react-dom";
 import "../styles/theme.css";
 
 /**
- * Generic, reusable modal component (class-based CSS)
- * - Gray backdrop; click outside closes (configurable)
- * - Top-right × button
- * - Bottom-right red "Close" button
- * - Accessible: role="dialog", aria-modal, focus trap, ESC to close
- * - Renders in a portal (#modal-root created on demand)
- *
+ * Generic, reusable modal component
  * Props:
  *  - open: boolean — whether the modal is visible
  *  - onClose: () => void — called when user requests close (backdrop, ESC, buttons)
@@ -19,6 +13,7 @@ import "../styles/theme.css";
  *  - closeOnEsc?: boolean — ESC closes (default true)
  *  - showCloseIcon?: boolean — show top-right × (default true)
  *  - widthClass?: string — optional CSS class to override width (e.g., "modal-w-md")
+ *  - keepMounted?: boolean — whether to keep the modal mounted in the DOM when closed
  *  - children: ReactNode — modal content
  */
 export default function GenericModal({
@@ -31,6 +26,7 @@ export default function GenericModal({
     closeOnEsc = true,
     showCloseIcon = true,
     widthClass = "",
+    keepMounted = false,
     ...props
 }) {
     const [portalRoot, setPortalRoot] = useState(null);
@@ -108,7 +104,8 @@ export default function GenericModal({
         };
     }, [open, closeOnEsc, onClose]);
 
-    if (!open || !portalRoot) return null;
+    if (!portalRoot) return null;
+    if (!keepMounted && !open) return null;
 
     function handleOverlayClick(e) {
         e.stopPropagation();
@@ -122,16 +119,19 @@ export default function GenericModal({
     return createPortal(
         <div
             ref={overlayRef}
-            className="modalOverlay"
+            className={`modalOverlay transition-opacity duration-150
+                ${open ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"}`}
             onClick={handleOverlayClick}
             aria-hidden={open ? "false" : "true"}
+            {...(!open ? { inert: '' } : {})}
         >
             <div
                 role="dialog"
                 aria-modal="true"
                 aria-labelledby={title ? titleId : undefined}
                 ref={dialogRef}
-                className={`modalDialog ${widthClass}`}
+                className={`modalDialog ${widthClass} transition-transform duration-150
+                ${open ? 'scale-100' : 'scale-95'}`}
                 tabIndex={-1}
                 onPointerDown={stopPropagation}
                 onClick={stopPropagation}
