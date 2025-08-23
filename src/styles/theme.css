@@ -34,7 +34,7 @@ body {
 			var(--tw-color-primary) 50%,
 			var(--tw-color-primary-light) 85%,
 			transparent);
-	
+
 	/* Title Short Underline*/
 	--short-underline-thickness: 0.25em;
     --short-underline-width: 4em; /* About 4-5 letters wide */
@@ -57,7 +57,7 @@ body {
 			var(--tw-color-dark-primary) 50%,
 			var(--tw-color-dark-primary-light) 85%,
 			transparent);
-	
+
 	/* Title Short Underline*/
 	--short-underline-color: var(--tw-color-dark-accent);
     --short-underline-gradient: linear-gradient(to right, var(--tw-color-dark-accent) var(--short-underline-width), transparent var(--short-underline-width));
@@ -105,8 +105,8 @@ body {
     border-bottom: var(--short-underline-thickness) solid var(--short-underline-color);
     border-image: var(--short-underline-gradient);
     border-image-slice: 1;
-     /*padding-bottom: 0.25em; Add a little spacing between text and line */
-     /*display: inline-block; Makes the underline only as wide as the text */
+    /* padding-bottom: 0.25em; /* Add a little spacing between text and line */
+    /* display: inline-block; /* Makes the underline only as wide as the text */
 }
 
 @layer utilities {
@@ -116,5 +116,134 @@ body {
 		-webkit-line-clamp: var(--clamp, 5);
 		line-clamp: var(--clamp, 5);
 		overflow-y: hidden;
+	}
+}
+
+/* ---------------------- modal.css ----------------------*/
+
+.modalOverlay {
+	position: fixed;
+	inset: 0;
+	background-color: rgba(var(--tw-color-background-primary-rgb), 0.85);
+	display: grid;
+	place-items: center;
+	padding: 1.25rem;
+	z-index: 1000;
+}
+
+.dark .modalOverlay {
+    background-color: rgba(var(--tw-color-dark-background-primary-rgb), 0.65); /* Dark mode */
+}
+
+.modalDialog {
+	background: rgb(var(--tw-color-background-primary-rgb));
+	color: #111;
+	width: min(90vw, 768px);
+	max-width: 100%;
+	max-height: 90vh;
+	overflow: auto;
+	border-radius: 12px;
+	box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1); /* tailwind's shadow-lg config */
+	position: relative;
+	outline: none;
+}
+
+.dark .modalDialog {
+	background-color: rgb(var(--tw-color-dark-background-primary-rgb));
+	box-shadow: 0 10px 15px -3px oklch(44.3% 0.11 240.79 / 0.45), 0 4px 6px -4px oklch(44.3% 0.11 240.79 / 0.45); /* oklch value from tailwind's "shadow-sky-800" */
+}
+
+/* Optional width helpers */
+.modal-w-sm {
+	width: min(90vw, 480px);
+}
+
+.modal-w-md {
+	width: min(90vw, 640px);
+}
+
+.modal-w-lg {
+	width: min(90vw, 800px);
+}
+
+.modalHeader {
+	padding: 1rem 1rem 0.5rem 1.25rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 1px solid #eee;
+}
+
+.modalTitle {
+	font-size: 1.1rem;
+	font-weight: 700;
+	color: var(--tw-color-text-primary);
+}
+
+.dark .modalTitle {
+	color: var(--tw-color-dark-text-primary);
+}
+
+.modalBody {
+	padding: 1rem 1.25rem;
+}
+
+.modalFooter {
+	padding: 0.75rem 1.25rem 1.25rem;
+	display: flex;
+	justify-content: flex-end;
+	gap: 0.5rem;
+}
+
+.modalCloseIcon {
+	border: none;
+	background: transparent;
+	padding: 0.25rem;
+	line-height: 1;
+	font-size: 1rem;
+	cursor: pointer;
+	color: var(--tw-color-text-primary);
+}
+
+.dark .modalCloseIcon {
+	color: var(--tw-color-dark-text-primary);
+}
+
+.modalCloseIcon:focus-visible {
+	outline: 2px solid #333;
+	outline-offset: 2px;
+}
+
+.modalCloseBtn {
+	background: #e11d48;	/* red-600 */
+	color: #fff;
+	border: none;
+	padding: 0.6rem 1rem;
+	border-radius: 8px;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.modalCloseBtn:hover {
+	filter: brightness(0.95);
+}
+
+.modalCloseBtn:active {
+	transform: translateY(1px);
+}
+
+.modalCloseBtn:focus-visible {
+	outline: 2px solid #e11d48;
+	outline-offset: 2px;
+}
+
+/* Reduce motion preferences */
+@media (prefers-reduced-motion: no-preference) {
+	.modalDialog {
+		transition: transform 160ms ease, opacity 160ms ease;
+	}
+
+	.modalOverlay {
+		transition: opacity 160ms ease;
 	}
 }
