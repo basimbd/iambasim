@@ -149,6 +149,7 @@ export default function Experience() {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-block bg-gradient-primary text-white px-6 py-2 rounded-md hover:opacity-90 transition-opacity"
+                    title={`Click to download full resume in PDF`}
                 >
                     {t('downloadButton')}
                 </a>

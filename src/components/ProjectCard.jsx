@@ -27,7 +27,7 @@ export default function ProjectCard({ project }) {
                     ))}
                 </div>
                 {project.link &&
-                    <GitHubLink github_url={project.link} />
+                    <GitHubLink github_url={project.link} title={`${project.title} source code on GitHub`} />
                 }
             </div>
         </div>

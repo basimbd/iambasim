@@ -8,6 +8,9 @@
     },
     "hero": {
         "title": "Bonjour, je suis <1>Md Basim Uddin Ahmed</1>",
+        "fullName": "Md Basim Uddin Ahmed",
+        "shortName": "Basim Ahmed",
+        "shortFirstName": "Basim",
         "tagline": "Ingénieur Logiciel & Chercheur en IA",
         "catchphrase": "Je conçois des produits numériques exceptionnels qui génèrent des solutions fiables et innovantes, fort de 3 ans d'expérience en développement et de 2 ans en recherche en IA/SE.",
         "contact": "Contactez-moi"

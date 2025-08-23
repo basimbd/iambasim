@@ -8,6 +8,9 @@
     },
     "hero": {
         "title": "Hi, I'm <1>Md Basim Uddin Ahmed</1>",
+        "fullName": "Md Basim Uddin Ahmed",
+        "shortName": "Basim Ahmed",
+        "shortFirstName": "Basim",
         "tagline": "Software Engineer & AI Researcher",
         "catchphrase": "I build exceptional digital products that drive reliable, innovative solutions, powered by 3 years of development and 2 years of AI/SE research experience.",
         "contact": "Contact Me"
