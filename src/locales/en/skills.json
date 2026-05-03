@@ -54,6 +54,7 @@
             "skill_items": [
                 ["Bash", "/icons/tech/bash.svg"],
                 ["Git", "/icons/tech/git.svg"],
+                ["OpenTelemetry", "/icons/tech/otel.svg"],
                 ["Google Analytics", "/icons/tech/google-analytics.svg"]
             ]
         }
