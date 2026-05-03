@@ -1,6 +1,17 @@
 {
     "section_title": "Compétences & Technologies",
     "categories": {
+        "AI": {
+            "name": "IA",
+            "icon_path": "/icons/ai.svg",
+            "skill_items": [
+                ["OpenAI SDK", "/icons/tech/openai.svg"],
+                ["ClaudeCode", "/icons/tech/claude-code.svg"],
+                ["Transformers", "/icons/tech/transformers.svg"],
+                ["LangGraph", "/icons/tech/langgraph.svg"],
+                ["RAG", "/icons/tech/rag.svg"]
+            ]
+        },
         "Languages": {
             "name": "Langages",
             "icon_path": "/icons/languages.svg",
