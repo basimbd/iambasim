@@ -11,14 +11,14 @@
         "fullName": "Md Basim Uddin Ahmed",
         "shortName": "Basim Ahmed",
         "shortFirstName": "Basim",
-        "tagline": "Ingénieur Logiciel & Chercheur en IA",
+        "tagline": "Chercheur en IA & Ingénieur Logiciel",
         "catchphrase": "Je conçois des produits numériques exceptionnels qui génèrent des solutions fiables et innovantes, fort de 3 ans d'expérience en développement et de 2 ans en recherche en IA/SE.",
         "contact": "Contactez-moi"
     },
     "about": {
         "title": "À Propos",
-        "paragraph1": "Je suis ingénieur logiciel et chercheur en IA appliquée, spécialisé dans les outils fondés sur les grands modèles de langage pour l'analyse de la sécurité des logiciels. Mon expertise conjugue le développement d'applications web modernes et l'expérimentation pratique des modèles de langage les plus avancés.",
-        "paragraph2": "Actuellement, j'achève mon master à l'Université York, où mon mémoire porte sur la détection de vulnérabilités assistée par des grands modèles de langage. Auparavant, j'ai travaillé pendant trois ans comme ingénieur logiciel chez Dynamic Solution Innovators Ltd. et Synopsys Inc., contribuant au développement de systèmes Java et Spring de grande envergure et de haute qualité.",
+        "paragraph1": "Je suis chercheur en IA appliquée et ingénieur logiciel, spécialisé dans les outils basés sur les grands modèles de langage (LLM) pour l'analyse de la sécurité logicielle et la génération de code agentique. Mon expertise conjugue le développement d'applications web modernes et l'expérimentation pratique des modèles de langage les plus avancés.",
+        "paragraph2": "Je termine actuellement mon M.Sc. à l'Université York, où mon mémoire porte sur la détection de vulnérabilités assistée par les LLM. En parallèle de mes études, je travaille avec Huawei Canada en tant que stagiaire en recherche pour développer un pipeline de génération de tests agentique à l'échelle du dépôt. Auparavant, j'ai travaillé pendant trois ans comme ingénieur logiciel chez Dynamic Solution Innovators Ltd. et Synopsys Inc., contribuant au développement de systèmes Java et Spring de grande envergure et de haute qualité.",
         "paragraph3": "Quand je ne travaille pas, j'aime voyager🌴, faire de la musique🎸 et tester de nouvelles technologies🧑‍💻."
     },
     "skills": {
