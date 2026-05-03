@@ -36,7 +36,9 @@
             "skill_items": [
                 ["PostgreSQL", "/icons/tech/postgresql.svg"],
                 ["Redis", "/icons/tech/redis.svg"],
-                ["Hibernate", "/icons/tech/hibernate.svg"]
+                ["Hibernate", "/icons/tech/hibernate.svg"],
+                ["SqlAlchemy", "/icons/tech/sqlalchemy.png"],
+                ["OpenSearch", "/icons/tech/opensearch.svg"]
             ]
         },
         "DevOps": {
