@@ -30,7 +30,8 @@ export default {
                 text: {
                     primary: '#0F172A',
                     secondary: '#475569',
-                    muted: '#94A3B8'
+                    muted: '#94A3B8',
+                    contrast: '#3A6A47'
                 },
 
                 // Dark theme colors
@@ -58,7 +59,8 @@ export default {
                     text: {
                         primary: '#F8FAFC',
                         secondary: '#E2E8F0',
-                        muted: '#94A3B8'
+                        muted: '#94A3B8',
+                        contrast: '#A8D5BA'
                     }
                 }
             }
@@ -95,6 +97,7 @@ export default {
                     '--tw-color-text-primary': theme('colors.text.primary'),
                     '--tw-color-text-secondary': theme('colors.text.secondary'),
                     '--tw-color-text-muted': theme('colors.text.muted'),
+                    '--tw-color-text-contrast': theme('colors.text.contrast'),
 
                     // RGB versions for opacity manipulation
                     '--tw-color-primary-rgb': hexToRgb(theme('colors.primary.DEFAULT')),
@@ -120,6 +123,7 @@ export default {
                     '--tw-color-dark-text-primary': theme('colors.dark.text.primary'),
                     '--tw-color-dark-text-secondary': theme('colors.dark.text.secondary'),
                     '--tw-color-dark-text-muted': theme('colors.dark.text.muted'),
+                    '--tw-color-dark-text-contrast': theme('colors.dark.text.contrast'),
 
                     // RGB versions for opacity manipulation
                     '--tw-color-dark-primary-rgb': hexToRgb(theme('colors.dark.primary.DEFAULT')),
