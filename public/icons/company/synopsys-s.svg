@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+  - Copyright (c) 2024 Synopsys, Inc. All rights reserved worldwide.
+  -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="40"
+   height="40"
+   viewBox="0 0 40 40"
+   preserveAspectRatio="xMidYMid meet"
+   version="1.1"
+   id="svg15"
+   sodipodi:docname="pluginIcon.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata19">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Synopsys Logo</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     id="namedview17"
+     showgrid="false"
+     inkscape:zoom="14.75"
+     inkscape:cx="19.457627"
+     inkscape:cy="20"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg15" />
+  <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title2">Synopsys Logo</title>
+  <desc
+     id="desc4">Created with Sketch.</desc>
+  <defs
+     id="defs6" />
+  <g
+     id="Page-1"
+     transform="matrix(2.25,0,0,2.25,2,2)"
+     style="fill:none;fill-rule:evenodd;stroke:none;stroke-width:1">
+    <g
+       id="ICONS---Small---LIGHT"
+       transform="translate(-3,-448)">
+      <g
+         id="Icons"
+         transform="translate(3)">
+        <g
+           id="Synopsys-Logo"
+           transform="translate(0,448)">
+          <g
+             id="Group-9">
+            <circle
+               id="Oval"
+               cx="8"
+               cy="8"
+               r="8"
+               style="fill:#5a2a82" />
+            <path
+               d="m 8.959033,4.4307571 c 0,-0.3814663 -0.1900929,-0.667411 -1.0304924,-0.667411 -0.8403996,0 -1.0302867,0.2859447 -1.0302867,0.667411 V 5.465575 c 0,0.3140636 0.1086244,0.6275069 0.4065188,0.8861597 L 10.151434,8.804284 c 0.40693,0.3403217 0.650718,0.7629326 0.650718,1.198776 l -2.06e-4,1.553157 C 10.801946,12.483315 9.7175527,13 7.9277176,13 5.9488184,13 4.9997943,12.551338 5,11.556217 v -1.348468 h 1.7896294 l -4.115e-4,1.294091 c 0,0.463549 0.3526181,0.735641 1.1384997,0.735641 0.7323923,0 1.0848047,-0.272092 1.0848047,-0.735641 l 4.115e-4,-1.375966 c 0,-0.3409424 -0.1359864,-0.599802 -0.5151434,-0.9401237 L 5.8679672,6.8830997 C 5.3797742,6.4609023 5.1088302,6.1333995 5.1088302,5.6295331 v -1.18513 C 5.1088302,3.4771947 6.1121665,3 7.9285406,3 9.9352131,3 10.748251,3.4771947 10.748251,4.3763801 l -2.06e-4,1.2533598 -1.789012,-2.068e-4 v -1.198776"
+               id="Fill-1-Copy"
+               inkscape:connector-curvature="0"
+               style="fill:#fffffe" />
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

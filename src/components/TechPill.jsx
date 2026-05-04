@@ -22,7 +22,11 @@ const techLogoMap = {
     'OpenAI SDK': '/icons/tech/openai.svg',
     'OpenAI': '/icons/tech/openai.svg',
     'Transformers': '/icons/tech/transformers.svg',
-    'HuggingFace': '/icons/tech/huggingface.svg'
+    'HuggingFace': '/icons/tech/huggingface.svg',
+    'ClaudeCode': '/icons/tech/claude-code.svg',
+    'Agent Skills': '/icons/tech/claude-skills.svg',
+    'OpenSearch': '/icons/tech/opensearch.svg',
+    'RAG': '/icons/tech/rag.svg'
 };
 
 export const TextPill = ({ tech }) => {

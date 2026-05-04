@@ -33,14 +33,21 @@ export default function Experience() {
                         <div className="short-underline mb-1">
                             <div className="flex flex-col items-start gap-2 
                             sm:flex-row sm:justify-between sm:items-center sm:gap-0">
-                                <div>
+                                <div className="flex items-center gap-2">
+                                    {job.company_logo && (
+                                        <img
+                                            src={job.company_logo}
+                                            alt={`${job.company_logo} logo`}
+                                            className="h-4 w-auto flex-shrink-0"
+                                        />
+                                    )}
                                     <a href={job.company_site} target="_blank" rel="noopener noreferrer"
                                         className="text-primary dark:text-dark-primary hover:underline">
-                                        {job.company}
+                                        <span className="leading-none">{job.company}</span>
                                     </a>
-                                    <span className="ml-2 text-xs text-text-secondary dark:text-dark-text-secondary">
+                                    <span className="text-xs text-text-secondary dark:text-dark-text-secondary flex items-center">
                                         <FaLocationDot className="w-3 h-3 mr-1 inline" />
-                                        <span>{job.location}</span>
+                                        <span className="leading-none">{job.location}</span>
                                     </span>
                                 </div>
                                 <span className="inline-flex items-center 

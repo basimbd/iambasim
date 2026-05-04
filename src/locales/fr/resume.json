@@ -3,7 +3,25 @@
     "profExperience": "Expérience Professionnelle",
     "jobs": [
         {
+            "title": "Stage de Recherche et Développement",
+            "company_logo": "/icons/company/huawei.svg",
+            "company": "Huawei Canada",
+            "company_site": "https://www.huawei.com/ca/",
+            "location": "Hybrid",
+            "period": "Aug 2025 - Present",
+            "introduction": "Développement de composants pour un pipeline de génération de tests agentique à l'échelle du dépôt, qui transforme les exigences SRS en scripts de test exécutables.",
+            "descriptions": [
+                "J'ai évalué les <strong>stratégies de récupération de code basées sur RAG</strong> pour le contexte du dépôt, révélant les limites des approches fondées uniquement sur la récupération.",
+                "J'ai analysé l'impact des <strong>cartes de code du dépôt</strong> sur la compréhension du contexte avec une consommation réduite de jetons.",
+                "J'ai conçu un <strong>cadre de journalisation flexible</strong> pour capturer les prompts, les réponses, les appels d'outils et les traces d'exécution des agents.",
+                "J'ai développé des <strong>critères d'étiquetage</strong> pour évaluer les étapes des LLM et identifier les modèles d'échec.",
+                "Je collabore avec une <strong>équipe d'ingénierie à l'étranger</strong> à distance et lors de visites sur site de courte durée à Huawei Beijing Research Institute."
+            ],
+            "techStack": ["ClaudeCode", "OpenAI SDK", "Agent Skills", "Python", "OpenSearch", "RAG"]
+        },
+        {
             "title": "Ingénieur Logiciel Associé",
+            "company_logo": "/icons/company/dsi.svg",
             "company": "Dynamic Solution Innovators (DSi)",
             "company_site": "https://www.dsinnovators.com",
             "location": "Dhaka, Bangladesh",
@@ -19,6 +37,7 @@
         },
         {
             "title": "Ingénieur Logiciel (Externe)",
+            "company_logo": "/icons/company/synopsys-s.svg",
             "company": "Synopsys Inc.",
             "company_site": "https://www.synopsys.com",
             "location": "Remote",
@@ -46,7 +65,7 @@
                 "J'ai organisé <strong>25 440 fonctions</strong>, incluant les <strong>instructions vulnérables</strong> et les <strong>informations contextuelles</strong>, liées aux vulnérabilités.",
                 "J'ai conçu et mis en œuvre un <strong>cadre de détection de vulnérabilités agentique</strong> pour évaluer divers LL sur la détection de vulnérabilités C/C++.",
                 "J'ai rendu le jeu de données <strong>publiquement disponible</strong> sur <a class=\"text-primary dark:text-dark-primary hover:underline\" href=\"https://huggingface.co/datasets/arag0rn/SecVulEval\" target=\"_blank\">HuggingFace - <span style=\"font-variant: small-caps;\">SecVulEval</span></a> pour une utilisation communautaire.",
-                "J'ai publié les détails de ce travail dans l'article <a class=\"text-primary dark:text-dark-primary hover:underline\" href=\"https://arxiv.org/abs/2505.19828\" target=\"_blank\"><strong><span style=\"font-variant: small-caps;\">SecVulEval</span>: Benchmarking LLMs for Real-World C/C++ Vulnerability Detection</strong></a>."
+                "Publié dans <strong>AIware 2026 - Benchmark & Dataset track</strong> intitulé <a class=\"text-primary dark:text-dark-primary hover:underline\" href=\"https://2026.aiwareconf.org/details/aiware-2026-benchmark---dataset-track/11/SecVulEval-Context-Aware-Benchmarking-of-LLMs-for-Vulnerability-Detection\" target=\"_blank\"><strong><span style=\"font-variant: small-caps;\">SecVulEval</span>: Context-Aware Benchmarking of LLMs for Vulnerability Detection</strong></a>. [ <a class=\"text-primary dark:text-dark-primary hover:underline\" href=\"https://arxiv.org/abs/2505.19828\" target=\"_blank\">Pré-print</a> ]"
             ],
             "techStack": ["Python", "Transformers", "OpenAI SDK"]
         },

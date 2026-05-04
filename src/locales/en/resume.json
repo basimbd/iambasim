@@ -3,7 +3,25 @@
     "profExperience": "Professional Experience",
     "jobs": [
         {
+            "title": "Research & Development Intern",
+            "company_logo": "/icons/company/huawei.svg",
+            "company": "Huawei Canada",
+            "company_site": "https://www.huawei.com/ca/",
+            "location": "Hybrid",
+            "period": "Aug 2025 - Present",
+            "introduction": "Building components for a repo-wide agentic test generation pipeline that transforms SRS requirements into executable test scripts.",
+            "descriptions": [
+                "Evaluated <strong>RAG-based code retrieval strategies</strong> for repository context, revealing limitations of retrieval-only approaches.",
+                "Analyzed the impact of <strong>repository code maps</strong> on context awareness with reduced token consumption.",
+                "Designed a <strong>flexible logging framework</strong> to capture prompts, responses, tool calls, and agent execution traces.",
+                "Developed <strong>labeling criteria</strong> to assess LLM steps and identify failure patterns.",
+                "Collaborating with an <strong>overseas engineering team</strong> remotely and on-site visit to the Huawei Beijing Research Institute."
+            ],
+            "techStack": ["ClaudeCode", "OpenAI SDK", "Agent Skills", "Python", "OpenSearch", "RAG"]
+        },
+        {
             "title": "Associate Software Engineer",
+            "company_logo": "/icons/company/dsi.svg",
             "company": "Dynamic Solution Innovators (DSi)",
             "company_site": "https://www.dsinnovators.com",
             "location": "Dhaka, Bangladesh",
@@ -19,6 +37,7 @@
         },
         {
             "title": "Software Engineer (External)",
+            "company_logo": "/icons/company/synopsys-s.svg",
             "company": "Synopsys Inc.",
             "company_site": "https://www.synopsys.com",
             "location": "Remote",
@@ -46,7 +65,7 @@
                 "Curated <strong>25,440 functions</strong>, including <strong>vulnerable statements</strong> and <strong>contextual information</strong>, related to the vulnerabilities.",
                 "Designed and implemented an <strong>agentic vulnerability detection framework</strong> to evaluate various LLMs on C/C++ vulnerability detection.",
                 "Made the dataset <strong>publicly available</strong> at <a class=\"text-primary dark:text-dark-primary hover:underline\" href=\"https://huggingface.co/datasets/arag0rn/SecVulEval\" target=\"_blank\">HuggingFace - <span style=\"font-variant: small-caps;\">SecVulEval</span></a> for community use.",
-                "Published the details of the work in the paper <a class=\"text-primary dark:text-dark-primary hover:underline\" href=\"https://arxiv.org/abs/2505.19828\" target=\"_blank\"><strong><span style=\"font-variant: small-caps;\">SecVulEval</span>: Benchmarking LLMs for Real-World C/C++ Vulnerability Detection</strong></a>."
+                "Published in <strong>AIware 2026 - Benchmark & Dataset track</strong> entitled <a class=\"text-primary dark:text-dark-primary hover:underline\" href=\"https://2026.aiwareconf.org/details/aiware-2026-benchmark---dataset-track/11/SecVulEval-Context-Aware-Benchmarking-of-LLMs-for-Vulnerability-Detection\" target=\"_blank\"><strong><span style=\"font-variant: small-caps;\">SecVulEval</span>: Context-Aware Benchmarking of LLMs for Vulnerability Detection</strong></a>. [ <a class=\"text-primary dark:text-dark-primary hover:underline\" href=\"https://arxiv.org/abs/2505.19828\" target=\"_blank\">Pre-print </a>]"
             ],
             "techStack": ["Python", "Transformers", "OpenAI SDK"]
         },
