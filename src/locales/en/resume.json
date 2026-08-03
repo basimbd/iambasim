@@ -15,7 +15,7 @@
                 "Analyzed the impact of <strong>repository code maps</strong> on context awareness with reduced token consumption.",
                 "Designed a <strong>flexible logging framework</strong> to capture prompts, responses, tool calls, and agent execution traces.",
                 "Developed <strong>labeling criteria</strong> to assess LLM steps and identify failure patterns.",
-                "Collaborating with an <strong>overseas engineering team</strong> remotely and on-site visit to the Huawei Beijing Research Institute."
+                "Collaborated with an <strong>overseas engineering team</strong> remotely and on-site visit to the Huawei Beijing Research Institute."
             ],
             "techStack": ["ClaudeCode", "OpenAI SDK", "Agent Skills", "Python", "OpenSearch", "RAG"]
         },
@@ -65,7 +65,7 @@
                 "Curated <strong>25,440 functions</strong>, including <strong>vulnerable statements</strong> and <strong>contextual information</strong>, related to the vulnerabilities.",
                 "Designed and implemented an <strong>agentic vulnerability detection framework</strong> to evaluate various LLMs on C/C++ vulnerability detection.",
                 "Made the dataset <strong>publicly available</strong> at <a class=\"text-primary dark:text-dark-primary hover:underline\" href=\"https://huggingface.co/datasets/arag0rn/SecVulEval\" target=\"_blank\">HuggingFace - <span style=\"font-variant: small-caps;\">SecVulEval</span></a> for community use.",
-                "Published in <strong>AIware 2026 - Benchmark & Dataset track</strong> entitled <a class=\"text-primary dark:text-dark-primary hover:underline\" href=\"https://2026.aiwareconf.org/details/aiware-2026-benchmark---dataset-track/11/SecVulEval-Context-Aware-Benchmarking-of-LLMs-for-Vulnerability-Detection\" target=\"_blank\"><strong><span style=\"font-variant: small-caps;\">SecVulEval</span>: Context-Aware Benchmarking of LLMs for Vulnerability Detection</strong></a>. [ <a class=\"text-primary dark:text-dark-primary hover:underline\" href=\"https://arxiv.org/abs/2505.19828\" target=\"_blank\">Pre-print </a>]"
+                "Published in <strong>AIware 2026 - Benchmark & Dataset track</strong> entitled <a class=\"text-primary dark:text-dark-primary hover:underline\" href=\"https://doi.org/10.1145/3805760.3814932\" target=\"_blank\"><strong><span style=\"font-variant: small-caps;\">SecVulEval</span>: Context-Aware Benchmarking of LLMs for Vulnerability Detection</strong></a>. [<small>🏆 Awarded Best Paper in Benchmark & Dataset Track</small>]"
             ],
             "techStack": ["Python", "Transformers", "OpenAI SDK"]
         },
