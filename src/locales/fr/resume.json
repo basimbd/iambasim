@@ -11,11 +11,11 @@
             "period": "Aug 2025 - Present",
             "introduction": "Développement de composants pour un pipeline de génération de tests agentique à l'échelle du dépôt, qui transforme les exigences SRS en scripts de test exécutables.",
             "descriptions": [
-                "J'ai évalué les <strong>stratégies de récupération de code basées sur RAG</strong> pour le contexte du dépôt, révélant les limites des approches fondées uniquement sur la récupération.",
-                "J'ai analysé l'impact des <strong>cartes de code du dépôt</strong> sur la compréhension du contexte avec une consommation réduite de jetons.",
-                "J'ai conçu un <strong>cadre de journalisation flexible</strong> pour capturer les prompts, les réponses, les appels d'outils et les traces d'exécution des agents.",
-                "J'ai développé des <strong>critères d'étiquetage</strong> pour évaluer les étapes des LLM et identifier les modèles d'échec.",
-                "Je collabore avec une <strong>équipe d'ingénierie à l'étranger</strong> à distance et lors de visites sur site de courte durée à Huawei Beijing Research Institute."
+                "Évalué les <strong>stratégies de récupération de code basées sur RAG</strong> pour le contexte du dépôt, mettant en évidence les limites des approches fondées uniquement sur la récupération.",
+                "Analysé l'impact des <strong>cartes de code du dépôt</strong> sur la compréhension du contexte, avec une consommation de jetons réduite.",
+                "Conçu un <strong>cadre de journalisation flexible</strong> pour capturer les prompts, les réponses, les appels d'outils et les traces d'exécution des agents.",
+                "Développé des <strong>critères d'étiquetage</strong> pour évaluer les étapes des LLM et identifier les schémas d'échec.",
+                "Collaboré avec une <strong>équipe d'ingénierie basée à l'étranger</strong>, à distance et lors de courtes visites sur site au Huawei Beijing Research Institute."
             ],
             "techStack": ["ClaudeCode", "OpenAI SDK", "Agent Skills", "Python", "OpenSearch", "RAG"]
         },
@@ -28,10 +28,10 @@
             "period": "Jul 2021 - Jul 2024",
             "introduction": "J'ai travaillé sur le projet HEMS, un système national de gestion des examens.",
             "descriptions": [
-                "J'ai contribué à la conception initiale de la <strong>base de données</strong> de l'application.",
-                "J'ai implémenté le module qui traite les notes d'environ <strong>30,000 étudiants</strong> par an.",
-                "J'ai intégré <strong>2 passerelles de paiement</strong> gérant des transactions d'environ <strong>4 millions BDT</strong> par an.",
-                "J'ai implémenté des API REST pour applications mobiles, incluant <strong>l'authentification JWT</strong>."
+                "Contribué à la conception initiale de la <strong>base de données</strong> de l'application.",
+                "Implémenté le module qui traite les notes d'environ <strong>30,000 étudiants</strong> par an.",
+                "Intégré <strong>2 passerelles de paiement</strong> gérant des transactions d'environ <strong>4 millions BDT</strong> par an.",
+                "Implémenté des API REST pour applications mobiles, incluant <strong>l'authentification JWT</strong>."
             ],
             "techStack": ["Java", "SpringBoot", "PostgreSQL", "Redis"]
         },
@@ -44,9 +44,9 @@
             "period": "Aug 2023 - Jul 2024",
             "introduction": "J'ai collaboré à distance avec Synopsys Inc. en tant qu'employé offshore de DSi. J'ai travaillé sur le projet Synopsys-Detect (désormais renommé BlackDuck-Detect), un outil d'analyse de composition logicielle qui inspecte un dépôt pour détecter les vulnérabilités de composants, de sécurité et de licences issues des dépendances du projet.",
             "descriptions": [
-                "J'ai travaillé sur <strong>la migration du pipeline CI/CD du projet Detect</strong> de Jenkins vers GitHub Actions.",
-                "<strong>J'ai trouvé et <a class=\"text-primary dark:text-dark-primary hover:underline\" href=\"https://github.com/blackducksoftware/common-gradle-plugin/pull/26\" target=\"_blank\">réparé</a> 2 bugs cachés</strong> dans le CI/CD actuel qui ont corrigé les tâches cron et le versionnement des artefacts.",
-                "<strong>J'ai réparé le tableau de bord analytique défaillant</strong> en migrant les données analytiques du projet de Google UA vers le protocole GA4."
+                "Travaillé sur <strong>la migration du pipeline CI/CD du projet Detect</strong> de Jenkins vers GitHub Actions.",
+                "<strong>Trouvé et <a class=\"text-primary dark:text-dark-primary hover:underline\" href=\"https://github.com/blackducksoftware/common-gradle-plugin/pull/26\" target=\"_blank\">réparé</a> 2 bugs cachés</strong> dans le CI/CD actuel qui ont corrigé les tâches cron et le versionnement des artefacts.",
+                "<strong>Réparé le tableau de bord analytique défaillant</strong> en migrant les données analytiques du projet de Google UA vers le protocole GA4."
             ],
             "techStack": ["Java", "Gradle", "Jenkins", "GitHub Actions", "Google Analytics"]
         }
@@ -61,10 +61,10 @@
             "location": "Toronto, Canada",
             "introduction": "Dans ce projet, j'ai construit un jeu de données de référence de vulnérabilités C/C++ appelé <span style=\"font-variant: small-caps;\">SecVulEval</span>. Il résout le manque de granularité au niveau des instructions et d'informations contextuelles dans les jeux de données précédents.",
             "descriptions": [
-                "J'ai collecté <strong>5 867 vulnérabilités C/C++ du monde réel</strong>.",
-                "J'ai organisé <strong>25 440 fonctions</strong>, incluant les <strong>instructions vulnérables</strong> et les <strong>informations contextuelles</strong>, liées aux vulnérabilités.",
-                "J'ai conçu et mis en œuvre un <strong>cadre de détection de vulnérabilités agentique</strong> pour évaluer divers LL sur la détection de vulnérabilités C/C++.",
-                "J'ai rendu le jeu de données <strong>publiquement disponible</strong> sur <a class=\"text-primary dark:text-dark-primary hover:underline\" href=\"https://huggingface.co/datasets/arag0rn/SecVulEval\" target=\"_blank\">HuggingFace - <span style=\"font-variant: small-caps;\">SecVulEval</span></a> pour une utilisation communautaire.",
+                "Collecté <strong>5 867 vulnérabilités C/C++ du monde réel</strong>.",
+                "Organisé <strong>25 440 fonctions</strong>, incluant les <strong>instructions vulnérables</strong> et les <strong>informations contextuelles</strong>, liées aux vulnérabilités.",
+                "Conçu et mis en œuvre un <strong>cadre de détection de vulnérabilités agentique</strong> pour évaluer divers LL sur la détection de vulnérabilités C/C++.",
+                "Rendu le jeu de données <strong>publiquement disponible</strong> sur <a class=\"text-primary dark:text-dark-primary hover:underline\" href=\"https://huggingface.co/datasets/arag0rn/SecVulEval\" target=\"_blank\">HuggingFace - <span style=\"font-variant: small-caps;\">SecVulEval</span></a> pour une utilisation communautaire.",
                 "Publié dans <strong>AIware 2026 - Benchmark & Dataset track</strong> intitulé <a class=\"text-primary dark:text-dark-primary hover:underline\" href=\"https://2026.aiwareconf.org/details/aiware-2026-benchmark---dataset-track/11/SecVulEval-Context-Aware-Benchmarking-of-LLMs-for-Vulnerability-Detection\" target=\"_blank\"><strong><span style=\"font-variant: small-caps;\">SecVulEval</span>: Context-Aware Benchmarking of LLMs for Vulnerability Detection</strong></a>. [ <a class=\"text-primary dark:text-dark-primary hover:underline\" href=\"https://arxiv.org/abs/2505.19828\" target=\"_blank\">Pré-print</a> ]"
             ],
             "techStack": ["Python", "Transformers", "OpenAI SDK"]
@@ -77,7 +77,7 @@
             "location": "Toronto, Canada",
             "introduction": "Les outils d'analyse statique sont largement adoptés dans l'industrie pour détecter les bogues dans les systèmes logiciels. Cependant, il est important que les outils eux-mêmes soient fiables, c'est-à-dire qu'ils ne manquent pas de bogues ou ne produisent pas de faux positifs. Dans ce projet, j'ai créé un cadre de test métamorphique basé sur les LLM pour détecter les incohérences dans les outils d'analyse statique Java.",
             "descriptions": [
-                "J'ai analysé 3 outils d'analyse statique Java populaires : <strong>SpotBugs, ErrorProne et PMD</strong>.",
+                "Analysé 3 outils d'analyse statique Java populaires : <strong>SpotBugs, ErrorProne et PMD</strong>.",
                 "Conçu et mis en œuvre un <strong>cadre de test métamorphique basé sur les LLM</strong> pour découvrir les implémentations de règles défectueuses dans les outils d'analyse statique Java.",
                 "Évalué 5 LLM de codage largement utilisés—<strong>GPT-4o, CodeLlama-34B, Codestral-22B, DeepSeek-Coder-33B et Qwen2.5-Coder-32B.</strong>—sur leur capacité à découvrir des bogues dans les outils d'analyse statique.",
                 "Découvert un total de <strong>42 implémentations de règles défectueuses</strong> dans les 3 outils. Tous les bogues ont été signalés aux développeurs respectifs."
