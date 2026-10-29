@@ -9,15 +9,15 @@
             "company_site": "https://www.huawei.com/ca/",
             "location": "Canada (Remote)",
             "period": "Août 2025 - Sept. 2026",
-            "introduction": "Développement de composants pour un pipeline de génération de tests agentique à l'échelle du dépôt, qui transforme les exigences SRS en scripts de test exécutables.",
+            "introduction": "J’ai développé des composants Python pour un cadre agentique de génération de tests à l’échelle du dépôt, transformant les exigences logicielles et le code du dépôt en scripts de test exécutables.",
             "descriptions": [
-                "Évalué les <strong>stratégies de récupération de code basées sur RAG</strong> pour le contexte du dépôt, mettant en évidence les limites des approches fondées uniquement sur la récupération.",
-                "Analysé l'impact des <strong>cartes de code du dépôt</strong> sur la compréhension du contexte, avec une consommation de jetons réduite.",
-                "Conçu un <strong>cadre de journalisation flexible</strong> pour capturer les prompts, les réponses, les appels d'outils et les traces d'exécution des agents.",
-                "Développé des <strong>critères d'étiquetage</strong> pour évaluer les étapes des LLM et identifier les schémas d'échec.",
-                "Collaboré avec une <strong>équipe d'ingénierie basée à l'étranger</strong>, à distance et lors de courtes visites sur site au Huawei Beijing Research Institute."
+                "Intégré <strong>Claude Code, le SDK OpenAI, OpenSearch et le RAG</strong> ; évalué la recherche de code, la cartographie du code et l’efficacité de l’utilisation des jetons.",
+                "Développé un framework de proxy direct pour enregistrer <strong>les prompts, les réponses, les appels d’outils et les traces d’agents liées aux sessions</strong>.",
+                "Développé un <strong>framework d’évaluation des traces fondé sur des règles et des LLM</strong> à partir des traces Langfuse.",
+                "Diagnostiqué, documenté et corrigé des défaillances liées à l’utilisation des outils, à la prise en compte du contexte, au respect des instructions et à la cohérence des résultats.",
+                "Collaboré à distance et sur place avec l’équipe d’ingénierie et de recherche de Huawei à Pékin."
             ],
-            "techStack": ["ClaudeCode", "OpenAI SDK", "Agent Skills", "Python", "OpenSearch", "RAG"]
+            "techStack": ["Python", "ClaudeCode", "OpenAI SDK", "OpenSearch", "RAG", "Opik", "Langfuse", "OpenTelemetry"]
         },
         {
             "title": "Ingénieur Logiciel Associé",
@@ -26,14 +26,15 @@
             "company_site": "https://www.dsinnovators.com",
             "location": "Dhaka, Bangladesh",
             "period": "Jul 2021 - Jul 2024",
-            "introduction": "J'ai travaillé sur le projet HEMS, un système national de gestion des examens.",
+            "introduction": "J’ai développé des services backend pour HEMS, une plateforme nationale de gestion des examens.",
             "descriptions": [
-                "Contribué à la conception initiale de la <strong>base de données</strong> de l'application.",
-                "Implémenté le module qui traite les notes d'environ <strong>30,000 étudiants</strong> par an.",
-                "Intégré <strong>2 passerelles de paiement</strong> gérant des transactions d'environ <strong>4 millions BDT</strong> par an.",
-                "Implémenté des API REST pour applications mobiles, incluant <strong>l'authentification JWT</strong>."
+                "Développé des <strong>API REST Java/Spring Boot</strong> et des fonctionnalités backend avec <strong>PostgreSQL</strong> pour HEMS.",
+                "Conçu les services backend et les bases de données selon les besoins des clients.",
+                "Développé des traitements de notation, de calcul des résultats et de génération de rapports pour environ <strong>30 000 étudiants par an</strong>.",
+                "Intégré <strong>deux passerelles de paiement</strong> traitant environ <strong>4 millions de BDT de transactions par an</strong>.",
+                "Créé des API REST pour les applications mobiles avec <strong>authentification JWT</strong>."
             ],
-            "techStack": ["Java", "SpringBoot", "PostgreSQL", "Redis"]
+            "techStack": ["Java", "SpringBoot", "PostgreSQL", "Hibernate", "Redis", "REST APIs", "Git", "Linux"]
         },
         {
             "title": "Ingénieur Logiciel (Externe)",
@@ -42,24 +43,25 @@
             "company_site": "https://www.synopsys.com",
             "location": "Remote",
             "period": "Aug 2023 - Jul 2024",
-            "introduction": "J'ai collaboré à distance avec Synopsys Inc. en tant qu'employé offshore de DSi. J'ai travaillé sur le projet Synopsys-Detect (désormais renommé BlackDuck-Detect), un outil d'analyse de composition logicielle qui inspecte un dépôt pour détecter les vulnérabilités de composants, de sécurité et de licences issues des dépendances du projet.",
+            "introduction": "J’ai travaillé à distance pour Synopsys Inc. dans le cadre d’une mission externe via DSi, en contribuant à Black Duck Detect, un outil d’analyse de composition logicielle qui identifie les risques liés aux composants, à la sécurité et aux licences des dépendances.",
             "descriptions": [
-                "Travaillé sur <strong>la migration du pipeline CI/CD du projet Detect</strong> de Jenkins vers GitHub Actions.",
-                "<strong>Trouvé et <a class=\"text-primary dark:text-dark-primary hover:underline\" href=\"https://github.com/blackducksoftware/common-gradle-plugin/pull/26\" target=\"_blank\">réparé</a> 2 bugs cachés</strong> dans le CI/CD actuel qui ont corrigé les tâches cron et le versionnement des artefacts.",
-                "<strong>Réparé le tableau de bord analytique défaillant</strong> en migrant les données analytiques du projet de Google UA vers le protocole GA4."
+                "Contribué en <strong>Java, Groovy et Gradle</strong> à Black Duck Detect.",
+                "Migré le <strong>pipeline CI/CD du projet Detect de Jenkins vers GitHub Actions</strong>.",
+                "<strong>Diagnostiqué et <a class=\"text-primary dark:text-dark-primary hover:underline\" href=\"https://github.com/blackducksoftware/common-gradle-plugin/pull/26\" target=\"_blank\">corrigé</a> deux anomalies</strong> touchant les tâches planifiées et la gestion des versions des artefacts.",
+                "Migré le suivi analytique de <strong>Google Universal Analytics vers GA4</strong> et remis en service un tableau de bord de reporting."
             ],
-            "techStack": ["Java", "Gradle", "Jenkins", "GitHub Actions", "Google Analytics"]
+            "techStack": ["Java", "Groovy", "Gradle", "Jenkins", "GitHub Actions", "Google Analytics 4"]
         }
     ],
     "researchExperience": "Expérience de Recherche",
     "researchProjects": [
         {
-            "title": "Banc d'essai de détection de vulnérabilités C/C++ basé sur les LLM",
+            "title": "Banc d’essai de détection de vulnérabilités C/C++ basé sur les LLM",
             "period": "Dec 2024 - May 2025",
             "company": "Université York",
             "company_site": "https://www.yorku.ca",
             "location": "Toronto, Canada",
-            "introduction": "Dans ce projet, j'ai construit un jeu de données de référence de vulnérabilités C/C++ appelé <span style=\"font-variant: small-caps;\">SecVulEval</span>. Il résout le manque de granularité au niveau des instructions et d'informations contextuelles dans les jeux de données précédents.",
+            "introduction": "Dans ce projet, j’ai construit un jeu de données de référence de vulnérabilités C/C++ appelé <span style=\"font-variant: small-caps;\">SecVulEval</span>. Il résout le manque de granularité au niveau des instructions et d’informations contextuelles dans les jeux de données précédents.",
             "descriptions": [
                 "Collecté <strong>5 867 vulnérabilités C/C++ du monde réel</strong>.",
                 "Organisé <strong>25 440 fonctions</strong>, incluant les <strong>instructions vulnérables</strong> et les <strong>informations contextuelles</strong>, liées aux vulnérabilités.",
@@ -70,16 +72,16 @@
             "techStack": ["Python", "Transformers", "OpenAI SDK"]
         },
         {
-            "title": "Cadre de détection de bogues pour les outils d'analyse statique Java avec les LLM",
+            "title": "Cadre de détection de bogues pour les outils d’analyse statique Java avec les LLM",
             "period": "Mar 2025 - Jul 2025",
             "company": "Université York",
             "company_site": "https://www.yorku.ca",
             "location": "Toronto, Canada",
-            "introduction": "Les outils d'analyse statique sont largement adoptés dans l'industrie pour détecter les bogues dans les systèmes logiciels. Cependant, il est important que les outils eux-mêmes soient fiables, c'est-à-dire qu'ils ne manquent pas de bogues ou ne produisent pas de faux positifs. Dans ce projet, j'ai créé un cadre de test métamorphique basé sur les LLM pour détecter les incohérences dans les outils d'analyse statique Java.",
+            "introduction": "Les outils d’analyse statique sont largement adoptés dans l’industrie pour détecter les bogues dans les systèmes logiciels. Cependant, il est important que les outils eux-mêmes soient fiables, c’est-à-dire qu’ils ne manquent pas de bogues ou ne produisent pas de faux positifs. Dans ce projet, j’ai créé un cadre de test métamorphique basé sur les LLM pour détecter les incohérences dans les outils d’analyse statique Java.",
             "descriptions": [
-                "Analysé 3 outils d'analyse statique Java populaires : <strong>SpotBugs, ErrorProne et PMD</strong>.",
-                "Conçu et mis en œuvre un <strong>cadre de test métamorphique basé sur les LLM</strong> pour découvrir les implémentations de règles défectueuses dans les outils d'analyse statique Java.",
-                "Évalué 5 LLM de codage largement utilisés—<strong>GPT-4o, CodeLlama-34B, Codestral-22B, DeepSeek-Coder-33B et Qwen2.5-Coder-32B.</strong>—sur leur capacité à découvrir des bogues dans les outils d'analyse statique.",
+                "Analysé 3 outils d’analyse statique Java populaires : <strong>SpotBugs, ErrorProne et PMD</strong>.",
+                "Conçu et mis en œuvre un <strong>cadre de test métamorphique basé sur les LLM</strong> pour découvrir les implémentations de règles défectueuses dans les outils d’analyse statique Java.",
+                "Évalué 5 LLM de codage largement utilisés—<strong>GPT-4o, CodeLlama-34B, Codestral-22B, DeepSeek-Coder-33B et Qwen2.5-Coder-32B.</strong>—sur leur capacité à découvrir des bogues dans les outils d’analyse statique.",
                 "Découvert un total de <strong>42 implémentations de règles défectueuses</strong> dans les 3 outils. Tous les bogues ont été signalés aux développeurs respectifs."
             ],
             "techStack": ["Python", "Java", "Transformers", "OpenAI SDK", "SpotBugs", "ErrorProne", "PMD"]
@@ -105,7 +107,7 @@
             "total_grade": "4.00",
             "acquired_grade": "3.73",
             "location": "Sylhet, Bangladesh",
-            "details": "Axes de recherche : modélisation thématique et analyse des tendances de l'actualité en bengali."
+            "details": "Axes de recherche : modélisation thématique et analyse des tendances de l’actualité en bengali."
         }
     ],
     "gradeLabel": "Moyenne cumulative",

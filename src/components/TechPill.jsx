@@ -3,10 +3,12 @@ const techLogoMap = {
     'Java': '/icons/tech/java.svg',
     'SpringBoot': '/icons/tech/spring-boot.svg',
     'PostgreSQL': '/icons/tech/postgresql.svg',
+    'Hibernate': '/icons/tech/hibernate.svg',
     'Gradle': '/icons/tech/gradle.svg',
     'Jenkins': '/icons/tech/jenkins.svg',
     'GitHub Actions': '/icons/tech/github-actions.svg',
     'Google Analytics': '/icons/tech/google-analytics.svg',
+    'Google Analytics 4': '/icons/tech/google-analytics.svg',
     'Python': '/icons/tech/python.svg',
     'TypeScript': '/icons/tech/typescript.svg',
     'Next.js': '/icons/tech/nextjs.svg',
@@ -15,6 +17,7 @@ const techLogoMap = {
     'Node.js': '/icons/tech/nodejs.svg',
     'MongoDB': '/icons/tech/mongodb.svg',
     'Redis': '/icons/tech/redis.svg',
+    'Groovy': '/icons/tech/groovy.svg',
     'AWS': '/icons/tech/aws.svg',
     'Git': '/icons/tech/git.svg',
     'PMD': '/icons/tech/pmd.svg',
@@ -26,6 +29,12 @@ const techLogoMap = {
     'ClaudeCode': '/icons/tech/claude-code.svg',
     'Agent Skills': '/icons/tech/claude-skills.svg',
     'OpenSearch': '/icons/tech/opensearch.svg',
+    'REST API': '/icons/tech/rest-api.svg',
+    'REST APIs': '/icons/tech/rest-api.svg',
+    'OpenTelemetry': '/icons/tech/otel.svg',
+    'Linux': '/icons/tech/linux.svg',
+    'Opik': '/icons/tech/opik.svg',
+    'Langfuse': '/icons/tech/langfuse.svg',
     'RAG': '/icons/tech/rag.svg'
 };
 

@@ -9,15 +9,15 @@
             "company_site": "https://www.huawei.com/ca/",
             "location": "Canada (Remote)",
             "period": "Aug 2025 - Sep 2026",
-            "introduction": "Building components for a repo-wide agentic test generation pipeline that transforms SRS requirements into executable test scripts.",
+            "introduction": "Developed Python components for a repository-wide agentic test generation framework that transforms software requirements and repository code into executable test scripts.",
             "descriptions": [
-                "Evaluated <strong>RAG-based code retrieval strategies</strong> for repository context, revealing limitations of retrieval-only approaches.",
-                "Analyzed the impact of <strong>repository code maps</strong> on context awareness with reduced token consumption.",
-                "Designed a <strong>flexible logging framework</strong> to capture prompts, responses, tool calls, and agent execution traces.",
-                "Developed <strong>labeling criteria</strong> to assess LLM steps and identify failure patterns.",
-                "Collaborated with an <strong>overseas engineering team</strong> remotely and on-site visit to the Huawei Beijing Research Institute."
+                "Integrated <strong>Claude Code, the OpenAI SDK, OpenSearch, and RAG</strong>; evaluated code retrieval, code maps, and token use efficiency.",
+                "Built a forward-proxy framework to capture <strong>prompts, responses, tool calls, and session-linked agent traces</strong>.",
+                "Built <strong>rule-based and LLM-based trace evaluation framework</strong> using Langfuse traces.",
+                "Debugged, documented, and resolved failures in tool use, context awareness, instruction following, and output consistency.",
+                "Collaborated remotely and on site with Huawei's Beijing engineering and research team."
             ],
-            "techStack": ["ClaudeCode", "OpenAI SDK", "Agent Skills", "Python", "OpenSearch", "RAG"]
+            "techStack": ["Python", "ClaudeCode", "OpenAI SDK", "OpenSearch", "RAG", "Opik", "Langfuse", "OpenTelemetry"]
         },
         {
             "title": "Associate Software Engineer",
@@ -26,14 +26,15 @@
             "company_site": "https://www.dsinnovators.com",
             "location": "Dhaka, Bangladesh",
             "period": "Jul 2021 - Jul 2024",
-            "introduction": "Here I worked on the HEMS project which is a nation-wide examination management system.",
+            "introduction": "Developed backend services for HEMS, a nationwide examination-management platform.",
             "descriptions": [
-                "Contributed to the initial <strong>database design</strong> of the application.",
-                "Implemented the module that processes the grades of around <strong>30,000 students</strong> per year.",
-                "Integrated <strong>2 payment gateways</strong> managing transactions of around <strong>4 million BDT</strong> per year.",
-                "Implemented REST APIs for mobile apps including <strong>JWT authentication</strong>."
+                "Developed <strong>Java/Spring Boot REST APIs</strong> and <strong>PostgreSQL</strong> backend functionality for HEMS.",
+                "Translated client requirements into backend and database designs.",
+                "Built grading, result-processing, and reporting workflows for approximately <strong>30,000 students annually</strong>.",
+                "Integrated <strong>two payment gateways</strong> handling approximately <strong>BDT 4 million in annual transactions</strong>.",
+                "Implemented mobile-client REST APIs with <strong>JWT authentication</strong>."
             ],
-            "techStack": ["Java", "SpringBoot", "PostgreSQL", "Redis"]
+            "techStack": ["Java", "SpringBoot", "PostgreSQL", "Hibernate", "Redis", "REST APIs", "Git", "Linux"]
         },
         {
             "title": "Software Engineer (External)",
@@ -42,13 +43,14 @@
             "company_site": "https://www.synopsys.com",
             "location": "Remote",
             "period": "Aug 2023 - Jul 2024",
-            "introduction": "Remotely worked with Synopsys Inc. as an offshore employee from DSi. Worked on Synopsys-Detect project (now renamed to BlackDuck-Detect) which is a software compositional analysis tool. It scans a software repository to find component, security, and license vulnerabilities resulting from project dependencies.",
+            "introduction": "Worked remotely on an external assignment through DSi with Synopsys Inc., contributing to Black Duck Detect, a software composition analysis tool that identifies dependency-related component, security, and license risks.",
             "descriptions": [
-                "Worked on <strong>migrating the Detect project CI/CD</strong> pipeline from Jenkins to GitHub Actions.",
-                "<strong>Found and <a class=\"text-primary dark:text-dark-primary hover:underline\" href=\"https://github.com/blackducksoftware/common-gradle-plugin/pull/26\" target=\"_blank\">fixed</a> 2 hidden bugs</strong> in the current CI/CD that fixed cron jobs and artifact versioning.",
-                "<strong>Fixed the broken analytics dashboard</strong> by migrating project analytics from Google UA to G44 protocol."
+                "Contributed <strong>Java, Groovy, and Gradle</strong> changes to Black Duck Detect.",
+                "Migrated the Detect project <strong>CI/CD pipeline from Jenkins to GitHub Actions</strong>.",
+                "<strong>Diagnosed and <a class=\"text-primary dark:text-dark-primary hover:underline\" href=\"https://github.com/blackducksoftware/common-gradle-plugin/pull/26\" target=\"_blank\">fixed</a> two defects</strong> affecting scheduled jobs and artifact versioning.",
+                "Migrated analytics from <strong>Google Universal Analytics to GA4</strong>, restoring a broken reporting dashboard."
             ],
-            "techStack": ["Java", "Gradle", "Jenkins", "GitHub Actions", "Google Analytics"]
+            "techStack": ["Java", "Groovy", "Gradle", "Jenkins", "GitHub Actions", "Google Analytics 4"]
         }
     ],
     "researchExperience": "Research Experience",
