@@ -54,9 +54,9 @@ export default function ContactForm() {
                                 <h3 className="text-lg font-medium text-text-primary dark:text-dark-text-primary">
                                     {t('contact.email')}
                                 </h3>
-                                <a href="mailto:mbahmed@yorku.ca" className="text-primary dark:text-dark-primary"
+                                <a href="mailto:basimuddintuhin@gmail.com" className="text-primary dark:text-dark-primary"
                                     title={`Email ${t('hero.shortFirstName')}`}>
-                                    mbahmed@yorku.ca
+                                    basimuddintuhin@gmail.com
                                 </a>
                             </div>
                         </div>

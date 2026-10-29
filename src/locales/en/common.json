@@ -11,14 +11,14 @@
         "fullName": "Md Basim Uddin Ahmed",
         "shortName": "Basim Ahmed",
         "shortFirstName": "Basim",
-        "tagline": "AI Researcher & Software Engineer",
-        "catchphrase": "I build exceptional digital products that drive reliable, innovative solutions, powered by 3 years of development and 2 years of AI/SE research experience.",
+        "tagline": "Applied AI Researcher & Software Engineer",
+        "catchphrase": "I combine three years of backend engineering with two years of research on LLM agents, software security, and automated testing.",
         "contact": "Contact Me"
     },
     "about": {
         "title": "About Me",
-        "paragraph1": "I'm an applied-AI researcher and software engineer, focused on large-language-model tooling for software-security analysis and agentic code generation. My expertise blends modern web app development skills with hands-on experimentation in state-of-the-art LLMs.",
-        "paragraph2": "I am currently completing my M.Sc. at York University, where my thesis investigates LLM-assisted vulnerability detection. Alongside my studies, I am working with Huawei Canada as a research intern to develop a repo-wide agentic test generation pipeline. Previously, I worked for 3 years as a software engineer at Dynamic Solution Innovators Ltd. and Synopsys Inc., contributing to large-scale and high-quality Java and Spring systems.",
+        "paragraph1": "I'm a software engineer and MSc Computer Science graduate from York University. My work combines Java/Spring Boot backend development with research on LLM agents, software security, and automated testing.",
+        "paragraph2": "At DSi and on an external assignment with Synopsys, I worked on examination-management systems, payment integrations, and CI/CD tooling. During a university research collaboration with Huawei Canada, I developed components for repository-wide test generation and agent tracing and evaluation. My research includes SecVulEval, which received the Best Dataset & Benchmark Paper award at AIware 2026, and StaAgent, accepted in ACM TOSEM.",
         "paragraph3": "When I'm not working, you can find me traveling🌴, doing music🎸, or experimenting with new technologies🧑‍💻."
     },
     "skills": {

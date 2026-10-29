@@ -3,12 +3,12 @@
     "profExperience": "Professional Experience",
     "jobs": [
         {
-            "title": "Research & Development Intern",
+            "title": "Research & Development Intern - University Collaboration",
             "company_logo": "/icons/company/huawei.svg",
             "company": "Huawei Canada",
             "company_site": "https://www.huawei.com/ca/",
-            "location": "Hybrid",
-            "period": "Aug 2025 - Present",
+            "location": "Canada (Remote)",
+            "period": "Aug 2025 - Sep 2026",
             "introduction": "Building components for a repo-wide agentic test generation pipeline that transforms SRS requirements into executable test scripts.",
             "descriptions": [
                 "Evaluated <strong>RAG-based code retrieval strategies</strong> for repository context, revealing limitations of retrieval-only approaches.",
@@ -91,20 +91,23 @@
             "degree": "Master of Science in Computer Science",
             "institution": "York University",
             "institute_site": "https://www.yorku.ca",
-            "period": "2024 - Present",
+            "period": "Sep 2024 - Aug 2026",
             "total_grade": "9.00",
             "acquired_grade": "8.84",
-            "location": "Toronto, Canada"
+            "location": "Toronto, Canada",
+            "details": "Supervisor: Dr. Song Wang. Research focus: context-aware LLM agents, vulnerability detection, and empirical evaluation."
         },
         {
             "degree": "Bachelor of Science in Computer Science & Engineering",
             "institution": "Shahjalal University of Science & Technology",
             "institute_site": "https://www.sust.edu",
-            "period": "2017 - 2021",
+            "period": "Feb 2017 - Jul 2021",
             "total_grade": "4.00",
             "acquired_grade": "3.73",
-            "location": "Sylhet, Bangladesh"
+            "location": "Sylhet, Bangladesh",
+            "details": "Research focus: Bengali topic modeling and news-trend analysis."
         }
     ],
+    "gradeLabel": "CGPA",
     "downloadButton": "Full Resume"
 }

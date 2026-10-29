@@ -64,7 +64,7 @@ export default function HomeContent() {
                             title={`Visit ${t('hero.shortFirstName')} on LinkedIn`}>
                             <FaLinkedin />
                         </a>
-                        <a href="mailto:mbahmed@yorku.ca" className="text-2xl hover:text-primary dark:hover:text-primary transition-colors"
+                        <a href="mailto:basimuddintuhin@gmail.com" className="text-2xl hover:text-primary dark:hover:text-primary transition-colors"
                             title={`Email ${t('hero.shortFirstName')}`}>
                             <FaEnvelope />
                         </a>

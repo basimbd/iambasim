@@ -33,7 +33,7 @@ export default function Footer() {
                             <FaLinkedin className="h-6 w-6" />
                         </a>
                         <a
-                            href="mailto:mbahmed@yorku.ca"
+                            href="mailto:basimuddintuhin@gmail.com"
                             aria-label="Email"
                             className="text-text-secondary dark:text-dark-text-secondary hover:text-primary dark:hover:text-dark-primary"
                         >

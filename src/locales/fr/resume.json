@@ -3,12 +3,12 @@
     "profExperience": "Expérience Professionnelle",
     "jobs": [
         {
-            "title": "Stage de Recherche et Développement",
+            "title": "Stage de recherche et développement - Collaboration universitaire",
             "company_logo": "/icons/company/huawei.svg",
             "company": "Huawei Canada",
             "company_site": "https://www.huawei.com/ca/",
-            "location": "Hybrid",
-            "period": "Aug 2025 - Present",
+            "location": "Canada (Remote)",
+            "period": "Août 2025 - Sept. 2026",
             "introduction": "Développement de composants pour un pipeline de génération de tests agentique à l'échelle du dépôt, qui transforme les exigences SRS en scripts de test exécutables.",
             "descriptions": [
                 "Évalué les <strong>stratégies de récupération de code basées sur RAG</strong> pour le contexte du dépôt, mettant en évidence les limites des approches fondées uniquement sur la récupération.",
@@ -91,20 +91,23 @@
             "degree": "Maîtrise ès Sciences en Informatique",
             "institution": "Université York",
             "institute_site": "https://www.yorku.ca",
-            "period": "2024 - Présent",
+            "period": "Sept. 2024 - Août 2026",
             "total_grade": "9.00",
             "acquired_grade": "8.84",
-            "location": "Toronto, Canada"
+            "location": "Toronto, Canada",
+            "details": "Direction : Dr Song Wang. Axes de recherche : agents LLM sensibles au contexte, détection de vulnérabilités et évaluation empirique."
         },
         {
             "degree": "Baccalauréat ès Sciences en Informatique et Génie",
             "institution": "Shahjalal University of Science & Technology",
             "institute_site": "https://www.sust.edu",
-            "period": "2017 - 2021",
+            "period": "Févr. 2017 - Juill. 2021",
             "total_grade": "4.00",
             "acquired_grade": "3.73",
-            "location": "Sylhet, Bangladesh"
+            "location": "Sylhet, Bangladesh",
+            "details": "Axes de recherche : modélisation thématique et analyse des tendances de l'actualité en bengali."
         }
     ],
+    "gradeLabel": "Moyenne cumulative",
     "downloadButton": "CV complet"
 }

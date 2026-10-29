@@ -42,6 +42,17 @@ export default function Education() {
                                 {education.period}
                             </span>
                         </div>
+                        {(education.total_grade || education.details) && (
+                            <div className="mt-2 text-sm text-text-secondary dark:text-dark-text-secondary">
+                                {education.total_grade && education.acquired_grade && (
+                                    <span className="font-medium">
+                                        {t('gradeLabel')}: {education.acquired_grade}/{education.total_grade}
+                                    </span>
+                                )}
+                                {education.total_grade && education.details && <span> · </span>}
+                                {education.details && <span>{education.details}</span>}
+                            </div>
+                        )}
                     </div>
                 ))}
             </div>
