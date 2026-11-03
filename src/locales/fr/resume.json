@@ -11,9 +11,9 @@
             "period": "Août 2025 - Sept. 2026",
             "introduction": "J’ai développé des composants Python pour un cadre agentique de génération de tests à l’échelle du dépôt, transformant les exigences logicielles et le code du dépôt en scripts de test exécutables.",
             "descriptions": [
-                "Intégré <strong>Claude Code, le SDK OpenAI, OpenSearch et le RAG</strong> ; évalué la recherche de code, la cartographie du code et l’efficacité de l’utilisation des jetons.",
+                "Développé des workflows agentiques avec <strong>Claude Code, le SDK OpenAI et OpenSearch/RAG</strong> ; évalué la récupération du code, les cartes de code et l’efficacité de l’utilisation des jetons.",
                 "Développé un framework de proxy direct pour enregistrer <strong>les prompts, les réponses, les appels d’outils et les traces d’agents liées aux sessions</strong>.",
-                "Développé un <strong>framework d’évaluation des traces fondé sur des règles et des LLM</strong> à partir des traces Langfuse.",
+                "Conçu et mis en œuvre un <strong>framework d’évaluation des traces fondé sur des règles et des LLM</strong> à partir des traces Langfuse.",
                 "Diagnostiqué, documenté et corrigé des défaillances liées à l’utilisation des outils, à la prise en compte du contexte, au respect des instructions et à la cohérence des résultats.",
                 "Collaboré à distance et sur place avec l’équipe d’ingénierie et de recherche de Huawei à Pékin."
             ],
@@ -54,37 +54,72 @@
         }
     ],
     "researchExperience": "Expérience de Recherche",
+    "publicationsTitle": "Publications et distinctions",
+    "paperLink": "Article",
+    "datasetLink": "Jeu de données",
+    "preprintLink": "Prépublication",
     "researchProjects": [
         {
-            "title": "Banc d’essai de détection de vulnérabilités C/C++ basé sur les LLM",
-            "period": "Dec 2024 - May 2025",
+            "title": "SecVulEval - Banc d’essai contextuel de vulnérabilités C/C++",
+            "period": "Déc. 2024 - Août 2025",
             "company": "Université York",
             "company_site": "https://www.yorku.ca",
             "location": "Toronto, Canada",
-            "introduction": "Dans ce projet, j’ai construit un jeu de données de référence de vulnérabilités C/C++ appelé <span style=\"font-variant: small-caps;\">SecVulEval</span>. Il résout le manque de granularité au niveau des instructions et d’informations contextuelles dans les jeux de données précédents.",
+            "introduction": "Construit un jeu de données de référence de vulnérabilités C/C++ du monde réel avec <strong>25 440 fonctions couvrant 5 867 CVE</strong>.",
             "descriptions": [
-                "Collecté <strong>5 867 vulnérabilités C/C++ du monde réel</strong>.",
-                "Organisé <strong>25 440 fonctions</strong>, incluant les <strong>instructions vulnérables</strong> et les <strong>informations contextuelles</strong>, liées aux vulnérabilités.",
-                "Conçu et mis en œuvre un <strong>cadre de détection de vulnérabilités agentique</strong> pour évaluer divers LL sur la détection de vulnérabilités C/C++.",
-                "Rendu le jeu de données <strong>publiquement disponible</strong> sur <a class=\"text-primary dark:text-dark-primary hover:underline\" href=\"https://huggingface.co/datasets/arag0rn/SecVulEval\" target=\"_blank\">HuggingFace - <span style=\"font-variant: small-caps;\">SecVulEval</span></a> pour une utilisation communautaire.",
-                "Publié dans <strong>AIware 2026 - Benchmark & Dataset track</strong> intitulé <a class=\"text-primary dark:text-dark-primary hover:underline\" href=\"https://doi.org/10.1145/3805760.3814932\" target=\"_blank\"><strong><span style=\"font-variant: small-caps;\">SecVulEval</span>: Context-Aware Benchmarking of LLMs for Vulnerability Detection</strong></a>. [<small>🏆 Prix du meilleur article - catégorie Benchmark & Dataset</small>]"
+                "Organisé du code vulnérable et corrigé avec des <strong>étiquettes de vulnérabilité au niveau des instructions</strong> et un <strong>contexte externe du programme</strong>.",
+                "Conçu et mis en œuvre un pipeline <strong>multi-étapes fondé sur des agents LLM</strong> pour la <strong>détection contextuelle de vulnérabilités</strong>.",
+                "Évalué <strong>cinq LLM</strong> aux niveaux des fonctions et des instructions, avec des ablations et une analyse des échecs.",
+                "A reçu le <strong>prix du meilleur article de la catégorie Données et benchmarks à AIware 2026</strong>. 🏆",
+                "Rendu le jeu de données publiquement disponible sur <a class=\"text-primary dark:text-dark-primary hover:underline\" href=\"https://huggingface.co/datasets/arag0rn/SecVulEval\" target=\"_blank\">HuggingFace - SecVulEval</a> pour la communauté."
             ],
-            "techStack": ["Python", "Transformers", "OpenAI SDK"]
+            "techStack": ["Python", "SDK OpenAI", "Transformers", "Construction de benchmarks", "Évaluation de LLM", "Agents contextuels"]
         },
         {
-            "title": "Cadre de détection de bogues pour les outils d’analyse statique Java avec les LLM",
-            "period": "Mar 2025 - Jul 2025",
+            "title": "StaAgent - Cadre agentique pour tester les analyseurs statiques",
+            "period": "Mars 2025 - Juillet 2025",
             "company": "Université York",
             "company_site": "https://www.yorku.ca",
             "location": "Toronto, Canada",
-            "introduction": "Les outils d’analyse statique sont largement adoptés dans l’industrie pour détecter les bogues dans les systèmes logiciels. Cependant, il est important que les outils eux-mêmes soient fiables, c’est-à-dire qu’ils ne manquent pas de bogues ou ne produisent pas de faux positifs. Dans ce projet, j’ai créé un cadre de test métamorphique basé sur les LLM pour détecter les incohérences dans les outils d’analyse statique Java.",
+            "introduction": "Développé un <strong>cadre de test métamorphique</strong> assisté par des LLM et fondé sur des mutations pour les implémentations de règles d’analyse statique.",
             "descriptions": [
-                "Analysé 3 outils d’analyse statique Java populaires : <strong>SpotBugs, ErrorProne et PMD</strong>.",
-                "Conçu et mis en œuvre un <strong>cadre de test métamorphique basé sur les LLM</strong> pour découvrir les implémentations de règles défectueuses dans les outils d’analyse statique Java.",
-                "Évalué 5 LLM de codage largement utilisés—<strong>GPT-4o, CodeLlama-34B, Codestral-22B, DeepSeek-Coder-33B et Qwen2.5-Coder-32B.</strong>—sur leur capacité à découvrir des bogues dans les outils d’analyse statique.",
-                "Découvert un total de <strong>42 implémentations de règles défectueuses</strong> dans les 3 outils. Tous les bogues ont été signalés aux développeurs respectifs."
+                "Mon travail mis en évidence a découvert <strong>42 implémentations de règles défectueuses dans SpotBugs, Error Prone et PMD</strong>.",
+                "Les résultats ont été signalés aux développeurs ; certains problèmes ont déjà été corrigés. Le statut est disponible dans la prépublication liée.",
+                "Article accepté dans <strong>ACM Transactions on Software Engineering and Methodology (TOSEM) 2026</strong>."
             ],
-            "techStack": ["Python", "Java", "Transformers", "OpenAI SDK", "SpotBugs", "ErrorProne", "PMD"]
+            "techStack": ["Python", "Java", "SDK OpenAI", "Transformers", "SpotBugs", "Error Prone", "PMD", "Tests métamorphiques"]
+        }
+    ],
+    "publications": [
+        {
+            "title": "SecVulEval: Context-Aware Benchmarking of LLMs for Vulnerability Detection",
+            "awards": ["Prix du meilleur article - Données et benchmarks, AIware 2026"],
+            "authors": "<strong>Md Basim Uddin Ahmed</strong>; Nima Shiri Harzevili; Jiho Shin; Hung Viet Pham; Song Wang",
+            "venue": "Proceedings of the 3rd ACM International Conference on AI-Powered Software (AIware '26)",
+            "details": "Montréal, Canada, 6-7 juillet 2026 · 2026",
+            "links": [
+                {"label": "Article", "url": "https://doi.org/10.1145/3805760.3814932"},
+                {"label": "Jeu de données", "url": "https://huggingface.co/datasets/arag0rn/SecVulEval"}
+            ]
+        },
+        {
+            "title": "StaAgent: An Agentic Framework for Testing Static Analyzers",
+            "authors": "Elijah Nnorom*; <strong>Md Basim Uddin Ahmed</strong>*; Jiho Shin; Hung Viet Pham; Song Wang",
+            "venue": "ACM Transactions on Software Engineering and Methodology (TOSEM)",
+            "details": "Accepté, 2026",
+            "links": [
+                {"label": "Prépublication", "url": "https://arxiv.org/abs/2507.15892"}
+            ],
+            "contributionNote": "* Contribution égale"
+        },
+        {
+            "title": "A Systematic Literature Review on English and Bangla Topic Modeling",
+            "authors": "<strong>Md. Basim Uddin Ahmed</strong>; Ananta Akash Podder; Mahruba Sharmin Chowdhury; Mohammad Abdullah Al Mumin",
+            "venue": "Journal of Computer Science",
+            "details": "17(1), 1-18 · 2021",
+            "links": [
+                {"label": "Article", "url": "https://doi.org/10.3844/jcssp.2021.1.18"}
+            ]
         }
     ],
     "educationTitle": "Éducation",

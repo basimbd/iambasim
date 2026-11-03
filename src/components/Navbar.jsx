@@ -58,6 +58,9 @@ export default function Navbar({ lang }) {
                             <a href={`${currentLang === 'fr' ? '/fr' : ''}/#projects`} className="text-text-secondary dark:text-dark-text-secondary hover:text-primary dark:hover:text-dark-primary">
                                 {t('nav.projects')}
                             </a>
+                            <a href={`${currentLang === 'fr' ? '/fr' : ''}/#publications`} className="text-text-secondary dark:text-dark-text-secondary hover:text-primary dark:hover:text-dark-primary">
+                                {t('nav.publications')}
+                            </a>
                             <a href={`${currentLang === 'fr' ? '/fr' : ''}/#contact`} className="text-text-secondary dark:text-dark-text-secondary hover:text-primary dark:hover:text-dark-primary">
                                 {t('nav.contact')}
                             </a>
@@ -103,6 +106,9 @@ export default function Navbar({ lang }) {
                     </a>
                     <a href={`${currentLang === 'fr' ? '/fr' : ''}/#projects`} className="block text-text-secondary dark:text-dark-text-secondary hover:text-primary dark:hover:text-dark-primary" onClick={() => setIsMenuOpen(false)}>
                         {t('nav.projects')}
+                    </a>
+                    <a href={`${currentLang === 'fr' ? '/fr' : ''}/#publications`} className="block text-text-secondary dark:text-dark-text-secondary hover:text-primary dark:hover:text-dark-primary" onClick={() => setIsMenuOpen(false)}>
+                        {t('nav.publications')}
                     </a>
                     <a href={`${currentLang === 'fr' ? '/fr' : ''}/#contact`} className="block text-text-secondary dark:text-dark-text-secondary hover:text-primary dark:hover:text-dark-primary" onClick={() => setIsMenuOpen(false)}>
                         {t('nav.contact')}

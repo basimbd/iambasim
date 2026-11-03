@@ -11,9 +11,9 @@
             "period": "Aug 2025 - Sep 2026",
             "introduction": "Developed Python components for a repository-wide agentic test generation framework that transforms software requirements and repository code into executable test scripts.",
             "descriptions": [
-                "Integrated <strong>Claude Code, the OpenAI SDK, OpenSearch, and RAG</strong>; evaluated code retrieval, code maps, and token use efficiency.",
+                "Built agent workflows with <strong>Claude Code, OpenAI SDK, and OpenSearch/RAG</strong>; evaluated code retrieval, code maps, and token use efficiency.",
                 "Built a forward-proxy framework to capture <strong>prompts, responses, tool calls, and session-linked agent traces</strong>.",
-                "Built <strong>rule-based and LLM-based trace evaluation framework</strong> using Langfuse traces.",
+                "Designed and implemented a <strong>rule-based and LLM-based trace evaluation framework</strong> using Langfuse traces.",
                 "Debugged, documented, and resolved failures in tool use, context awareness, instruction following, and output consistency.",
                 "Collaborated remotely and on site with Huawei's Beijing engineering and research team."
             ],
@@ -54,37 +54,72 @@
         }
     ],
     "researchExperience": "Research Experience",
+    "publicationsTitle": "Publications & Recognition",
+    "paperLink": "Paper",
+    "datasetLink": "Dataset",
+    "preprintLink": "Preprint",
     "researchProjects": [
         {
-            "title": "LLM-based C/C++ Vulnerability Detection Benchmark",
-            "period": "Dec 2024 - May 2025",
+            "title": "SecVulEval - Context-Aware C/C++ Vulnerability Benchmark",
+            "period": "Dec 2024 - Aug 2025",
             "company": "York University",
             "company_site": "https://www.yorku.ca",
             "location": "Toronto, Canada",
-            "introduction": "In this project, I constructed a benchmark dataset of C/C++ vulnerabilities called <span style=\"font-variant: small-caps;\">SecVulEval</span>. It solves the lack of statement-level granularity and contextual information in previous datasets.",
+            "introduction": "Built a real-world C/C++ vulnerability benchmark with <strong>25,440 functions covering 5,867 CVEs</strong>.",
             "descriptions": [
-                "Collected <strong>5,867 real-world C/C++ vulnerabilities</strong>.",
-                "Curated <strong>25,440 functions</strong>, including <strong>vulnerable statements</strong> and <strong>contextual information</strong>, related to the vulnerabilities.",
-                "Designed and implemented an <strong>agentic vulnerability detection framework</strong> to evaluate various LLMs on C/C++ vulnerability detection.",
-                "Made the dataset <strong>publicly available</strong> at <a class=\"text-primary dark:text-dark-primary hover:underline\" href=\"https://huggingface.co/datasets/arag0rn/SecVulEval\" target=\"_blank\">HuggingFace - <span style=\"font-variant: small-caps;\">SecVulEval</span></a> for community use.",
-                "Published in <strong>AIware 2026 - Benchmark & Dataset track</strong> entitled <a class=\"text-primary dark:text-dark-primary hover:underline\" href=\"https://doi.org/10.1145/3805760.3814932\" target=\"_blank\"><strong><span style=\"font-variant: small-caps;\">SecVulEval</span>: Context-Aware Benchmarking of LLMs for Vulnerability Detection</strong></a>. [<small>🏆 Awarded Best Paper in Benchmark & Dataset Track</small>]"
+                "Curated paired vulnerable/fixed code with <strong>statement-level vulnerability labels</strong> and <strong>external program context</strong>.",
+                "Designed and implemented a <strong>multi-stage LLM-agent</strong> pipeline for <strong>context-aware vulnerability detection</strong>.",
+                "Evaluated <strong>five LLMs</strong> at function and statement levels, with ablations and failure analysis.",
+                "Received the <strong>Best Dataset & Benchmark Paper award at AIware 2026</strong>. 🏆",
+                "Made the dataset publicly available at <a class=\"text-primary dark:text-dark-primary hover:underline\" href=\"https://huggingface.co/datasets/arag0rn/SecVulEval\" target=\"_blank\">HuggingFace - SecVulEval</a> for community use."
             ],
-            "techStack": ["Python", "Transformers", "OpenAI SDK"]
+            "techStack": ["Python", "OpenAI SDK", "Transformers", "Benchmark construction", "LLM evaluation", "Context-aware agents"]
         },
         {
-            "title": "Bug Detection Framework for Java Static Analysis Tools with LLMs",
+            "title": "StaAgent - An Agentic Framework for Testing Static Analyzers",
             "period": "Mar 2025 - Jul 2025",
             "company": "York University",
             "company_site": "https://www.yorku.ca",
             "location": "Toronto, Canada",
-            "introduction": "Static analysis tools are widely adopted in the industry to detect bugs in software systems. However, it is important that the tools themselves are reliable, i.e., do not miss bugs or produce false positives. In this project, I created an LLM-based metamorphic testing framework to detect inconsistencies in Java static analysis tools.",
+            "introduction": "Developed an LLM-assisted, mutation-based <strong>metamorphic-testing framework</strong> for static-analysis rule implementations.",
             "descriptions": [
-                "Analyzed 3 popular Java static analysis tools: <strong>SpotBugs, ErrorProne, and PMD</strong>.",
-                "Designed and implemented an <strong>LLM-based metamorphic testing framework</strong> to uncover faulty rule implementations in Java static analysis tools.",
-                "Evaluated 5 widely used coding LLMs—<strong>GPT-4o, CodeLlama-34B, Codestral-22B, DeepSeek-Coder-33B, and Qwen2.5-Coder-32B.</strong>—on their ability to uncover bugs in the static analysis tools.",
-                "Uncovered total <strong>42 faulty rule implementations</strong> in all 3 tools. All the bugs have been reported to the respective developers."
+                "My highlighted work uncovered <strong>42 faulty rule implementations across SpotBugs, Error Prone, and PMD</strong>.",
+                "Findings were reported to developers; some issues were already fixed. Status is available in the linked preprint.",
+                "Accepted as an article in <strong>ACM Transactions on Software Engineering and Methodology (TOSEM) 2026</strong>."
             ],
-            "techStack": ["Python", "Java", "Transformers", "OpenAI SDK", "SpotBugs", "ErrorProne", "PMD"]
+            "techStack": ["Python", "Java", "OpenAI SDK", "Transformers", "SpotBugs", "Error Prone", "PMD", "Metamorphic testing"]
+        }
+    ],
+    "publications": [
+        {
+            "title": "SecVulEval: Context-Aware Benchmarking of LLMs for Vulnerability Detection",
+            "awards": ["Best Dataset & Benchmark Paper - AIware 2026"],
+            "authors": "<strong>Md Basim Uddin Ahmed</strong>; Nima Shiri Harzevili; Jiho Shin; Hung Viet Pham; Song Wang",
+            "venue": "Proceedings of the 3rd ACM International Conference on AI-Powered Software (AIware '26)",
+            "details": "Montreal, Canada, July 6-7, 2026 · 2026",
+            "links": [
+                {"label": "Paper", "url": "https://doi.org/10.1145/3805760.3814932"},
+                {"label": "Dataset", "url": "https://huggingface.co/datasets/arag0rn/SecVulEval"}
+            ]
+        },
+        {
+            "title": "StaAgent: An Agentic Framework for Testing Static Analyzers",
+            "authors": "Elijah Nnorom*; <strong>Md Basim Uddin Ahmed</strong>*; Jiho Shin; Hung Viet Pham; Song Wang",
+            "venue": "ACM Transactions on Software Engineering and Methodology (TOSEM)",
+            "details": "Accepted, 2026",
+            "links": [
+                {"label": "Preprint", "url": "https://arxiv.org/abs/2507.15892"}
+            ],
+            "contributionNote": "*Equal Contribution"
+        },
+        {
+            "title": "A Systematic Literature Review on English and Bangla Topic Modeling",
+            "authors": "<strong>Md. Basim Uddin Ahmed</strong>; Ananta Akash Podder; Mahruba Sharmin Chowdhury; Mohammad Abdullah Al Mumin",
+            "venue": "Journal of Computer Science",
+            "details": "17(1), 1-18 · 2021",
+            "links": [
+                {"label": "Paper", "url": "https://doi.org/10.3844/jcssp.2021.1.18"}
+            ]
         }
     ],
     "educationTitle": "Education",

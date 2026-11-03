@@ -5,6 +5,7 @@ import SkillGrid from './SkillGrid.jsx';
 import ProjectGrid from './ProjectGrid.jsx';
 import Education from './Education.jsx';
 import ContactForm from './ContactForm.jsx';
+import Publications from './Publications.jsx';
 import { FaGithub, FaLinkedin, FaEnvelope, FaReact, FaNodeJs, FaPython, FaDatabase } from 'react-icons/fa6';
 import { SiSpring } from 'react-icons/si';
 
@@ -116,6 +117,10 @@ export default function HomeContent() {
             <div className="section-divider"></div>
             <section id="education" className="py-20 bg-background-primary dark:bg-dark-background-primary">
                 <Education />
+            </section>
+            <div className="section-divider"></div>
+            <section id="publications" className="py-20 bg-background-primary dark:bg-dark-background-primary">
+                <Publications />
             </section>
             <div className="section-divider"></div>
             <section id="contact" className="py-20 bg-background-primary dark:bg-dark-background-primary">
