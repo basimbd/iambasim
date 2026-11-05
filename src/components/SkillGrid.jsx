@@ -13,14 +13,14 @@ export default function SkillGrid() {
     }));
 
     const getCategoryIcon = (iconPath, iconName) => {
-        return <img src={iconPath} alt={`${iconName} icon`} className="w-12 h-12" />;
+        return <img src={iconPath} alt="" className="h-10 w-10 sm:h-12 sm:w-12" />;
     };
 
     return (
         <section>
-            <div className="max-w-6xl mx-auto px-6">
+            <div className="max-w-6xl mx-auto px-4 sm:px-6">
                 <h2 className="mb-8 flex justify-center">
-                    <span className="text-4xl md:text-5xl font-semibold font-serif text-text-primary dark:text-dark-text-primary">{t('section_title', 'Skills')}</span>
+                    <span className="text-3xl sm:text-4xl md:text-5xl font-semibold font-serif text-text-primary dark:text-dark-text-primary">{t('section_title', 'Skills')}</span>
                 </h2>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

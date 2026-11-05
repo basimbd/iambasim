@@ -1,18 +1,18 @@
 export default function SkillCard({ icon, title, skills }) {
     return (
-        <div className="bg-background-card dark:bg-dark-background-card rounded-lg p-6 shadow-lg dark:shadow-sky-800/30">
+        <div className="h-full bg-background-card dark:bg-dark-background-card rounded-lg p-4 sm:p-6 shadow-lg dark:shadow-sky-800/30">
             <div className="flex items-center mb-4">
                 {icon &&
                     <div className="text-primary dark:text-dark-primary mr-3 inset-shadow-lg">
                         {icon}
                     </div>}
-                <h3 className="text-xl font-semibold text-text-primary dark:text-dark-text-primary">{title}</h3>
+                <h3 className="text-lg sm:text-xl font-semibold text-text-primary dark:text-dark-text-primary">{title}</h3>
             </div>
             <div className="flex flex-wrap gap-2">
                 {skills.map((skill, index) => (
                     <span
                         key={index}
-                        className="inline-flex items-center px-3 py-1 bg-primary-light/20 dark:bg-dark-primary-light/20 text-primary-dark dark:text-dark-primary-light text-sm rounded-full"
+                        className="inline-flex items-center px-2.5 sm:px-3 py-1 bg-primary-light/20 dark:bg-dark-primary-light/20 text-primary-dark dark:text-dark-primary-light text-xs sm:text-sm rounded-full"
                     >
                         {skill.icon && (
                             <img
