@@ -64,10 +64,21 @@
             "email": "Email",
             "message": "Message",
             "send": "Envoyer Message",
-            "sending": "Envoi en cours..."
+            "sending": "Envoi en cours...",
+            "honeypot": "Laissez ce champ vide"
         },
-        "successMessage": "Votre message a été envoyé! Je vous répondrai bientôt.",
-        "errorMessage": "Désolé, il y a eu une erreur lors de l'envoi de votre message. Veuillez réessayer."
+        "validation": {
+            "required": "Veuillez remplir le champ {{field}}.",
+            "tooLong": "Le champ {{field}} ne doit pas dépasser {{max}} caractères.",
+            "email": "Veuillez saisir une adresse e-mail valide."
+        },
+        "successMessage": "Merci. Votre message a bien été transmis.",
+        "errorMessage": "Votre envoi n’a pas pu être confirmé. Votre message est conservé ; veuillez réessayer ou me contacter par e-mail.",
+        "rejectedMessage": "Le service n’a pas pu accepter votre envoi. Votre message est conservé ; veuillez vérifier les informations saisies et réessayer, ou me contacter par e-mail.",
+        "tooLargeMessage": "Le service a rejeté l’envoi car il est trop volumineux. Votre message est conservé ; veuillez le raccourcir et réessayer, ou me contacter par e-mail.",
+        "serverErrorMessage": "Le service de contact a rencontré un problème et votre envoi n’a pas pu être confirmé. Votre message est conservé ; veuillez réessayer plus tard ou me contacter par e-mail.",
+        "networkErrorMessage": "Une erreur réseau a empêché la confirmation de votre envoi. Votre message est conservé ; veuillez vérifier votre connexion et réessayer, ou me contacter par e-mail.",
+        "timeoutMessage": "Le délai d’attente a été dépassé et votre envoi n’a pas pu être confirmé. Votre message est conservé ; vous pouvez réessayer ou me contacter par e-mail."
     },
     "footer": {
         "rights": "Tous droits réservés."

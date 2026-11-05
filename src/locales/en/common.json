@@ -64,10 +64,21 @@
             "email": "Email",
             "message": "Message",
             "send": "Send Message",
-            "sending": "Sending..."
+            "sending": "Sending...",
+            "honeypot": "Leave this field blank"
         },
-        "successMessage": "Your message has been sent! I'll get back to you soon.",
-        "errorMessage": "Sorry, there was an error sending your message. Please try again."
+        "validation": {
+            "required": "Please complete the {{field}} field.",
+            "tooLong": "{{field}} must contain no more than {{max}} characters.",
+            "email": "Please enter a valid email address."
+        },
+        "successMessage": "Thank you. Your message has been submitted.",
+        "errorMessage": "Your submission could not be confirmed. Your message is still here; please try again or contact me by email.",
+        "rejectedMessage": "The service could not accept your submission. Your message is still here; please review your details and try again, or contact me by email.",
+        "tooLargeMessage": "The service rejected the submission as too large. Your message is still here; please shorten it and try again, or contact me by email.",
+        "serverErrorMessage": "The contact service encountered a problem, so your submission could not be confirmed. Your message is still here; please try again later or contact me by email.",
+        "networkErrorMessage": "A network error prevented confirmation of your submission. Your message is still here; please check your connection and try again, or contact me by email.",
+        "timeoutMessage": "The request timed out, so your submission could not be confirmed. Your message is still here; you can try again or contact me by email."
     },
     "footer": {
         "rights": "All rights reserved."
