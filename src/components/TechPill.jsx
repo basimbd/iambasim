@@ -24,6 +24,7 @@ const techLogoMap = {
     'SpotBugs': '/icons/tech/spotbugs.png',
     'OpenAI SDK': '/icons/tech/openai.svg',
     'OpenAI': '/icons/tech/openai.svg',
+    'Codex': '/icons/tech/openai.svg',
     'Transformers': '/icons/tech/transformers.svg',
     'HuggingFace': '/icons/tech/huggingface.svg',
     'ClaudeCode': '/icons/tech/claude-code.svg',

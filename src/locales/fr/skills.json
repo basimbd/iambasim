@@ -1,44 +1,51 @@
 {
-    "section_title": "Compétences & Technologies",
+    "section_title": "Compétences et technologies",
     "categories": {
         "AI": {
-            "name": "IA",
+            "name": "IA générative",
             "icon_path": "/icons/ai.svg",
             "skill_items": [
+                ["Python", "/icons/tech/python.svg"],
                 ["OpenAI SDK", "/icons/tech/openai.svg"],
-                ["ClaudeCode", "/icons/tech/claude-code.svg"],
-                ["Transformers", "/icons/tech/transformers.svg"],
-                ["LangGraph", "/icons/tech/langgraph.svg"],
-                ["RAG", "/icons/tech/rag.svg"]
+                ["Claude Code", "/icons/tech/claude-code.svg"],
+                ["Agent Skills", "/icons/tech/claude-skills.svg"],
+                ["RAG", "/icons/tech/rag.svg"],
+                ["OpenSearch", "/icons/tech/opensearch.svg"],
+                ["LangGraph", "/icons/tech/langgraph.svg"]
             ]
         },
-        "Languages": {
-            "name": "Langages",
-            "icon_path": "/icons/languages.svg",
+        "MlData": {
+            "name": "Apprentissage automatique",
+            "icon_path": "/icons/machine-learning.svg",
+            "skill_items": [
+                ["PyTorch", "/icons/tech/pytorch.svg"],
+                ["OpenCLIP", null],
+                ["Transformers", "/icons/tech/transformers.svg"],
+                ["torchvision", "/icons/tech/pytorch.svg"],
+                ["NumPy", "/icons/tech/numpy.svg"],
+                ["Pandas", "/icons/tech/pandas.svg"],
+                ["OpenCV", "/icons/tech/opencv.svg"]
+            ]
+        },
+        "BackendApis": {
+            "name": "Backend",
+            "icon_path": "/icons/frameworks.svg",
             "skill_items": [
                 ["Java", "/icons/tech/java.svg"],
                 ["Python", "/icons/tech/python.svg"],
-                ["JavaScript", "/icons/tech/javascript.svg"]
-            ]
-        },
-        "Frameworks": {
-            "name": "Cadre",
-            "icon_path": "/icons/frameworks.svg",
-            "skill_items": [
-                ["SpringBoot", "/icons/tech/spring-boot.svg"],
-                ["Node.js", "/icons/tech/nodejs.svg"],
-                ["PyTorch", "/icons/tech/pytorch.svg"]
+                ["JavaScript", "/icons/tech/javascript.svg"],
+                ["Spring Boot", "/icons/tech/spring-boot.svg"],
+                ["Node.js", "/icons/tech/nodejs.svg"]
             ]
         },
         "Databases": {
-            "name": "Base de Données & ORMs",
+            "name": "Bases de données et ORM",
             "icon_path": "/icons/databases.svg",
             "skill_items": [
                 ["PostgreSQL", "/icons/tech/postgresql.svg"],
-                ["Redis", "/icons/tech/redis.svg"],
                 ["Hibernate", "/icons/tech/hibernate.svg"],
-                ["SqlAlchemy", "/icons/tech/sqlalchemy.png"],
-                ["OpenSearch", "/icons/tech/opensearch.svg"]
+                ["Redis", "/icons/tech/redis.svg"],
+                ["SqlAlchemy", "/icons/tech/sqlalchemy.png"]
             ]
         },
         "DevOps": {
@@ -47,15 +54,32 @@
             "skill_items": [
                 ["Docker", "/icons/tech/docker.svg"],
                 ["GitHub Actions", "/icons/tech/github-actions.svg"],
-                ["Jenkins", "/icons/tech/jenkins.svg"]
+                ["Jenkins", "/icons/tech/jenkins.svg"],
+                ["Maven", "/icons/tech/maven.svg"],
+                ["Gradle", "/icons/tech/gradle.svg"],
+                ["Linux", "/icons/tech/linux.svg"],
+                ["Bash", "/icons/tech/bash.svg"],
+                ["Git", "/icons/tech/git.svg"]
             ]
         },
-        "Tools": {
-            "name": "Outils",
+        "Frontend": {
+            "name": "Frontend",
+            "icon_path": "/icons/languages.svg",
+            "skill_items": [
+                ["JavaScript", "/icons/tech/javascript.svg"],
+                ["React.js", "/icons/tech/reactjs.svg"],
+                ["JSX", "/icons/tech/jsx.svg"],
+                ["Tailwind CSS", "/icons/tech/tailwindcss.svg"],
+                ["HTML5", "/icons/tech/html5.svg"],
+                ["CSS3", "/icons/tech/css3.svg"]
+            ]
+        },
+        "ObservabilityEvaluation": {
+            "name": "Observabilité et évaluation",
             "icon_path": "/icons/tools.svg",
             "skill_items": [
-                ["Bash", "/icons/tech/bash.svg"],
-                ["Git", "/icons/tech/git.svg"],
+                ["Opik", "/icons/tech/opik.svg"],
+                ["Langfuse", "/icons/tech/langfuse.svg"],
                 ["OpenTelemetry", "/icons/tech/otel.svg"],
                 ["Google Analytics", "/icons/tech/google-analytics.svg"]
             ]

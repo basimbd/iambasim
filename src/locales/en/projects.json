@@ -1,38 +1,50 @@
 {
     "title": "Projects",
+    "close": "Close",
+    "viewDetails": "View details",
+    "sourceCode": "View {{title}} source code on GitHub",
     "projects": [
         {
-            "title": "SaliencyMix",
-            "tech": [
-                "PyTorch",
-                "OpenCV"
-            ],
-            "description": "This project is a replication of the experiments from the paper SaliencyMix from ICLR 2021.",
+            "title": "PairCheck - Image-Text Mismatch Detection",
+            "date": "September 2026",
+            "type": "Multimodal machine-learning project",
+            "tech": ["Python", "PyTorch", "OpenCLIP", "COCO", "SugarCrepe", "Codex"],
+            "description": "Built an image-caption mismatch-detection pipeline using frozen CLIP embeddings and a trainable PyTorch classification head. Created COCO datasets with image-level splits and semantic hard negatives, used balanced minibatches and validation-based model selection, and evaluated an OpenCLIP ViT-B/32 baseline on SugarCrepe at 76.55% pairwise accuracy.",
+            "link": "https://github.com/basimbd/PairCheck"
+        },
+        {
+            "title": "LLM Agent Trace Analyzer",
+            "date": "2026",
+            "type": "Huawei R&D - Agent reliability",
+            "tech": ["Python", "Langfuse", "OpenTelemetry", "OpenAI SDK", "LLM-based evaluation"],
+            "description": "Designed a trace-analysis workflow for an AI test-generation agent to uncover agent failures and enable root-cause analysis."
+        },
+        {
+            "title": "SaliencyMix Replication",
+            "date": "March-April 2025",
+            "type": "Computer vision / deep learning",
+            "tech": ["Python", "PyTorch", "torchvision", "NumPy", "OpenCV"],
+            "description": "Implemented core components of SaliencyMix, a saliency-based image-augmentation method, along with ResNet-18, ResNet-50, and ResNet-101 in PyTorch. Built saliency-map generation and image-region mixing for classification workflows.",
             "image": "/images/projects/saliency/saliency.webp",
             "link": "https://github.com/basimbd/SaliencyMix-replication"
         },
         {
             "title": "DeObfus Email",
-            "tech": [
-                "JavaScript",
-                "Chromium API",
-                "Firefox API"
-            ],
-            "description": "A browser extension for converting obfuscated email addresses such as \"email [at] myserver {dot} com\" to \"email@myserver.com\" and copy the converted email.",
+            "date": "June 2024",
+            "type": "Browser extension",
+            "tech": ["JavaScript", "Browser Extension APIs", "Manifest V3"],
+            "description": "Built a cross-browser extension that converts obfuscated email text into clean, copy-ready addresses. Implemented rule-based parsing for varied masking formats and handled Firefox/Chromium API and permission differences.",
             "image": "/images/projects/deobfus_email/deobfus_email.png",
             "link": "https://github.com/basimbd/deobfus-email"
         },
         {
             "title": "HF ML App Analysis",
-            "tech": [
-                "NumPy",
-                "Pandas",
-                "Matplotlib",
-                "Lizard"
-            ],
-            "description": "Simple data analysis project to analyze the ease and maintainability of Text Classification and Text Generation applications/models in HuggingFace.",
+            "date": "November 2023",
+            "type": "Data analysis / software maintainability",
+            "tech": ["Python", "Lizard", "Pandas", "NumPy", "Matplotlib"],
+            "description": "Collected and filtered applications built on top-downloaded Hugging Face text-classification and text-generation models. Extracted code-size metrics with Lizard and analyzed implementation-size and maintainability trends using Pandas, NumPy, and Matplotlib.",
             "image": "/images/projects/hf_ml_app_analysis/hf_ml_app_analysis.png",
             "link": "https://github.com/basimbd/hf_ml_apps_analysis"
         }
-    ]    
+    ]
 }

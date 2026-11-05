@@ -7,6 +7,10 @@
         "publications": "Publications",
         "contact": "Contact"
     },
+    "collapsibleText": {
+        "seeMore": "See More…",
+        "seeLess": "…See Less"
+    },
     "hero": {
         "title": "Hi, I'm <1>Md Basim Uddin Ahmed</1>",
         "fullName": "Md Basim Uddin Ahmed",

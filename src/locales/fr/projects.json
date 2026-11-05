@@ -1,36 +1,48 @@
 {
     "title": "Projets",
+    "close": "Fermer",
+    "viewDetails": "Voir les détails",
+    "sourceCode": "Voir le code source de {{title}} sur GitHub",
     "projects": [
         {
-            "title": "SaliencyMix",
-            "tech": [
-                "PyTorch",
-                "OpenCV"
-            ],
-            "description": "Ce projet est une reproduction des expériences de l'article SaliencyMix présenté à l'ICLR 2021.",
+            "title": "PairCheck - Détection des incohérences image–texte",
+            "date": "Septembre 2026",
+            "type": "Projet d’apprentissage automatique multimodal",
+            "tech": ["Python", "PyTorch", "OpenCLIP", "COCO", "SugarCrepe", "Codex"],
+            "description": "Développement d’un pipeline de détection des incohérences image–légende à partir de représentations CLIP figées et d’une tête de classification PyTorch entraînable. Création de jeux de données COCO avec des partitions par image et des négatifs sémantiques difficiles, entraînement par mini-lots équilibrés et sélection du modèle sur validation. Un modèle de référence OpenCLIP ViT-B/32 évalué sur SugarCrepe a obtenu une exactitude par paires de 76,55 %.",
+            "link": "https://github.com/basimbd/PairCheck"
+        },
+        {
+            "title": "LLM Agent Trace Analyzer",
+            "date": "2026",
+            "type": "R&D de Huawei - Fiabilité des agents",
+            "tech": ["Python", "Langfuse", "OpenTelemetry", "OpenAI SDK", "Évaluation fondée sur les LLM"],
+            "description": "Conception d’un processus d’analyse des traces d’un agent de génération de tests par IA afin de repérer ses défaillances et d’en analyser les causes profondes."
+        },
+        {
+            "title": "SaliencyMix Replication",
+            "date": "Mars–avril 2025",
+            "type": "Vision par ordinateur / apprentissage profond",
+            "tech": ["Python", "PyTorch", "torchvision", "NumPy", "OpenCV"],
+            "description": "Implémentation des composants principaux de SaliencyMix, une méthode d’augmentation d’images fondée sur la saillance, ainsi que de ResNet-18, ResNet-50 et ResNet-101 avec PyTorch. Création de cartes de saillance et mélange de régions d’images pour des flux de classification.",
             "image": "/images/projects/saliency/saliency.webp",
             "link": "https://github.com/basimbd/SaliencyMix-replication"
         },
         {
             "title": "DeObfus Email",
-            "tech": [
-                "JavaScript",
-                "Chromium API",
-                "Firefox API"
-            ],
-            "description": "Une extension de navigateur pour convertir les adresses e-mail obfusquées telles que \"email [at] myserver {dot} com\" en \"email@myserver.com\" et copier l'e-mail converti.",
+            "date": "Juin 2024",
+            "type": "Extension de navigateur",
+            "tech": ["JavaScript", "API d’extensions de navigateur", "Manifest V3"],
+            "description": "Création d’une extension multiplateforme qui transforme du texte d’adresse courriel masqué en adresse propre et prête à copier. Mise en œuvre d’une analyse par règles pour divers formats de masquage, avec prise en charge des différences d’API et de permissions entre Firefox et Chromium.",
             "image": "/images/projects/deobfus_email/deobfus_email.png",
             "link": "https://github.com/basimbd/deobfus-email"
         },
         {
             "title": "HF ML App Analysis",
-            "tech": [
-                "NumPy",
-                "Pandas",
-                "Matplotlib",
-                "Lizard"
-            ],
-            "description": "Projet d'analyse de données simple pour analyser la facilité et la maintenabilité des applications/modèles de classification de texte et de génération de texte dans HuggingFace.",
+            "date": "Novembre 2023",
+            "type": "Analyse de données / maintenabilité logicielle",
+            "tech": ["Python", "Lizard", "Pandas", "NumPy", "Matplotlib"],
+            "description": "Collecte et filtrage d’applications reposant sur les modèles de classification et de génération de texte les plus téléchargés sur Hugging Face. Extraction des mesures de taille du code avec Lizard, puis analyse des tendances de taille d’implémentation et de maintenabilité avec Pandas, NumPy et Matplotlib.",
             "image": "/images/projects/hf_ml_app_analysis/hf_ml_app_analysis.png",
             "link": "https://github.com/basimbd/hf_ml_apps_analysis"
         }

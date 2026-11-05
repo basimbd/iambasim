@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="-4 0 72 72" fill="none">
+  <title>Circuit brain</title>
+  <defs>
+    <linearGradient id="neural-circuit" x1="32" y1="4" x2="32" y2="68" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A855F7"/>
+      <stop offset="0.5" stop-color="#7C7DEB"/>
+      <stop offset="1" stop-color="#22B8CF"/>
+    </linearGradient>
+    <path id="brain-half" d="M32 19C32 12 27 3 21 7C14 5 10 11 11 18C5 22 5 31 9 35C4 42 7 51 13 54C12 62 21 68 28 64C31 61 32 56 32 51Z"/>
+    <g id="circuit-half">
+      <!-- Straight PCB traces with sharp 45- and 90-degree bends. -->
+      <path d="M32 20H26L21 15V14.2M32 32H24L19 27H16.2M24 32V40L19 45H15.2M32 51H25L21 55V57.8M25 51V47.2"/>
+      <!-- Hollow solder pads at the ends of the traces. -->
+      <circle cx="21" cy="12" r="2.2"/>
+      <circle cx="14" cy="27" r="2.2"/>
+      <circle cx="13" cy="45" r="2.2"/>
+      <circle cx="21" cy="60" r="2.2"/>
+      <circle cx="25" cy="45" r="2.2"/>
+    </g>
+  </defs>
+  <!-- Reusing and reflecting each half guarantees bilateral symmetry. -->
+  <g fill="url(#neural-circuit)" fill-opacity="0.08" stroke="url(#neural-circuit)" stroke-width="2.6" stroke-linejoin="round">
+    <use href="#brain-half"/>
+    <use href="#brain-half" transform="translate(64 0) scale(-1 1)"/>
+  </g>
+  <g stroke="url(#neural-circuit)" stroke-width="2.2" stroke-linecap="butt" stroke-linejoin="miter">
+    <use href="#circuit-half"/>
+    <use href="#circuit-half" transform="translate(64 0) scale(-1 1)"/>
+  </g>
+</svg>
