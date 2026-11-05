@@ -9,7 +9,14 @@
             "date": "September 2026",
             "type": "Multimodal machine-learning project",
             "tech": ["Python", "PyTorch", "OpenCLIP", "COCO", "SugarCrepe", "Codex"],
-            "description": "Built an image-caption mismatch-detection pipeline using frozen CLIP embeddings and a trainable PyTorch classification head. Created COCO datasets with image-level splits and semantic hard negatives, used balanced minibatches and validation-based model selection, and evaluated an OpenCLIP ViT-B/32 baseline on SugarCrepe at 76.55% pairwise accuracy.",
+            "description": "Built a lightweight machine-learning pipeline to identify images paired with captions that misrepresent their content.",
+            "highlights": [
+                "Combined frozen CLIP/OpenCLIP image and text embeddings with a trainable PyTorch classification head to detect image-caption mismatches.",
+                "Prepared training, validation, and test sets from COCO image-caption data, splitting by image so no image appeared in more than one set.",
+                "Generated semantic hard negatives with an LLM across nine perturbation types: replace_object, replace_attribute, replace_relation, swap_object, swap_attribute, add_object, add_attribute, replace_action, and replace_count.",
+                "Used balanced minibatches for training and validation-based model selection.",
+                "Evaluated an OpenCLIP ViT-B/32 baseline on SugarCrepe, achieving 76.55% pairwise accuracy."
+            ],
             "link": "https://github.com/basimbd/PairCheck"
         },
         {
@@ -17,7 +24,12 @@
             "date": "2026",
             "type": "Huawei R&D - Agent reliability",
             "tech": ["Python", "Langfuse", "OpenTelemetry", "OpenAI SDK", "LLM-based evaluation"],
-            "description": "Designed a trace-analysis workflow for an AI test-generation agent to uncover agent failures and enable root-cause analysis."
+            "description": "Designed a trace-analysis workflow for an AI test-generation agent to uncover agent failures and enable root-cause analysis.",
+            "highlights": [
+                "Defined trace-level and span-level issue labels as part of the Huawei university collaboration, covering instruction violations, tool misuse, unproductive loops, task/output divergence, and likely failure causes.",
+                "Implemented analyzers for planning, instruction following, tool use, and root-cause aggregation.",
+                "Combined rule-based and LLM-based assessments of agent behavior using self-hosted Langfuse traces."
+            ]
         },
         {
             "title": "SaliencyMix Replication",
@@ -25,6 +37,13 @@
             "type": "Computer vision / deep learning",
             "tech": ["Python", "PyTorch", "torchvision", "NumPy", "OpenCV"],
             "description": "Implemented core components of SaliencyMix, a saliency-based image-augmentation method, along with ResNet-18, ResNet-50, and ResNet-101 in PyTorch. Built saliency-map generation and image-region mixing for classification workflows.",
+            "highlights": [
+                "Implemented core components of SaliencyMix, the saliency-based image-augmentation technique presented at ICLR 2021.",
+                "Implemented ResNet-18, ResNet-50, and ResNet-101 in PyTorch.",
+                "Generated saliency maps and mixed salient image regions for image-classification workflows.",
+                "Reproduced all experiments with a complete training and evaluation pipeline.",
+                "Worked with CIFAR-10, CIFAR-100, and ImageNet datasets."
+            ],
             "image": "/images/projects/saliency/saliency.webp",
             "link": "https://github.com/basimbd/SaliencyMix-replication"
         },
@@ -34,6 +53,11 @@
             "type": "Browser extension",
             "tech": ["JavaScript", "Browser Extension APIs", "Manifest V3"],
             "description": "Built a cross-browser extension that converts obfuscated email text into clean, copy-ready addresses. Implemented rule-based parsing for varied masking formats and handled Firefox/Chromium API and permission differences.",
+            "highlights": [
+                "Converted obfuscated email text into clean, copy-ready email addresses.",
+                "Implemented rule-based parsing for varied masking templates, mixed symbols, and edge cases.",
+                "Handled API and permission differences between Firefox and Chromium, including Manifest V3."
+            ],
             "image": "/images/projects/deobfus_email/deobfus_email.png",
             "link": "https://github.com/basimbd/deobfus-email"
         },
@@ -43,6 +67,11 @@
             "type": "Data analysis / software maintainability",
             "tech": ["Python", "Lizard", "Pandas", "NumPy", "Matplotlib"],
             "description": "Collected and filtered applications built on top-downloaded Hugging Face text-classification and text-generation models. Extracted code-size metrics with Lizard and analyzed implementation-size and maintainability trends using Pandas, NumPy, and Matplotlib.",
+            "highlights": [
+                "Studied implementation size and maintainability characteristics of Hugging Face text-classification and text-generation applications.",
+                "Selected the top 20 models by downloads, collected applications using them, and filtered repositories using defined selection criteria.",
+                "Used Lizard to extract non-comment lines of code (NLOC), then analyzed trends with Pandas, NumPy, and Matplotlib."
+            ],
             "image": "/images/projects/hf_ml_app_analysis/hf_ml_app_analysis.png",
             "link": "https://github.com/basimbd/hf_ml_apps_analysis"
         }

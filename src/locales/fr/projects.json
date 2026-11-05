@@ -9,7 +9,14 @@
             "date": "Septembre 2026",
             "type": "Projet d’apprentissage automatique multimodal",
             "tech": ["Python", "PyTorch", "OpenCLIP", "COCO", "SugarCrepe", "Codex"],
-            "description": "Développement d’un pipeline de détection des incohérences image–légende à partir de représentations CLIP figées et d’une tête de classification PyTorch entraînable. Création de jeux de données COCO avec des partitions par image et des négatifs sémantiques difficiles, entraînement par mini-lots équilibrés et sélection du modèle sur validation. Un modèle de référence OpenCLIP ViT-B/32 évalué sur SugarCrepe a obtenu une exactitude par paires de 76,55 %.",
+            "description": "Développement d’un pipeline léger d’apprentissage automatique pour repérer les images associées à des légendes qui ne correspondent pas à leur contenu.",
+            "highlights": [
+                "Combinaison de représentations d’images et de textes CLIP/OpenCLIP figées avec une tête de classification PyTorch entraînable pour détecter les incohérences image–légende.",
+                "Préparation des ensembles d’entraînement, de validation et de test à partir des données image–légende de COCO, avec une répartition par image pour éviter qu’une même image figure dans plusieurs ensembles.",
+                "Génération de négatifs sémantiques difficiles par un LLM selon neuf types de perturbations : replace_object, replace_attribute, replace_relation, swap_object, swap_attribute, add_object, add_attribute, replace_action et replace_count.",
+                "Entraînement par mini-lots équilibrés et sélection du modèle à partir des résultats de validation.",
+                "Évaluation d’un modèle de référence OpenCLIP ViT-B/32 sur SugarCrepe, avec une exactitude par paires de 76,55 %."
+            ],
             "link": "https://github.com/basimbd/PairCheck"
         },
         {
@@ -17,7 +24,12 @@
             "date": "2026",
             "type": "R&D de Huawei - Fiabilité des agents",
             "tech": ["Python", "Langfuse", "OpenTelemetry", "OpenAI SDK", "Évaluation fondée sur les LLM"],
-            "description": "Conception d’un processus d’analyse des traces d’un agent de génération de tests par IA afin de repérer ses défaillances et d’en analyser les causes profondes."
+            "description": "Conception d’un processus d’analyse des traces d’un agent de génération de tests par IA afin de repérer ses défaillances et d’en analyser les causes profondes.",
+            "highlights": [
+                "Définition, dans le cadre de la collaboration universitaire avec Huawei, de catégories de problèmes au niveau des traces et des spans : non-respect des instructions, mauvaise utilisation des outils, boucles improductives, écarts entre la tâche et le résultat, et causes probables des défaillances.",
+                "Implémentation d’analyseurs pour la planification, le respect des instructions, l’utilisation des outils et l’agrégation des causes profondes.",
+                "Combinaison d’évaluations fondées sur des règles et sur des LLM pour analyser le comportement de l’agent à partir de traces Langfuse auto-hébergées."
+            ]
         },
         {
             "title": "SaliencyMix Replication",
@@ -25,6 +37,13 @@
             "type": "Vision par ordinateur / apprentissage profond",
             "tech": ["Python", "PyTorch", "torchvision", "NumPy", "OpenCV"],
             "description": "Implémentation des composants principaux de SaliencyMix, une méthode d’augmentation d’images fondée sur la saillance, ainsi que de ResNet-18, ResNet-50 et ResNet-101 avec PyTorch. Création de cartes de saillance et mélange de régions d’images pour des flux de classification.",
+            "highlights": [
+                "Implémentation des composants principaux de SaliencyMix, la technique d’augmentation d’images fondée sur la saillance présentée à ICLR 2021.",
+                "Implémentation de ResNet-18, ResNet-50 et ResNet-101 avec PyTorch.",
+                "Génération de cartes de saillance et mélange de régions saillantes d’images pour la classification d’images.",
+                "Reproduction de toutes les expériences avec un pipeline complet d’entraînement et d’évaluation.",
+                "Utilisation des jeux de données CIFAR-10, CIFAR-100 et ImageNet."
+            ],
             "image": "/images/projects/saliency/saliency.webp",
             "link": "https://github.com/basimbd/SaliencyMix-replication"
         },
@@ -34,6 +53,11 @@
             "type": "Extension de navigateur",
             "tech": ["JavaScript", "API d’extensions de navigateur", "Manifest V3"],
             "description": "Création d’une extension multiplateforme qui transforme du texte d’adresse courriel masqué en adresse propre et prête à copier. Mise en œuvre d’une analyse par règles pour divers formats de masquage, avec prise en charge des différences d’API et de permissions entre Firefox et Chromium.",
+            "highlights": [
+                "Conversion de texte d’adresse courriel masqué en adresses propres et prêtes à copier.",
+                "Mise en œuvre d’une analyse par règles pour divers modèles de masquage, combinaisons de symboles et cas particuliers.",
+                "Prise en charge des différences d’API et de permissions entre Firefox et Chromium, notamment pour Manifest V3."
+            ],
             "image": "/images/projects/deobfus_email/deobfus_email.png",
             "link": "https://github.com/basimbd/deobfus-email"
         },
@@ -43,6 +67,11 @@
             "type": "Analyse de données / maintenabilité logicielle",
             "tech": ["Python", "Lizard", "Pandas", "NumPy", "Matplotlib"],
             "description": "Collecte et filtrage d’applications reposant sur les modèles de classification et de génération de texte les plus téléchargés sur Hugging Face. Extraction des mesures de taille du code avec Lizard, puis analyse des tendances de taille d’implémentation et de maintenabilité avec Pandas, NumPy et Matplotlib.",
+            "highlights": [
+                "Étude de la taille d’implémentation et des caractéristiques de maintenabilité d’applications Hugging Face de classification et de génération de texte.",
+                "Sélection des 20 modèles les plus téléchargés, collecte d’applications les utilisant et filtrage des dépôts selon des critères de sélection définis.",
+                "Extraction du nombre de lignes de code hors commentaires (NLOC) avec Lizard, puis analyse des tendances avec Pandas, NumPy et Matplotlib."
+            ],
             "image": "/images/projects/hf_ml_app_analysis/hf_ml_app_analysis.png",
             "link": "https://github.com/basimbd/hf_ml_apps_analysis"
         }
