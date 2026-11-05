@@ -1,8 +1,10 @@
 import { useEffect, useLayoutEffect, useRef, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
 const useIsoLayoutEffect = typeof window !== 'undefined' ? useLayoutEffect : useEffect;
 
 export default function CollapsibleText({ text, lines = 5, className = '' }) {
+    const { t } = useTranslation('common');
 
     const descRef = useRef(null);
     const [expanded, setExpanded] = useState(false);
@@ -62,7 +64,7 @@ export default function CollapsibleText({ text, lines = 5, className = '' }) {
                     onClick={(e) => {e.stopPropagation(); setExpanded(v => !v) }}
                     className="cursor-pointer text-sm text-primary dark:text-dark-primary
                     hover:underline mb-2"
-                >{expanded ? '…See Less' : 'See More…'}</button>
+                >{t(expanded ? 'collapsibleText.seeLess' : 'collapsibleText.seeMore')}</button>
             )}
         </div>
     );

@@ -142,7 +142,7 @@ export default function GenericModal({
                         {title}
                     </div>
                     {showCloseIcon && (
-                        <button aria-label="Close" className="modalCloseIcon"
+                        <button aria-label={closeText} className="modalCloseIcon"
                         onClick={(e) => { e.stopPropagation(); onClose?.(); }}>
                             ✕
                         </button>
