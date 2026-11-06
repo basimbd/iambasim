@@ -42,7 +42,7 @@ const i18n = createI18nInstance(currentLang);
     <I18nProvider lang={currentLang} client:load>
       <Navbar lang={currentLang} client:load />
       <slot />
-      <Footer />
+      <Footer client:load />
     </I18nProvider>
   </body>
 </html>

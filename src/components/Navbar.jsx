@@ -28,7 +28,7 @@ export default function Navbar({ lang }) {
         i18n.changeLanguage(lng);
         document.documentElement.lang = lng;
 
-        const currentPath = window.location.pathname.replace(/^\/fr/, '');
+        const currentPath = window.location.pathname.replace(/^\/fr(?=\/|$)/, '');
         // Only allow local paths. Do not allow protocol-relative URLs or absolute URLs.
         if (!currentPath.startsWith('/') && currentPath !== '') return;
         let newPath = lng === 'fr' ? `/fr${currentPath}` : currentPath || '/';
