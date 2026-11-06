@@ -8,7 +8,10 @@ export default function Navbar({ lang }) {
 
     const [currentLang, setCurrentLang] = useState(lang || i18n.language || 'en');
     useEffect(() => {
-        const handleLangChanged = (lng) => setCurrentLang(lng);
+        const handleLangChanged = (lng) => {
+            setCurrentLang(lng);
+            document.documentElement.lang = lng;
+        };
         i18n.on('languageChanged', handleLangChanged);
         return () => {
             i18n.off('languageChanged', handleLangChanged);
@@ -23,13 +26,16 @@ export default function Navbar({ lang }) {
         if (lng === currentLang) return;
 
         i18n.changeLanguage(lng);
+        document.documentElement.lang = lng;
 
         const currentPath = window.location.pathname.replace(/^\/fr/, '');
         // Only allow local paths. Do not allow protocol-relative URLs or absolute URLs.
         if (!currentPath.startsWith('/') && currentPath !== '') return;
         let newPath = lng === 'fr' ? `/fr${currentPath === '/' ? '' : currentPath}` : currentPath || '/';
         if (window.location.pathname !== newPath) {
-            window.history.replaceState({}, '', newPath);
+            const url = new URL(window.location.href);
+            url.pathname = newPath;
+            window.history.replaceState(window.history.state, '', url);
         }
     };
 
