@@ -34,7 +34,7 @@ export default function Footer() {
                         </a>
                         <a
                             href="mailto:basimuddintuhin@gmail.com"
-                            aria-label="Email"
+                            aria-label={t('socialLinks.email', { name: t('hero.shortFirstName') })}
                             className="text-text-secondary dark:text-dark-text-secondary hover:text-primary dark:hover:text-dark-primary"
                         >
                             <FaEnvelope className="h-6 w-6" />

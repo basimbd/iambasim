@@ -147,7 +147,7 @@ export default function ContactForm() {
                                     {t('contact.email')}
                                 </h3>
                                 <a href="mailto:basimuddintuhin@gmail.com" className="text-primary dark:text-dark-primary"
-                                    title={`Email ${t('hero.shortFirstName')}`}>
+                                    title={t('socialLinks.email', { name: t('hero.shortFirstName') })}>
                                     basimuddintuhin@gmail.com
                                 </a>
                             </div>
@@ -165,7 +165,7 @@ export default function ContactForm() {
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="text-text-secondary dark:text-dark-text-secondary hover:text-primary dark:hover:text-dark-primary"
-                                        title={`Visit ${t('hero.shortFirstName')} on GitHub`}
+                                        title={t('socialLinks.github', { name: t('hero.shortFirstName') })}
                                     >
                                         <FaGithub className="h-6 w-6" />
                                     </a>
@@ -174,7 +174,7 @@ export default function ContactForm() {
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="text-text-secondary dark:text-dark-text-secondary hover:text-primary dark:hover:text-dark-primary"
-                                        title={`Visit ${t('hero.shortFirstName')} on LinkedIn`}
+                                        title={t('socialLinks.linkedin', { name: t('hero.shortFirstName') })}
                                     >
                                         <FaLinkedin className="h-6 w-6" />
                                     </a>

@@ -7,6 +7,15 @@
         "publications": "Publications",
         "contact": "Contact"
     },
+    "socialLinks": {
+        "github": "Visit {{name}} on GitHub",
+        "linkedin": "Visit {{name}} on LinkedIn",
+        "email": "Email {{name}}"
+    },
+    "theme": {
+        "switchToLight": "Switch to light mode",
+        "switchToDark": "Switch to dark mode"
+    },
     "collapsibleText": {
         "seeMore": "See More…",
         "seeLess": "…See Less"
@@ -18,13 +27,14 @@
         "shortFirstName": "Basim",
         "tagline": "Applied AI Researcher & Software Engineer",
         "catchphrase": "I combine three years of backend engineering with two years of research on LLM agents, software security, and automated testing.",
-        "contact": "Contact Me"
+        "contact": "Contact Me",
+        "scrollDown": "Scroll down to see details about {{name}}"
     },
     "about": {
         "title": "About Me",
         "paragraph1": "I'm a software engineer and MSc Computer Science graduate from York University. My work combines Java/Spring Boot backend development with research on LLM agents, software security, and automated testing.",
         "paragraph2": "At DSi and on an external assignment with Synopsys, I worked on examination-management systems, payment integrations, and CI/CD tooling. During a university research collaboration with Huawei Canada, I developed components for repository-wide test generation and agent tracing and evaluation. My research includes SecVulEval, which received the Best Dataset & Benchmark Paper award at AIware 2026, and StaAgent, accepted in ACM TOSEM.",
-        "paragraph3": "When I'm not working, you can find me traveling🌴, doing music🎸, or experimenting with new technologies🧑‍💻."
+        "paragraph3": "When I'm not working, you can find me traveling🌴, playing instruments🎸, or experimenting with new technologies🧑‍💻."
     },
     "skills": {
         "title": "Skills & Technologies",
@@ -40,7 +50,7 @@
             "title": "Frameworks",
             "values": [
                 "PyTorch",
-                "SpringBoot",
+                "Spring Boot",
                 "Node.js"
             ]
         },

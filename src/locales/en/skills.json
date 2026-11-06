@@ -45,7 +45,7 @@
                 ["PostgreSQL", "/icons/tech/postgresql.svg"],
                 ["Hibernate", "/icons/tech/hibernate.svg"],
                 ["Redis", "/icons/tech/redis.svg"],
-                ["SqlAlchemy", "/icons/tech/sqlalchemy.png"]
+                ["SQLAlchemy", "/icons/tech/sqlalchemy.png"]
             ]
         },
         "DevOps": {

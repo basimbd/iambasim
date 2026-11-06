@@ -36,7 +36,7 @@
             "date": "Mars–avril 2025",
             "type": "Vision par ordinateur / apprentissage profond",
             "tech": ["Python", "PyTorch", "torchvision", "NumPy", "OpenCV"],
-            "description": "Implémentation des composants principaux de SaliencyMix, une méthode d’augmentation d’images fondée sur la saillance, ainsi que de ResNet-18, ResNet-50 et ResNet-101 avec PyTorch. Création de cartes de saillance et mélange de régions d’images pour des flux de classification.",
+            "description": "Implémentation des composants principaux de SaliencyMix, une méthode d’augmentation d’images fondée sur la saillance, ainsi que de ResNet-18, ResNet-50 et ResNet-101 avec PyTorch. Création de cartes de saillance et mélange de régions d’images pour des pipelines de classification.",
             "highlights": [
                 "Implémentation des composants principaux de SaliencyMix, la technique d’augmentation d’images fondée sur la saillance présentée à ICLR 2021.",
                 "Implémentation de ResNet-18, ResNet-50 et ResNet-101 avec PyTorch.",
@@ -52,9 +52,9 @@
             "date": "Juin 2024",
             "type": "Extension de navigateur",
             "tech": ["JavaScript", "API d’extensions de navigateur", "Manifest V3"],
-            "description": "Création d’une extension multiplateforme qui transforme du texte d’adresse courriel masqué en adresse propre et prête à copier. Mise en œuvre d’une analyse par règles pour divers formats de masquage, avec prise en charge des différences d’API et de permissions entre Firefox et Chromium.",
+            "description": "Création d’une extension compatible avec plusieurs navigateurs qui convertit des adresses courriel masquées en adresses lisibles et prêtes à copier. Mise en œuvre d’une analyse par règles pour divers formats de masquage, avec prise en charge des différences d’API et de permissions entre Firefox et Chromium.",
             "highlights": [
-                "Conversion de texte d’adresse courriel masqué en adresses propres et prêtes à copier.",
+                "Conversion d’adresses courriel masquées en adresses lisibles et prêtes à copier.",
                 "Mise en œuvre d’une analyse par règles pour divers modèles de masquage, combinaisons de symboles et cas particuliers.",
                 "Prise en charge des différences d’API et de permissions entre Firefox et Chromium, notamment pour Manifest V3."
             ],
@@ -66,9 +66,9 @@
             "date": "Novembre 2023",
             "type": "Analyse de données / maintenabilité logicielle",
             "tech": ["Python", "Lizard", "Pandas", "NumPy", "Matplotlib"],
-            "description": "Collecte et filtrage d’applications reposant sur les modèles de classification et de génération de texte les plus téléchargés sur Hugging Face. Extraction des mesures de taille du code avec Lizard, puis analyse des tendances de taille d’implémentation et de maintenabilité avec Pandas, NumPy et Matplotlib.",
+            "description": "Collecte et filtrage d’applications reposant sur les modèles de classification et de génération de texte les plus téléchargés sur Hugging Face. Extraction des mesures de taille du code avec Lizard, puis analyse des tendances en matière de taille du code et de maintenabilité avec Pandas, NumPy et Matplotlib.",
             "highlights": [
-                "Étude de la taille d’implémentation et des caractéristiques de maintenabilité d’applications Hugging Face de classification et de génération de texte.",
+                "Étude de la taille du code et des caractéristiques de maintenabilité d’applications Hugging Face de classification et de génération de texte.",
                 "Sélection des 20 modèles les plus téléchargés, collecte d’applications les utilisant et filtrage des dépôts selon des critères de sélection définis.",
                 "Extraction du nombre de lignes de code hors commentaires (NLOC) avec Lizard, puis analyse des tendances avec Pandas, NumPy et Matplotlib."
             ],

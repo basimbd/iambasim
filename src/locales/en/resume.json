@@ -17,7 +17,7 @@
                 "Debugged, documented, and resolved failures in tool use, context awareness, instruction following, and output consistency.",
                 "Collaborated remotely and on site with Huawei's Beijing engineering and research team."
             ],
-            "techStack": ["Python", "ClaudeCode", "OpenAI SDK", "OpenSearch", "RAG", "Opik", "Langfuse", "OpenTelemetry"]
+            "techStack": ["Python", "Claude Code", "OpenAI SDK", "OpenSearch", "RAG", "Opik", "Langfuse", "OpenTelemetry"]
         },
         {
             "title": "Associate Software Engineer",
@@ -34,7 +34,7 @@
                 "Integrated <strong>two payment gateways</strong> handling approximately <strong>BDT 4 million in annual transactions</strong>.",
                 "Implemented mobile-client REST APIs with <strong>JWT authentication</strong>."
             ],
-            "techStack": ["Java", "SpringBoot", "PostgreSQL", "Hibernate", "Redis", "REST APIs", "Git", "Linux"]
+            "techStack": ["Java", "Spring Boot", "PostgreSQL", "Hibernate", "Redis", "REST APIs", "Git", "Linux"]
         },
         {
             "title": "Software Engineer (External)",
@@ -50,7 +50,7 @@
                 "<strong>Diagnosed and <a class=\"text-primary dark:text-dark-primary hover:underline\" href=\"https://github.com/blackducksoftware/common-gradle-plugin/pull/26\" target=\"_blank\">fixed</a> two defects</strong> affecting scheduled jobs and artifact versioning.",
                 "Migrated analytics from <strong>Google Universal Analytics to GA4</strong>, restoring a broken reporting dashboard."
             ],
-            "techStack": ["Java", "Groovy", "Gradle", "Jenkins", "GitHub Actions", "Google Analytics 4"]
+            "techStack": ["Java", "Groovy", "Gradle", "Jenkins", "GitHub Actions", "GA4"]
         }
     ],
     "researchExperience": "Research Experience",
@@ -71,7 +71,7 @@
                 "Designed and implemented a <strong>multi-stage LLM-agent</strong> pipeline for <strong>context-aware vulnerability detection</strong>.",
                 "Evaluated <strong>five LLMs</strong> at function and statement levels, with ablations and failure analysis.",
                 "Received the <strong>Best Dataset & Benchmark Paper award at AIware 2026</strong>. 🏆",
-                "Made the dataset publicly available at <a class=\"text-primary dark:text-dark-primary hover:underline\" href=\"https://huggingface.co/datasets/arag0rn/SecVulEval\" target=\"_blank\">HuggingFace - SecVulEval</a> for community use."
+                "Made the dataset publicly available at <a class=\"text-primary dark:text-dark-primary hover:underline\" href=\"https://huggingface.co/datasets/arag0rn/SecVulEval\" target=\"_blank\">Hugging Face - SecVulEval</a> for community use."
             ],
             "techStack": ["Python", "OpenAI SDK", "Transformers", "Benchmark construction", "LLM evaluation", "Context-aware agents"]
         },

@@ -1,11 +1,20 @@
 {
     "nav": {
-        "about": "À Propos",
+        "about": "À propos",
         "experience": "Expérience",
         "skills": "Compétences",
         "projects": "Projets",
         "publications": "Publications",
         "contact": "Contact"
+    },
+    "socialLinks": {
+        "github": "Voir le profil de {{name}} sur GitHub",
+        "linkedin": "Voir le profil de {{name}} sur LinkedIn",
+        "email": "Envoyer un courriel à {{name}}"
+    },
+    "theme": {
+        "switchToLight": "Passer au thème clair",
+        "switchToDark": "Passer au thème sombre"
     },
     "collapsibleText": {
         "seeMore": "Voir plus…",
@@ -18,16 +27,17 @@
         "shortFirstName": "Basim",
         "tagline": "Chercheur en IA appliquée et ingénieur logiciel",
         "catchphrase": "Je combine trois ans d'expérience en développement backend et deux ans de recherche sur les agents LLM, la sécurité logicielle et les tests automatisés.",
-        "contact": "Contactez-moi"
+        "contact": "Contactez-moi",
+        "scrollDown": "Faites défiler la page pour en savoir plus sur {{name}}"
     },
     "about": {
-        "title": "À Propos",
+        "title": "À propos",
         "paragraph1": "Je suis ingénieur logiciel et titulaire d'une maîtrise en informatique de l'Université York. Mon travail combine le développement backend avec Java et Spring Boot et la recherche sur les agents LLM, la sécurité logicielle et les tests automatisés.",
-        "paragraph2": "Chez DSi et dans le cadre d'une mission externe auprès de Synopsys, j'ai travaillé sur des systèmes de gestion des examens, des intégrations de paiement et des outils CI/CD. Lors d'une collaboration universitaire avec Huawei Canada, j'ai développé des composants pour la génération de tests à l'échelle d'un dépôt ainsi que pour la traçabilité et l'évaluation des agents. Mes recherches comprennent SecVulEval, lauréat du prix du meilleur article de la catégorie Données et benchmarks à AIware 2026, et StaAgent, accepté dans ACM TOSEM.",
-        "paragraph3": "Quand je ne travaille pas, j'aime voyager🌴, faire de la musique🎸 et tester de nouvelles technologies🧑‍💻."
+        "paragraph2": "Chez DSi et dans le cadre d'une mission externe auprès de Synopsys, j'ai travaillé sur des systèmes de gestion des examens, des intégrations de paiement et des outils CI/CD. Lors d'une collaboration universitaire avec Huawei Canada, j'ai développé des composants pour la génération de tests à l'échelle d'un dépôt ainsi que pour le suivi et l'évaluation des agents. Mes travaux de recherche incluent SecVulEval, qui a reçu le prix du meilleur article de la catégorie Données et benchmarks à AIware 2026, et StaAgent, dont l'article a été accepté dans la revue ACM TOSEM.",
+        "paragraph3": "Quand je ne travaille pas, j'aime voyager🌴, jouer d'instruments de musique🎸 et essayer de nouvelles technologies🧑‍💻."
     },
     "skills": {
-        "title": "Compétences & Technologies",
+        "title": "Compétences et technologies",
         "languages": {
             "title": "Langages",
             "values": [
@@ -37,10 +47,10 @@
             ]
         },
         "frameworks": {
-            "title": "Cadres",
+            "title": "Frameworks",
             "values": [
                 "PyTorch",
-                "SpringBoot",
+                "Spring Boot",
                 "Node.js"
             ]
         },
@@ -54,38 +64,38 @@
         }
     },
     "contact": {
-        "title": "Entrer en Contact",
-        "description": "Vous avez un projet en tête ou vous voulez simplement vous connecter? N'hésitez pas à me contacter en utilisant le formulaire ou par l'un des canaux ci-dessous.",
-        "email": "Email",
-        "social": "Réseaux Sociaux",
-        "location": "Emplacement",
+        "title": "Prendre contact",
+        "description": "Vous avez un projet en tête ou souhaitez simplement échanger ? N'hésitez pas à m'écrire à l'aide du formulaire ou à me joindre par l'un des moyens ci-dessous.",
+        "email": "Courriel",
+        "social": "Réseaux sociaux",
+        "location": "Localisation",
         "form": {
             "name": "Nom",
-            "email": "Email",
+            "email": "Courriel",
             "message": "Message",
-            "send": "Envoyer Message",
+            "send": "Envoyer le message",
             "sending": "Envoi en cours...",
             "honeypot": "Laissez ce champ vide"
         },
         "validation": {
             "required": "Veuillez remplir le champ {{field}}.",
             "tooLong": "Le champ {{field}} ne doit pas dépasser {{max}} caractères.",
-            "email": "Veuillez saisir une adresse e-mail valide."
+            "email": "Veuillez saisir une adresse courriel valide."
         },
         "successMessage": "Merci. Votre message a bien été transmis.",
-        "errorMessage": "Votre envoi n’a pas pu être confirmé. Votre message est conservé ; veuillez réessayer ou me contacter par e-mail.",
-        "rejectedMessage": "Le service n’a pas pu accepter votre envoi. Votre message est conservé ; veuillez vérifier les informations saisies et réessayer, ou me contacter par e-mail.",
-        "tooLargeMessage": "Le service a rejeté l’envoi car il est trop volumineux. Votre message est conservé ; veuillez le raccourcir et réessayer, ou me contacter par e-mail.",
-        "serverErrorMessage": "Le service de contact a rencontré un problème et votre envoi n’a pas pu être confirmé. Votre message est conservé ; veuillez réessayer plus tard ou me contacter par e-mail.",
-        "networkErrorMessage": "Une erreur réseau a empêché la confirmation de votre envoi. Votre message est conservé ; veuillez vérifier votre connexion et réessayer, ou me contacter par e-mail.",
-        "timeoutMessage": "Le délai d’attente a été dépassé et votre envoi n’a pas pu être confirmé. Votre message est conservé ; vous pouvez réessayer ou me contacter par e-mail."
+        "errorMessage": "Votre envoi n’a pas pu être confirmé. Votre message est conservé ; veuillez réessayer ou me contacter par courriel.",
+        "rejectedMessage": "Le service n’a pas pu accepter votre envoi. Votre message est conservé ; veuillez vérifier les informations saisies et réessayer, ou me contacter par courriel.",
+        "tooLargeMessage": "Le service a rejeté l’envoi car il est trop volumineux. Votre message est conservé ; veuillez le raccourcir et réessayer, ou me contacter par courriel.",
+        "serverErrorMessage": "Le service de contact a rencontré un problème et votre envoi n’a pas pu être confirmé. Votre message est conservé ; veuillez réessayer plus tard ou me contacter par courriel.",
+        "networkErrorMessage": "Une erreur réseau a empêché la confirmation de votre envoi. Votre message est conservé ; veuillez vérifier votre connexion et réessayer, ou me contacter par courriel.",
+        "timeoutMessage": "Le délai d’attente a été dépassé et votre envoi n’a pas pu être confirmé. Votre message est conservé ; vous pouvez réessayer ou me contacter par courriel."
     },
     "footer": {
         "rights": "Tous droits réservés."
     },
     "notFound": {
-        "title": "Page Non Trouvée",
+        "title": "Page introuvable",
         "message": "La page que vous cherchez n'existe pas.",
-        "backToHomeButton": "Rentrer à la maison"
+        "backToHomeButton": "Retour à l’accueil"
     }
 }

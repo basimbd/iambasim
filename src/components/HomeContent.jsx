@@ -57,23 +57,23 @@ export default function HomeContent() {
                     <div className="flex justify-center space-x-6 mb-12">
                         <a href="https://github.com/basimbd" target="_blank" rel="noopener noreferrer"
                             className="text-2xl hover:text-primary dark:hover:text-primary transition-colors"
-                            title={`Visit ${t('hero.shortFirstName')} on GitHub`}>
+                            title={t('socialLinks.github', { name: t('hero.shortFirstName') })}>
                             <FaGithub />
                         </a>
                         <a href="https://linkedin.com/in/basimbd" target="_blank" rel="noopener noreferrer"
                             className="text-2xl hover:text-primary dark:hover:text-primary transition-colors"
-                            title={`Visit ${t('hero.shortFirstName')} on LinkedIn`}>
+                            title={t('socialLinks.linkedin', { name: t('hero.shortFirstName') })}>
                             <FaLinkedin />
                         </a>
                         <a href="mailto:basimuddintuhin@gmail.com" className="text-2xl hover:text-primary dark:hover:text-primary transition-colors"
-                            title={`Email ${t('hero.shortFirstName')}`}>
+                            title={t('socialLinks.email', { name: t('hero.shortFirstName') })}>
                             <FaEnvelope />
                         </a>
                     </div>
 
                     <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
                         <div className="w-6 h-10 rounded-full border-2 border-text-primary dark:border-dark-text-primary flex justify-center items-start p-1"
-                            title={`Scroll down to see details about ${t('hero.shortFirstName')}`}>
+                            title={t('hero.scrollDown', { name: t('hero.shortFirstName') })}>
                             <div className="w-1 h-2 bg-text-primary dark:bg-dark-text-primary rounded-full animate-scroll-down"></div>
                         </div>
                     </div>

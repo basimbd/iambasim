@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
 
 export function DarkModeToggle() {
+    const { t } = useTranslation();
     const [darkMode, setDarkMode] = useState(false);
 
     // Initialize dark mode based on system preference or saved preference
@@ -30,7 +32,7 @@ export function DarkModeToggle() {
         <button
             onClick={toggleDarkMode}
             className="rounded-full p-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
-            aria-label={darkMode ? "Switch to light mode" : "Switch to dark mode"}
+            aria-label={t(darkMode ? 'theme.switchToLight' : 'theme.switchToDark')}
         >
             {darkMode ? (
                 <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
