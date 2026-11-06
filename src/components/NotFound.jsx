@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 export default function NotFound() {
     const { t, i18n } = useTranslation();
     const currentLang = i18n.language;
-    const homeUrl = currentLang.includes('en') ? '/' : `/${currentLang}`;
+    const homeUrl = currentLang.includes('en') ? '/' : `/${currentLang}/`;
 
     return (
         <section className="min-h-[calc(100dvh-17.6rem)] sm:min-h-[calc(100dvh-16.1rem)] md:min-h-[calc(100dvh-13.6rem)] flex flex-col justify-center items-center">

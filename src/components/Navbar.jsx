@@ -31,7 +31,7 @@ export default function Navbar({ lang }) {
         const currentPath = window.location.pathname.replace(/^\/fr/, '');
         // Only allow local paths. Do not allow protocol-relative URLs or absolute URLs.
         if (!currentPath.startsWith('/') && currentPath !== '') return;
-        let newPath = lng === 'fr' ? `/fr${currentPath === '/' ? '' : currentPath}` : currentPath || '/';
+        let newPath = lng === 'fr' ? `/fr${currentPath}` : currentPath || '/';
         if (window.location.pathname !== newPath) {
             const url = new URL(window.location.href);
             url.pathname = newPath;
@@ -44,7 +44,7 @@ export default function Navbar({ lang }) {
             <div className="max-w-6xl mx-auto px-6">
                 <div className="flex justify-between items-center h-16">
                     <div className="flex-shrink-1">
-                        <a href={currentLang === 'fr' ? '/fr' : '/'} className="text-xl font-bold">
+                        <a href={currentLang === 'fr' ? '/fr/' : '/'} className="text-xl font-bold">
                             <span className="text-gradient-primary">Md Basim Uddin Ahmed</span>
                         </a>
                     </div>
@@ -52,22 +52,22 @@ export default function Navbar({ lang }) {
                     {/* Navigation for larger screens */}
                     <div className="hidden md:block">
                         <div className="flex items-center space-x-4">
-                            <a href={`${currentLang === 'fr' ? '/fr' : ''}/#about`} className="text-text-secondary dark:text-dark-text-secondary hover:text-primary dark:hover:text-dark-primary">
+                            <a href={`${currentLang === 'fr' ? '/fr/' : '/'}#about`} className="text-text-secondary dark:text-dark-text-secondary hover:text-primary dark:hover:text-dark-primary">
                                 {t('nav.about')}
                             </a>
-                            <a href={`${currentLang === 'fr' ? '/fr' : ''}/#experience`} className="text-text-secondary dark:text-dark-text-secondary hover:text-primary dark:hover:text-dark-primary">
+                            <a href={`${currentLang === 'fr' ? '/fr/' : '/'}#experience`} className="text-text-secondary dark:text-dark-text-secondary hover:text-primary dark:hover:text-dark-primary">
                                 {t('nav.experience')}
                             </a>
-                            <a href={`${currentLang === 'fr' ? '/fr' : ''}/#skills`} className="text-text-secondary dark:text-dark-text-secondary hover:text-primary dark:hover:text-dark-primary">
+                            <a href={`${currentLang === 'fr' ? '/fr/' : '/'}#skills`} className="text-text-secondary dark:text-dark-text-secondary hover:text-primary dark:hover:text-dark-primary">
                                 {t('nav.skills')}
                             </a>
-                            <a href={`${currentLang === 'fr' ? '/fr' : ''}/#projects`} className="text-text-secondary dark:text-dark-text-secondary hover:text-primary dark:hover:text-dark-primary">
+                            <a href={`${currentLang === 'fr' ? '/fr/' : '/'}#projects`} className="text-text-secondary dark:text-dark-text-secondary hover:text-primary dark:hover:text-dark-primary">
                                 {t('nav.projects')}
                             </a>
-                            <a href={`${currentLang === 'fr' ? '/fr' : ''}/#publications`} className="text-text-secondary dark:text-dark-text-secondary hover:text-primary dark:hover:text-dark-primary">
+                            <a href={`${currentLang === 'fr' ? '/fr/' : '/'}#publications`} className="text-text-secondary dark:text-dark-text-secondary hover:text-primary dark:hover:text-dark-primary">
                                 {t('nav.publications')}
                             </a>
-                            <a href={`${currentLang === 'fr' ? '/fr' : ''}/#contact`} className="text-text-secondary dark:text-dark-text-secondary hover:text-primary dark:hover:text-dark-primary">
+                            <a href={`${currentLang === 'fr' ? '/fr/' : '/'}#contact`} className="text-text-secondary dark:text-dark-text-secondary hover:text-primary dark:hover:text-dark-primary">
                                 {t('nav.contact')}
                             </a>
                             <select
@@ -101,22 +101,22 @@ export default function Navbar({ lang }) {
             {/* Navigation for Mobile Screen */}
             {isMenuOpen && (
                 <div className="md:hidden bg-background-secondary dark:bg-dark-background-secondary px-6 py-4 space-y-3">
-                    <a href={`${currentLang === 'fr' ? '/fr' : ''}/#about`} className="block text-text-secondary dark:text-dark-text-secondary hover:text-primary dark:hover:text-dark-primary" onClick={() => setIsMenuOpen(false)}>
+                    <a href={`${currentLang === 'fr' ? '/fr/' : '/'}#about`} className="block text-text-secondary dark:text-dark-text-secondary hover:text-primary dark:hover:text-dark-primary" onClick={() => setIsMenuOpen(false)}>
                         {t('nav.about')}
                     </a>
-                    <a href={`${currentLang === 'fr' ? '/fr' : ''}/#experience`} className="block text-text-secondary dark:text-dark-text-secondary hover:text-primary dark:hover:text-dark-primary" onClick={() => setIsMenuOpen(false)}>
+                    <a href={`${currentLang === 'fr' ? '/fr/' : '/'}#experience`} className="block text-text-secondary dark:text-dark-text-secondary hover:text-primary dark:hover:text-dark-primary" onClick={() => setIsMenuOpen(false)}>
                         {t('nav.experience')}
                     </a>
-                    <a href={`${currentLang === 'fr' ? '/fr' : ''}/#skills`} className="block text-text-secondary dark:text-dark-text-secondary hover:text-primary dark:hover:text-dark-primary" onClick={() => setIsMenuOpen(false)}>
+                    <a href={`${currentLang === 'fr' ? '/fr/' : '/'}#skills`} className="block text-text-secondary dark:text-dark-text-secondary hover:text-primary dark:hover:text-dark-primary" onClick={() => setIsMenuOpen(false)}>
                         {t('nav.skills')}
                     </a>
-                    <a href={`${currentLang === 'fr' ? '/fr' : ''}/#projects`} className="block text-text-secondary dark:text-dark-text-secondary hover:text-primary dark:hover:text-dark-primary" onClick={() => setIsMenuOpen(false)}>
+                    <a href={`${currentLang === 'fr' ? '/fr/' : '/'}#projects`} className="block text-text-secondary dark:text-dark-text-secondary hover:text-primary dark:hover:text-dark-primary" onClick={() => setIsMenuOpen(false)}>
                         {t('nav.projects')}
                     </a>
-                    <a href={`${currentLang === 'fr' ? '/fr' : ''}/#publications`} className="block text-text-secondary dark:text-dark-text-secondary hover:text-primary dark:hover:text-dark-primary" onClick={() => setIsMenuOpen(false)}>
+                    <a href={`${currentLang === 'fr' ? '/fr/' : '/'}#publications`} className="block text-text-secondary dark:text-dark-text-secondary hover:text-primary dark:hover:text-dark-primary" onClick={() => setIsMenuOpen(false)}>
                         {t('nav.publications')}
                     </a>
-                    <a href={`${currentLang === 'fr' ? '/fr' : ''}/#contact`} className="block text-text-secondary dark:text-dark-text-secondary hover:text-primary dark:hover:text-dark-primary" onClick={() => setIsMenuOpen(false)}>
+                    <a href={`${currentLang === 'fr' ? '/fr/' : '/'}#contact`} className="block text-text-secondary dark:text-dark-text-secondary hover:text-primary dark:hover:text-dark-primary" onClick={() => setIsMenuOpen(false)}>
                         {t('nav.contact')}
                     </a>
                     <select
