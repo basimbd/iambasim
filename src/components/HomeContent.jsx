@@ -99,6 +99,11 @@ export default function HomeContent() {
                             <p className="text-text-secondary dark:text-dark-text-secondary">{t('about.paragraph3')}</p>
                         </div>
                     </div>
+                    <div className="mt-8 text-right">
+                        <a href="#contact" className="inline-block bg-gradient-primary text-white px-6 py-2 rounded-md hover:opacity-90 transition-opacity focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary dark:focus-visible:outline-dark-primary">
+                            {t('contact.title')}
+                        </a>
+                    </div>
                 </div>
             </section>
 
