@@ -142,7 +142,9 @@ export default function ContactForm() {
 
                     <div className="space-y-4">
                         <div className="flex items-start">
-                            <FaEnvelope className="h-6 w-6 mr-1" />
+                            <span className="h-7 flex items-center mr-1">
+                                <FaEnvelope className="h-6 w-6 mr-1" aria-hidden="true" />
+                            </span>
                             <div>
                                 <h3 className="text-lg font-medium text-text-primary dark:text-dark-text-primary">
                                     {t('contact.email')}
@@ -155,7 +157,9 @@ export default function ContactForm() {
                         </div>
 
                         <div className="flex items-start">
-                            <MdGroups className="h-6 w-6 mr-1" />
+                            <span className="h-7 flex items-center mr-1">
+                                <MdGroups className="h-6 w-6 mr-1" aria-hidden="true" />
+                            </span>
                             <div>
                                 <h3 className="text-lg font-medium text-text-primary dark:text-dark-text-primary">
                                     {t('contact.social')}
@@ -184,7 +188,9 @@ export default function ContactForm() {
                         </div>
 
                         <div className="flex items-start">
-                            <FaLocationDot className="w-6 h-6 mr-1 inline" />
+                            <span className="h-7 flex items-center mr-1">
+                                <FaLocationDot className="h-6 w-6 mr-1" aria-hidden="true" />
+                            </span>
                             <div>
                                 <h3 className="text-lg font-medium text-text-primary dark:text-dark-text-primary">
                                     {t('contact.location')}
