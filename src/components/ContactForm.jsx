@@ -28,7 +28,8 @@ function validateField(name, value) {
 }
 
 export default function ContactForm() {
-    const { t } = useTranslation();
+    const { t, i18n } = useTranslation();
+    const registerWithNetlify = i18n.resolvedLanguage === 'en';
     const [formState, setFormState] = useState(EMPTY_FORM);
     const [status, setStatus] = useState('idle');
     const [errors, setErrors] = useState({});
@@ -211,7 +212,8 @@ export default function ContactForm() {
                         </div>
                     )}
 
-                    <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" noValidate={hydrated} aria-busy={isSubmitting} onSubmit={handleSubmit} className="bg-gradient-card p-6 rounded-lg shadow-md">
+                    {/* Register only the English build; both locales submit to contact with the same field names. */}
+                    <form name="contact" method="POST" data-netlify={registerWithNetlify ? 'true' : undefined} netlify-honeypot={registerWithNetlify ? 'bot-field' : undefined} noValidate={hydrated} aria-busy={isSubmitting} onSubmit={handleSubmit} className="bg-gradient-card p-6 rounded-lg shadow-md">
                         <input type="hidden" name="form-name" value="contact" />
                         <div hidden aria-hidden="true">
                             <label htmlFor="bot-field">{t('contact.form.honeypot')}</label>
